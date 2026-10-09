@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Run Inspector</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="bar">
+  <div class="brand"><span class="title">Run Inspector</span><span id="run-id" class="muted"></span></div>
+  <div class="controls">
+    <label class="ctl">Scene <select id="scene" aria-label="Scene"></select></label>
+    <label class="ctl">View <select id="view" aria-label="View"></select></label>
+    <div class="seg" id="row-seg" role="group" aria-label="Row">
+      <button type="button" data-row="final" title="Final images (key 1)">Final</button>
+      <button type="button" data-row="component" title="Measured component: direct, or isolated = final(mode) - final(direct) (key 2)">Component</button>
+      <button type="button" data-row="error" title="Signed relative error of the component against the reference component (key 3)">Signed error</button>
+    </div>
+    <label class="ctl" id="refcomp-ctl" title="Which reference component the reference column shows in the component and error rows">Reference
+      <select id="refcomp" aria-label="Reference component">
+        <option value="direct">direct</option>
+        <option value="isolated">isolated</option>
+      </select>
+    </label>
+    <label class="ctl ev" title="Exposure in stops relative to the automatic exposure ([ and ] keys)">Exposure
+      <input type="range" id="ev" min="-10" max="10" step="0.1" value="0" aria-label="Exposure (EV)">
+      <output id="ev-out" for="ev">0.0 EV</output>
+    </label>
+    <button type="button" id="ev-auto" title="Back to the automatic exposure (key a)">Auto</button>
+    <label class="ctl" id="errscale-ctl" title="Colour range of the signed error">Error range
+      <select id="err-scale" aria-label="Error range">
+        <option value="1">±100%</option>
+        <option value="0.5">±50%</option>
+        <option value="0.2">±20%</option>
+        <option value="0.1">±10%</option>
+        <option value="0.05">±5%</option>
+        <option value="0.02">±2%</option>
+        <option value="0.01">±1%</option>
+      </select>
+    </label>
+    <label class="ctl"><input type="checkbox" id="roi-toggle" checked> ROI outlines</label>
+    <label class="ctl">Zoom
+      <select id="zoom" aria-label="Zoom">
+        <option value="1">1×</option>
+        <option value="2">2×</option>
+        <option value="3">3×</option>
+        <option value="4">4×</option>
+      </select>
+    </label>
+  </div>
+</header>
+
+<div id="fatal" class="fatal" hidden></div>
+
+<section id="info" class="info"></section>
+<section id="rois" class="rois" aria-label="ROIs"></section>
+<section id="legend" class="legend" hidden></section>
+
+<main id="grid" class="grid" aria-live="polite"></main>
+
+<section class="panel">
+  <h2>Pixel readout <span id="readout-pos" class="muted">(move the cursor over an image)</span></h2>
+  <div id="readout" class="table-wrap"></div>
+</section>
+
+<section class="panel">
+  <h2>Metrics for this view <span class="muted">(from metrics.json)</span></h2>
+  <div id="metrics" class="table-wrap"></div>
+</section>
+
+<footer class="foot muted">
+  Linear values, no tonemapping: the display is exposure × value, clipped, sRGB-encoded. Magenta = NaN or infinite.
+  Keys: 1 / 2 / 3 rows, [ and ] exposure, a auto exposure, r ROI outlines.
+</footer>
+
+<script src="viewer.js"></script>
+</body>
+</html>

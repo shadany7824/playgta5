@@ -1,2 +1,12 @@
 mirror/
 media/
+
+# lighting harness
+runs/
+cache/
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+.pytest_cache/
+.ruff_cache/

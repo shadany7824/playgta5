@@ -1,0 +1,32 @@
+{
+  "spec_version": 1,
+  "name": "cal_survey_origin",
+  "group": "calibration",
+  "description": "cal_point_plane with a UTM survey origin: the plane is a world-coordinate OBJ (scenes/meshes/survey_plane.obj) and every other position is local. The image must equal cal_point_plane's; checks float64 -> float32 local resolution.",
+  "origin": [346000.0, 6297000.0, 570.0],
+  "image": {"width": 256, "height": 192},
+  "display": {"exposure": 1.5},
+  "materials": {"plane": {"type": "diffuse", "albedo": [0.8, 0.65, 0.5]}},
+  "objects": [
+    {
+      "name": "plane",
+      "material": "plane",
+      "shape": {"type": "mesh", "file": "meshes/survey_plane.obj", "coords": "world"}
+    }
+  ],
+  "lights": [{"name": "lamp", "type": "point", "position": [0.375, -0.25, 1.25], "intensity": [6.0, 5.0, 4.0]}],
+  "stations": [
+    {"name": "s0", "position": [0.0, 0.0, 3.5], "look_at": [0.0, 0.0, 0.0], "up": [0.0, 1.0, 0.0], "vfov_deg": 60.0}
+  ],
+  "rois": [
+    {
+      "name": "plane",
+      "role": "oracle",
+      "box": {"min": [-4.25, -3.125, -0.01], "max": [4.25, 3.125, 0.01]},
+      "normal": [0, 0, 1],
+      "min_cos": 0.99
+    }
+  ],
+  "reference": {"spp": 1024, "batches": 4},
+  "oracle": {"type": "survey_origin", "light": "lamp", "object": "plane", "equivalent": "cal_point_plane"}
+}

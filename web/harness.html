@@ -1,0 +1,26 @@
+<!doctype html>
+<!-- threejs-web harness page (DESIGN §5): loads the pinned, unmodified three.js r186 WebGL build from ./vendor/three
+     and web/harness.js, which web/runner.py drives frame by frame through Playwright. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="data:,">
+<title>three.js r186 harness</title>
+<script type="importmap">
+{
+  "imports": {
+    "three": "./vendor/three/build/three.module.js",
+    "three/addons/": "./vendor/three/examples/jsm/"
+  }
+}
+</script>
+<style>
+  html, body { margin: 0; padding: 0; background: #000; }
+  canvas { display: block; }
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<script type="module" src="./harness.js"></script>
+</body>
+</html>

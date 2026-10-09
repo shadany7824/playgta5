@@ -1,0 +1,33 @@
+{
+  "spec_version": 1,
+  "name": "cal_sun_plane",
+  "group": "calibration",
+  "description": "Directional light 30 deg from the zenith on a plane tilted ~19.5 deg about an oblique axis, seen from above. Checks irradiance units (W/m^2 perpendicular to the beam) and the direction: reversing it darkens the plane, flipping its x or y component changes the brightness by 10-25 %.",
+  "image": {"width": 256, "height": 192},
+  "display": {"exposure": 1.5},
+  "materials": {"plane": {"type": "diffuse", "albedo": [0.7, 0.75, 0.8]}},
+  "objects": [
+    {
+      "name": "plane",
+      "material": "plane",
+      "shape": {"type": "quad", "origin": [-5.24, -4.16, 0.2], "u": [10.0, 0.0, 2.0], "v": [0.48, 8.32, -2.4]}
+    }
+  ],
+  "lights": [
+    {"name": "sun", "type": "directional", "direction": [0.25, -0.4330127, -0.8660254], "irradiance": [3.0, 2.6, 2.2]}
+  ],
+  "stations": [
+    {"name": "s0", "position": [0.0, 0.0, 4.0], "look_at": [0.0, 0.0, 0.0], "up": [0.0, 1.0, 0.0], "vfov_deg": 60.0}
+  ],
+  "rois": [
+    {
+      "name": "plane",
+      "role": "oracle",
+      "box": {"min": [-6.0, -5.0, -2.5], "max": [6.0, 5.0, 2.5]},
+      "normal": [-0.2, 0.3, 1.0],
+      "min_cos": 0.99
+    }
+  ],
+  "reference": {"spp": 1024, "batches": 4},
+  "oracle": {"type": "sun_plane", "light": "sun", "object": "plane"}
+}

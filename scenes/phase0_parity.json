@@ -1,0 +1,11 @@
+{
+  "parity_version": 1,
+  "description": "Views for the Phase 0 parity and performance gates (DESIGN section 5.4): both three.js runners in --parity on each (scene, view, mode). Covers a point light on a plane, shadows at a thin wall, a doorway, an off-screen sunlit patch and the realworld courtyard (sun + sky), each in direct and probe mode (offscreen_source in probe only: its direct view is black by design).",
+  "views": [
+    {"scene": "cal_point_plane", "view": "s0", "modes": ["direct"]},
+    {"scene": "thin_wall", "view": "lit", "modes": ["direct", "probe"]},
+    {"scene": "opening", "view": "toward_door", "modes": ["direct", "probe"]},
+    {"scene": "offscreen_source", "view": "s0", "modes": ["probe"]},
+    {"scene": "courtyard_simplified", "view": "courtyard", "modes": ["direct", "probe"]}
+  ]
+}

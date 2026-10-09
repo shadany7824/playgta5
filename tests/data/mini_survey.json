@@ -1,0 +1,16 @@
+{
+  "spec_version": 1,
+  "name": "mini_survey",
+  "group": "calibration",
+  "description": "Test scene: world-coordinate OBJ plane under a UTM-like survey origin, point light above.",
+  "origin": [346000.0, 6297000.0, 570.0],
+  "image": {"width": 64, "height": 48},
+  "materials": {"grey": {"type": "diffuse", "albedo": [0.5, 0.5, 0.5]}},
+  "objects": [
+    {"name": "ground", "material": "grey", "shape": {"type": "mesh", "file": "meshes/mini_survey_plane.obj", "coords": "world"}}
+  ],
+  "lights": [{"name": "lamp", "type": "point", "position": [0.0, 0.0, 1.25], "intensity": [2.0, 2.0, 2.0]}],
+  "stations": [{"name": "top", "position": [0.0, 0.0, 3.0], "look_at": [0.0, 0.0, 0.25], "up": [0.0, 1.0, 0.0]}],
+  "rois": [{"name": "ground", "role": "oracle", "box": {"min": [-1.0, -0.75, 0.24], "max": [1.0, 0.75, 0.26]}}],
+  "oracle": {"type": "point_plane", "light": "lamp", "object": "ground"}
+}

@@ -1,0 +1,36 @@
+{
+  "spec_version": 1,
+  "name": "mini_room",
+  "group": "targeted",
+  "description": "Test scene: closed room with one door opening in the +x wall, lit from inside and outside.",
+  "failure_mode": "light entering through a wall opening",
+  "image": {"width": 64, "height": 48},
+  "materials": {
+    "white": {"type": "diffuse", "albedo": [0.8, 0.8, 0.8]},
+    "red": {"type": "diffuse", "albedo": [0.8, 0.1, 0.1]}
+  },
+  "objects": [
+    {"name": "house", "material": "white",
+     "shape": {"type": "room", "min": [-2.0, -1.5, 0.0], "max": [2.0, 1.5, 2.5], "thickness": 0.1,
+               "openings": [{"wall": "+x", "u": [-0.5, 0.5], "v": [0.0, 2.0]}]}},
+    {"name": "crate", "material": "red", "shape": {"type": "box", "center": [-1.0, 0.8, 0.25], "size": [0.5, 0.5, 0.5]},
+     "transform": {"rotate_z_deg": 30, "pivot": [-1.0, 0.8, 0.0]}}
+  ],
+  "lights": [
+    {"name": "lamp", "type": "point", "position": [0.0, 0.0, 2.0], "intensity": [2.0, 2.0, 2.0]},
+    {"name": "sun", "type": "directional", "direction": [-1.0, 0.2, -0.8], "irradiance": [3.0, 2.8, 2.5]},
+    {"name": "panel", "type": "rect", "origin": [-0.5, 0.5, 2.45], "u": [1.0, 0.0, 0.0], "v": [0.0, -1.0, 0.0],
+     "radiance": [5.0, 5.0, 4.0]},
+    {"name": "sky", "type": "environment", "radiance": [0.2, 0.25, 0.3]}
+  ],
+  "stations": [
+    {"name": "inside", "position": [-1.6, 0.0, 1.2], "look_at": [2.0, 0.0, 1.0], "vfov_deg": 70},
+    {"name": "outside", "position": [5.0, 1.0, 1.5], "look_at": [0.0, 0.0, 1.0]}
+  ],
+  "rois": [
+    {"name": "floor", "role": "lit", "box": {"min": [-2.0, -1.5, -0.01], "max": [2.0, 1.5, 0.01]},
+     "normal": [0, 0, 1]},
+    {"name": "back_wall", "role": "dark", "box": {"min": [-2.01, -1.5, 0.0], "max": [-1.99, 1.5, 2.5]},
+     "views": ["outside"]}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "spec_version": 1,
+  "name": "mini_point_plane",
+  "group": "calibration",
+  "description": "Test scene: point light 1 m above a diffuse plane, seen from above (64x48).",
+  "image": {"width": 64, "height": 48},
+  "display": {"exposure": 1.0},
+  "materials": {"grey": {"type": "diffuse", "albedo": [0.5, 0.5, 0.5]}},
+  "objects": [
+    {"name": "plane", "material": "grey",
+     "shape": {"type": "quad", "origin": [-2.0, -1.5, 0.0], "u": [4.0, 0.0, 0.0], "v": [0.0, 3.0, 0.0]}}
+  ],
+  "lights": [{"name": "lamp", "type": "point", "position": [0.0, 0.0, 1.0], "intensity": [4.0, 2.0, 1.0]}],
+  "stations": [{"name": "top", "position": [0.0, 0.0, 3.0], "look_at": [0.0, 0.0, 0.0], "up": [0.0, 1.0, 0.0],
+                "vfov_deg": 60}],
+  "rois": [{"name": "plane", "role": "oracle", "box": {"min": [-2.0, -1.5, -0.01], "max": [2.0, 1.5, 0.01]},
+            "normal": [0, 0, 1], "min_cos": 0.99}],
+  "reference": {"spp": 64, "batches": 2, "aov_spp": 4},
+  "oracle": {"type": "point_plane", "light": "lamp", "object": "plane"}
+}

@@ -1,0 +1,65 @@
+{
+  "spec_version": 1,
+  "name": "occluded_canyon",
+  "group": "targeted",
+  "description": "Two 20 m tall blocks 6 m apart (60 m long) on open ground, under a sun 35 deg high that crosses the street at 20 deg, plus a sky. No sunlight reaches the street or the lower 15 m of the walls between the blocks; they see a narrow slot of sky and the sunlit upper part of the east block. Street-level stations.",
+  "failure_mode": "sky and bounce light in a deep, sun-shadowed street canyon (6 m wide, 20 m walls): the sky must be occluded and the street lit by bounces from the sunlit upper facade",
+  "image": {"width": 256, "height": 192},
+  "display": {"exposure": 2.5},
+  "materials": {
+    "ground": {"type": "diffuse", "albedo": [0.5, 0.5, 0.5]},
+    "facade": {"type": "diffuse", "albedo": [0.7, 0.65, 0.6]}
+  },
+  "objects": [
+    {
+      "name": "ground",
+      "material": "ground",
+      "shape": {"type": "box", "min": [-60.0, -60.0, -0.3], "max": [60.0, 60.0, 0.0]}
+    },
+    {
+      "name": "block_w",
+      "material": "facade",
+      "shape": {"type": "box", "min": [-23.0, -30.0, -0.1], "max": [-3.0, 30.0, 20.0]}
+    },
+    {
+      "name": "block_e",
+      "material": "facade",
+      "shape": {"type": "box", "min": [3.0, -30.0, -0.1], "max": [23.0, 30.0, 20.0]}
+    }
+  ],
+  "lights": [
+    {
+      "name": "sun",
+      "type": "directional",
+      "direction": [0.7697511, 0.2801665, -0.5735764],
+      "irradiance": [8.0, 7.6, 7.0]
+    },
+    {"name": "sky", "type": "environment", "radiance": [0.3, 0.4, 0.6]}
+  ],
+  "stations": [
+    {"name": "street", "position": [0.0, -12.0, 1.7], "look_at": [0.3, 10.0, 3.0], "vfov_deg": 60.0},
+    {"name": "low_wall", "position": [-2.0, 1.0, 1.6], "look_at": [3.0, 6.0, 1.0], "vfov_deg": 60.0}
+  ],
+  "rois": [
+    {
+      "name": "street",
+      "role": "lit",
+      "box": {"min": [-3.0, -20.0, -0.01], "max": [3.0, 20.0, 0.01]},
+      "normal": [0, 0, 1]
+    },
+    {
+      "name": "low_wall_w",
+      "role": "lit",
+      "box": {"min": [-3.01, -20.0, 0.0], "max": [-2.99, 20.0, 3.0]},
+      "normal": [1, 0, 0],
+      "views": ["street"]
+    },
+    {
+      "name": "low_wall_e",
+      "role": "lit",
+      "box": {"min": [2.99, -20.0, 0.0], "max": [3.01, 20.0, 3.0]},
+      "normal": [-1, 0, 0]
+    }
+  ],
+  "reference": {"spp": 4096, "batches": 4}
+}

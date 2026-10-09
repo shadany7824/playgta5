@@ -1,0 +1,29 @@
+{
+  "spec_version": 1,
+  "name": "cal_sky_plane",
+  "group": "calibration",
+  "description": "Constant environment over a lone horizontal plane, seen obliquely with the horizon in view. An unoccluded upward plane reflects rho * L_sky; the sky pixels show L_sky (the background). Checks environment units.",
+  "image": {"width": 256, "height": 192},
+  "display": {"exposure": 2.0},
+  "materials": {"plane": {"type": "diffuse", "albedo": [0.6, 0.7, 0.8]}},
+  "objects": [
+    {
+      "name": "plane",
+      "material": "plane",
+      "shape": {"type": "quad", "origin": [-20.0, -8.0, 0.0], "u": [40.0, 0.0, 0.0], "v": [0.0, 40.0, 0.0]}
+    }
+  ],
+  "lights": [{"name": "sky", "type": "environment", "radiance": [0.4, 0.5, 0.7]}],
+  "stations": [{"name": "s0", "position": [0.0, -5.0, 2.2], "look_at": [0.0, 0.0, 0.0], "vfov_deg": 60.0}],
+  "rois": [
+    {
+      "name": "plane",
+      "role": "oracle",
+      "box": {"min": [-20.0, -8.0, -0.01], "max": [20.0, 12.0, 0.01]},
+      "normal": [0, 0, 1],
+      "min_cos": 0.99
+    }
+  ],
+  "reference": {"spp": 1024, "batches": 4},
+  "oracle": {"type": "sky_plane", "light": "sky", "object": "plane"}
+}

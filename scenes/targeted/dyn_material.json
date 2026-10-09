@@ -1,0 +1,46 @@
+{
+  "spec_version": 1,
+  "name": "dyn_material",
+  "group": "targeted",
+  "description": "A 6 x 4 m white room; a 5.2 x 2.4 m panel on the +y wall changes albedo red -> green (frame 120) -> white (frame 240) under a fixed point light. The white floor in front of it shows the bounce colour.",
+  "failure_mode": "stale colour bleeding after a large wall changes material (red to green to white)",
+  "image": {"width": 256, "height": 192},
+  "display": {"exposure": 0.4},
+  "materials": {
+    "white": {"type": "diffuse", "albedo": [0.8, 0.8, 0.8]},
+    "paint": {"type": "diffuse", "albedo": [0.8, 0.1, 0.08]}
+  },
+  "objects": [
+    {
+      "name": "room",
+      "material": "white",
+      "shape": {"type": "room", "min": [0.0, 0.0, 0.0], "max": [6.0, 4.0, 2.6], "thickness": 0.2}
+    },
+    {
+      "name": "panel",
+      "material": "paint",
+      "shape": {"type": "box", "min": [0.4, 3.85, -0.05], "max": [5.6, 4.05, 2.4]}
+    }
+  ],
+  "lights": [{"name": "lamp", "type": "point", "position": [3.0, 2.6, 2.0], "intensity": [9.0, 8.6, 8.0]}],
+  "stations": [{"name": "s0", "position": [3.0, 0.3, 1.7], "look_at": [3.0, 3.3, 0.5], "vfov_deg": 65.0}],
+  "rois": [
+    {
+      "name": "bleed_floor",
+      "role": "bleed",
+      "box": {"min": [0.6, 2.6, -0.01], "max": [5.4, 3.85, 0.01]},
+      "normal": [0, 0, 1]
+    },
+    {"name": "panel", "role": "any", "box": {"min": [0.4, 3.84, 0.0], "max": [5.6, 3.86, 2.4]}, "normal": [0, -1, 0]}
+  ],
+  "timeline": {
+    "station": "s0",
+    "fps": 60,
+    "end_frame": 359,
+    "steps": [
+      {"frame": 120, "actions": [{"op": "set_material", "material": "paint", "albedo": [0.1, 0.7, 0.12]}]},
+      {"frame": 240, "actions": [{"op": "set_material", "material": "paint", "albedo": [0.8, 0.8, 0.8]}]}
+    ]
+  },
+  "reference": {"spp": 4096, "batches": 4}
+}

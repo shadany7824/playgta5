@@ -1,0 +1,1125 @@
+{
+  "spec_version": 1,
+  "name": "courtyard_authored",
+  "group": "realworld",
+  "description": "Two-storey courtyard building (24 x 24 m, 12 x 12 m courtyard, 0.3 m walls) at a Santiago survey origin under an afternoon sun (45 deg high, from the north-west) and sky. Window and door openings with rooms behind them; in the south wing a window room facing the courtyard and a windowless deep room behind it, reached through an internal doorway. Authored detail on the same building: window mullions and transoms, a balcony with a railing, terracotta roofs, furniture, a lawn and benches, varied albedos and a pendant lamp in the deep room.",
+  "comparison": "appearance",
+  "origin": [346000.0, 6297000.0, 570.0],
+  "image": {"width": 256, "height": 192},
+  "display": {"exposure": 0.7},
+  "materials": {
+    "plaster": {"type": "diffuse", "albedo": [0.75, 0.72, 0.68]},
+    "paving": {"type": "diffuse", "albedo": [0.5, 0.48, 0.45]},
+    "ochre": {"type": "diffuse", "albedo": [0.78, 0.62, 0.42]},
+    "lime": {"type": "diffuse", "albedo": [0.8, 0.78, 0.72]},
+    "rose": {"type": "diffuse", "albedo": [0.76, 0.58, 0.52]},
+    "terracotta": {"type": "diffuse", "albedo": [0.62, 0.36, 0.26]},
+    "frame": {"type": "diffuse", "albedo": [0.55, 0.52, 0.48]},
+    "wood": {"type": "diffuse", "albedo": [0.55, 0.4, 0.28]},
+    "fabric": {"type": "diffuse", "albedo": [0.3, 0.38, 0.6]},
+    "rug": {"type": "diffuse", "albedo": [0.62, 0.24, 0.2]},
+    "lawn": {"type": "diffuse", "albedo": [0.3, 0.5, 0.2]},
+    "stone": {"type": "diffuse", "albedo": [0.66, 0.64, 0.6]}
+  },
+  "objects": [
+    {
+      "name": "ground",
+      "material": "paving",
+      "shape": {"type": "box", "min": [-60.0, -60.0, -0.5], "max": [60.0, 60.0, 0.0]}
+    },
+    {
+      "name": "south_ground",
+      "material": "ochre",
+      "shape": {
+        "type": "room",
+        "min": [-11.7, -11.7, 0.15],
+        "max": [11.7, -6.3, 2.95],
+        "thickness": 0.3,
+        "openings": [
+          {"wall": "+y", "u": [-0.6, 0.6], "v": [0.15, 2.35]},
+          {"wall": "+y", "u": [-3.4, -1.8], "v": [1.0, 2.4]},
+          {"wall": "+y", "u": [1.8, 3.4], "v": [1.0, 2.4]},
+          {"wall": "+y", "u": [-5.6, -4.6], "v": [1.0, 2.4]},
+          {"wall": "+y", "u": [4.6, 5.6], "v": [1.0, 2.4]},
+          {"wall": "-y", "u": [-10.1, -8.9], "v": [1.0, 2.4]},
+          {"wall": "-y", "u": [-7.1, -5.9], "v": [1.0, 2.4]},
+          {"wall": "-y", "u": [5.9, 7.1], "v": [1.0, 2.4]},
+          {"wall": "-y", "u": [8.9, 10.1], "v": [1.0, 2.4]},
+          {"wall": "-x", "u": [-9.6, -8.4], "v": [1.0, 2.4]},
+          {"wall": "+x", "u": [-9.6, -8.4], "v": [1.0, 2.4]}
+        ]
+      }
+    },
+    {
+      "name": "south_upper",
+      "material": "ochre",
+      "shape": {
+        "type": "room",
+        "min": [-11.7, -11.7, 3.25],
+        "max": [11.7, -6.3, 6.05],
+        "thickness": 0.3,
+        "omit": ["-z"],
+        "openings": [
+          {"wall": "+y", "u": [-2.1, -0.9], "v": [3.25, 5.5]},
+          {"wall": "+y", "u": [0.9, 2.1], "v": [3.25, 5.5]},
+          {"wall": "+y", "u": [-5.1, -3.9], "v": [4.1, 5.5]},
+          {"wall": "+y", "u": [3.9, 5.1], "v": [4.1, 5.5]},
+          {"wall": "-y", "u": [-10.1, -8.9], "v": [4.1, 5.5]},
+          {"wall": "-y", "u": [-7.1, -5.9], "v": [4.1, 5.5]},
+          {"wall": "-y", "u": [-2.6, -1.4], "v": [4.1, 5.5]},
+          {"wall": "-y", "u": [1.4, 2.6], "v": [4.1, 5.5]},
+          {"wall": "-y", "u": [5.9, 7.1], "v": [4.1, 5.5]},
+          {"wall": "-y", "u": [8.9, 10.1], "v": [4.1, 5.5]},
+          {"wall": "-x", "u": [-9.6, -8.4], "v": [4.1, 5.5]},
+          {"wall": "+x", "u": [-9.6, -8.4], "v": [4.1, 5.5]}
+        ]
+      }
+    },
+    {
+      "name": "north_ground",
+      "material": "lime",
+      "shape": {
+        "type": "room",
+        "min": [-11.7, 6.3, 0.15],
+        "max": [11.7, 11.7, 2.95],
+        "thickness": 0.3,
+        "openings": [
+          {"wall": "-y", "u": [-0.6, 0.6], "v": [0.15, 2.35]},
+          {"wall": "-y", "u": [-3.7, -2.3], "v": [1.0, 2.4]},
+          {"wall": "-y", "u": [2.3, 3.7], "v": [1.0, 2.4]},
+          {"wall": "+y", "u": [-10.1, -8.9], "v": [1.0, 2.4]},
+          {"wall": "+y", "u": [-7.1, -5.9], "v": [1.0, 2.4]},
+          {"wall": "+y", "u": [-4.1, -2.9], "v": [1.0, 2.4]},
+          {"wall": "+y", "u": [2.9, 4.1], "v": [1.0, 2.4]},
+          {"wall": "+y", "u": [5.9, 7.1], "v": [1.0, 2.4]},
+          {"wall": "+y", "u": [8.9, 10.1], "v": [1.0, 2.4]},
+          {"wall": "-x", "u": [8.4, 9.6], "v": [1.0, 2.4]},
+          {"wall": "+x", "u": [8.4, 9.6], "v": [1.0, 2.4]}
+        ]
+      }
+    },
+    {
+      "name": "north_upper",
+      "material": "lime",
+      "shape": {
+        "type": "room",
+        "min": [-11.7, 6.3, 3.25],
+        "max": [11.7, 11.7, 6.05],
+        "thickness": 0.3,
+        "omit": ["-z"],
+        "openings": [
+          {"wall": "-y", "u": [-5.1, -3.9], "v": [4.1, 5.5]},
+          {"wall": "-y", "u": [-2.1, -0.9], "v": [4.1, 5.5]},
+          {"wall": "-y", "u": [0.9, 2.1], "v": [4.1, 5.5]},
+          {"wall": "-y", "u": [3.9, 5.1], "v": [4.1, 5.5]},
+          {"wall": "+y", "u": [-10.1, -8.9], "v": [4.1, 5.5]},
+          {"wall": "+y", "u": [-7.1, -5.9], "v": [4.1, 5.5]},
+          {"wall": "+y", "u": [-2.6, -1.4], "v": [4.1, 5.5]},
+          {"wall": "+y", "u": [1.4, 2.6], "v": [4.1, 5.5]},
+          {"wall": "+y", "u": [5.9, 7.1], "v": [4.1, 5.5]},
+          {"wall": "+y", "u": [8.9, 10.1], "v": [4.1, 5.5]},
+          {"wall": "-x", "u": [8.4, 9.6], "v": [4.1, 5.5]},
+          {"wall": "+x", "u": [8.4, 9.6], "v": [4.1, 5.5]}
+        ]
+      }
+    },
+    {
+      "name": "west_ground",
+      "material": "rose",
+      "shape": {
+        "type": "room",
+        "min": [-11.7, -5.7, 0.15],
+        "max": [-6.3, 5.7, 2.95],
+        "thickness": 0.3,
+        "openings": [
+          {"wall": "+x", "u": [-3.6, -2.4], "v": [1.0, 2.4]},
+          {"wall": "+x", "u": [-0.6, 0.6], "v": [1.0, 2.4]},
+          {"wall": "+x", "u": [2.4, 3.6], "v": [1.0, 2.4]},
+          {"wall": "-x", "u": [-3.6, -2.4], "v": [1.0, 2.4]},
+          {"wall": "-x", "u": [-0.6, 0.6], "v": [1.0, 2.4]},
+          {"wall": "-x", "u": [2.4, 3.6], "v": [1.0, 2.4]}
+        ]
+      }
+    },
+    {
+      "name": "west_upper",
+      "material": "rose",
+      "shape": {
+        "type": "room",
+        "min": [-11.7, -5.7, 3.25],
+        "max": [-6.3, 5.7, 6.05],
+        "thickness": 0.3,
+        "omit": ["-z"],
+        "openings": [
+          {"wall": "+x", "u": [-3.6, -2.4], "v": [4.1, 5.5]},
+          {"wall": "+x", "u": [-0.6, 0.6], "v": [4.1, 5.5]},
+          {"wall": "+x", "u": [2.4, 3.6], "v": [4.1, 5.5]},
+          {"wall": "-x", "u": [-3.6, -2.4], "v": [4.1, 5.5]},
+          {"wall": "-x", "u": [-0.6, 0.6], "v": [4.1, 5.5]},
+          {"wall": "-x", "u": [2.4, 3.6], "v": [4.1, 5.5]}
+        ]
+      }
+    },
+    {
+      "name": "east_ground",
+      "material": "rose",
+      "shape": {
+        "type": "room",
+        "min": [6.3, -5.7, 0.15],
+        "max": [11.7, 5.7, 2.95],
+        "thickness": 0.3,
+        "openings": [
+          {"wall": "-x", "u": [-3.6, -2.4], "v": [1.0, 2.4]},
+          {"wall": "-x", "u": [-0.6, 0.6], "v": [1.0, 2.4]},
+          {"wall": "-x", "u": [2.4, 3.6], "v": [1.0, 2.4]},
+          {"wall": "+x", "u": [-3.6, -2.4], "v": [1.0, 2.4]},
+          {"wall": "+x", "u": [-0.6, 0.6], "v": [1.0, 2.4]},
+          {"wall": "+x", "u": [2.4, 3.6], "v": [1.0, 2.4]}
+        ]
+      }
+    },
+    {
+      "name": "east_upper",
+      "material": "rose",
+      "shape": {
+        "type": "room",
+        "min": [6.3, -5.7, 3.25],
+        "max": [11.7, 5.7, 6.05],
+        "thickness": 0.3,
+        "omit": ["-z"],
+        "openings": [
+          {"wall": "-x", "u": [-3.6, -2.4], "v": [4.1, 5.5]},
+          {"wall": "-x", "u": [-0.6, 0.6], "v": [4.1, 5.5]},
+          {"wall": "-x", "u": [2.4, 3.6], "v": [4.1, 5.5]},
+          {"wall": "+x", "u": [-3.6, -2.4], "v": [4.1, 5.5]},
+          {"wall": "+x", "u": [-0.6, 0.6], "v": [4.1, 5.5]},
+          {"wall": "+x", "u": [2.4, 3.6], "v": [4.1, 5.5]}
+        ]
+      }
+    },
+    {
+      "name": "part_w",
+      "material": "lime",
+      "shape": {"type": "box", "min": [-4.075, -11.75, 0.1], "max": [-3.925, -6.25, 3.0]}
+    },
+    {
+      "name": "part_e",
+      "material": "lime",
+      "shape": {"type": "box", "min": [3.925, -11.75, 0.1], "max": [4.075, -6.25, 3.0]}
+    },
+    {
+      "name": "cross_w",
+      "material": "lime",
+      "shape": {"type": "box", "min": [-4.0, -9.075, 0.1], "max": [-0.5, -8.925, 3.0]}
+    },
+    {
+      "name": "cross_e",
+      "material": "lime",
+      "shape": {"type": "box", "min": [0.5, -9.075, 0.1], "max": [4.0, -8.925, 3.0]}
+    },
+    {
+      "name": "cross_lintel",
+      "material": "lime",
+      "shape": {"type": "box", "min": [-0.5, -9.075, 2.25], "max": [0.5, -8.925, 3.0]}
+    },
+    {
+      "name": "mullion_1",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-2.63, -6.195, 0.98], "max": [-2.57, -6.105, 2.42]}
+    },
+    {
+      "name": "transom_1",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-3.42, -6.195, 1.91], "max": [-1.78, -6.105, 1.96]}
+    },
+    {
+      "name": "mullion_2",
+      "material": "frame",
+      "shape": {"type": "box", "min": [2.57, -6.195, 0.98], "max": [2.63, -6.105, 2.42]}
+    },
+    {
+      "name": "transom_2",
+      "material": "frame",
+      "shape": {"type": "box", "min": [1.78, -6.195, 1.91], "max": [3.42, -6.105, 1.96]}
+    },
+    {
+      "name": "mullion_3",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-5.13, -6.195, 0.98], "max": [-5.07, -6.105, 2.42]}
+    },
+    {
+      "name": "transom_3",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-5.62, -6.195, 1.91], "max": [-4.58, -6.105, 1.96]}
+    },
+    {
+      "name": "mullion_4",
+      "material": "frame",
+      "shape": {"type": "box", "min": [5.07, -6.195, 0.98], "max": [5.13, -6.105, 2.42]}
+    },
+    {
+      "name": "transom_4",
+      "material": "frame",
+      "shape": {"type": "box", "min": [4.58, -6.195, 1.91], "max": [5.62, -6.105, 1.96]}
+    },
+    {
+      "name": "mullion_5",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-9.53, -11.895, 0.98], "max": [-9.47, -11.805, 2.42]}
+    },
+    {
+      "name": "transom_5",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-10.12, -11.895, 1.91], "max": [-8.88, -11.805, 1.96]}
+    },
+    {
+      "name": "mullion_6",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-6.53, -11.895, 0.98], "max": [-6.47, -11.805, 2.42]}
+    },
+    {
+      "name": "transom_6",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-7.12, -11.895, 1.91], "max": [-5.88, -11.805, 1.96]}
+    },
+    {
+      "name": "mullion_7",
+      "material": "frame",
+      "shape": {"type": "box", "min": [6.47, -11.895, 0.98], "max": [6.53, -11.805, 2.42]}
+    },
+    {
+      "name": "transom_7",
+      "material": "frame",
+      "shape": {"type": "box", "min": [5.88, -11.895, 1.91], "max": [7.12, -11.805, 1.96]}
+    },
+    {
+      "name": "mullion_8",
+      "material": "frame",
+      "shape": {"type": "box", "min": [9.47, -11.895, 0.98], "max": [9.53, -11.805, 2.42]}
+    },
+    {
+      "name": "transom_8",
+      "material": "frame",
+      "shape": {"type": "box", "min": [8.88, -11.895, 1.91], "max": [10.12, -11.805, 1.96]}
+    },
+    {
+      "name": "mullion_9",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-11.895, -9.03, 0.98], "max": [-11.805, -8.97, 2.42]}
+    },
+    {
+      "name": "transom_9",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-11.895, -9.62, 1.91], "max": [-11.805, -8.38, 1.96]}
+    },
+    {
+      "name": "mullion_10",
+      "material": "frame",
+      "shape": {"type": "box", "min": [11.805, -9.03, 0.98], "max": [11.895, -8.97, 2.42]}
+    },
+    {
+      "name": "transom_10",
+      "material": "frame",
+      "shape": {"type": "box", "min": [11.805, -9.62, 1.91], "max": [11.895, -8.38, 1.96]}
+    },
+    {
+      "name": "mullion_11",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-1.53, -6.195, 3.23], "max": [-1.47, -6.105, 5.52]}
+    },
+    {
+      "name": "transom_11",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-2.12, -6.195, 4.7125], "max": [-0.88, -6.105, 4.7625]}
+    },
+    {
+      "name": "mullion_12",
+      "material": "frame",
+      "shape": {"type": "box", "min": [1.47, -6.195, 3.23], "max": [1.53, -6.105, 5.52]}
+    },
+    {
+      "name": "transom_12",
+      "material": "frame",
+      "shape": {"type": "box", "min": [0.88, -6.195, 4.7125], "max": [2.12, -6.105, 4.7625]}
+    },
+    {
+      "name": "mullion_13",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-4.53, -6.195, 4.08], "max": [-4.47, -6.105, 5.52]}
+    },
+    {
+      "name": "transom_13",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-5.12, -6.195, 5.01], "max": [-3.88, -6.105, 5.06]}
+    },
+    {
+      "name": "mullion_14",
+      "material": "frame",
+      "shape": {"type": "box", "min": [4.47, -6.195, 4.08], "max": [4.53, -6.105, 5.52]}
+    },
+    {
+      "name": "transom_14",
+      "material": "frame",
+      "shape": {"type": "box", "min": [3.88, -6.195, 5.01], "max": [5.12, -6.105, 5.06]}
+    },
+    {
+      "name": "mullion_15",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-9.53, -11.895, 4.08], "max": [-9.47, -11.805, 5.52]}
+    },
+    {
+      "name": "transom_15",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-10.12, -11.895, 5.01], "max": [-8.88, -11.805, 5.06]}
+    },
+    {
+      "name": "mullion_16",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-6.53, -11.895, 4.08], "max": [-6.47, -11.805, 5.52]}
+    },
+    {
+      "name": "transom_16",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-7.12, -11.895, 5.01], "max": [-5.88, -11.805, 5.06]}
+    },
+    {
+      "name": "mullion_17",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-2.03, -11.895, 4.08], "max": [-1.97, -11.805, 5.52]}
+    },
+    {
+      "name": "transom_17",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-2.62, -11.895, 5.01], "max": [-1.38, -11.805, 5.06]}
+    },
+    {
+      "name": "mullion_18",
+      "material": "frame",
+      "shape": {"type": "box", "min": [1.97, -11.895, 4.08], "max": [2.03, -11.805, 5.52]}
+    },
+    {
+      "name": "transom_18",
+      "material": "frame",
+      "shape": {"type": "box", "min": [1.38, -11.895, 5.01], "max": [2.62, -11.805, 5.06]}
+    },
+    {
+      "name": "mullion_19",
+      "material": "frame",
+      "shape": {"type": "box", "min": [6.47, -11.895, 4.08], "max": [6.53, -11.805, 5.52]}
+    },
+    {
+      "name": "transom_19",
+      "material": "frame",
+      "shape": {"type": "box", "min": [5.88, -11.895, 5.01], "max": [7.12, -11.805, 5.06]}
+    },
+    {
+      "name": "mullion_20",
+      "material": "frame",
+      "shape": {"type": "box", "min": [9.47, -11.895, 4.08], "max": [9.53, -11.805, 5.52]}
+    },
+    {
+      "name": "transom_20",
+      "material": "frame",
+      "shape": {"type": "box", "min": [8.88, -11.895, 5.01], "max": [10.12, -11.805, 5.06]}
+    },
+    {
+      "name": "mullion_21",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-11.895, -9.03, 4.08], "max": [-11.805, -8.97, 5.52]}
+    },
+    {
+      "name": "transom_21",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-11.895, -9.62, 5.01], "max": [-11.805, -8.38, 5.06]}
+    },
+    {
+      "name": "mullion_22",
+      "material": "frame",
+      "shape": {"type": "box", "min": [11.805, -9.03, 4.08], "max": [11.895, -8.97, 5.52]}
+    },
+    {
+      "name": "transom_22",
+      "material": "frame",
+      "shape": {"type": "box", "min": [11.805, -9.62, 5.01], "max": [11.895, -8.38, 5.06]}
+    },
+    {
+      "name": "mullion_23",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-3.03, 6.105, 0.98], "max": [-2.97, 6.195, 2.42]}
+    },
+    {
+      "name": "transom_23",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-3.72, 6.105, 1.91], "max": [-2.28, 6.195, 1.96]}
+    },
+    {
+      "name": "mullion_24",
+      "material": "frame",
+      "shape": {"type": "box", "min": [2.97, 6.105, 0.98], "max": [3.03, 6.195, 2.42]}
+    },
+    {
+      "name": "transom_24",
+      "material": "frame",
+      "shape": {"type": "box", "min": [2.28, 6.105, 1.91], "max": [3.72, 6.195, 1.96]}
+    },
+    {
+      "name": "mullion_25",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-9.53, 11.805, 0.98], "max": [-9.47, 11.895, 2.42]}
+    },
+    {
+      "name": "transom_25",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-10.12, 11.805, 1.91], "max": [-8.88, 11.895, 1.96]}
+    },
+    {
+      "name": "mullion_26",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-6.53, 11.805, 0.98], "max": [-6.47, 11.895, 2.42]}
+    },
+    {
+      "name": "transom_26",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-7.12, 11.805, 1.91], "max": [-5.88, 11.895, 1.96]}
+    },
+    {
+      "name": "mullion_27",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-3.53, 11.805, 0.98], "max": [-3.47, 11.895, 2.42]}
+    },
+    {
+      "name": "transom_27",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-4.12, 11.805, 1.91], "max": [-2.88, 11.895, 1.96]}
+    },
+    {
+      "name": "mullion_28",
+      "material": "frame",
+      "shape": {"type": "box", "min": [3.47, 11.805, 0.98], "max": [3.53, 11.895, 2.42]}
+    },
+    {
+      "name": "transom_28",
+      "material": "frame",
+      "shape": {"type": "box", "min": [2.88, 11.805, 1.91], "max": [4.12, 11.895, 1.96]}
+    },
+    {
+      "name": "mullion_29",
+      "material": "frame",
+      "shape": {"type": "box", "min": [6.47, 11.805, 0.98], "max": [6.53, 11.895, 2.42]}
+    },
+    {
+      "name": "transom_29",
+      "material": "frame",
+      "shape": {"type": "box", "min": [5.88, 11.805, 1.91], "max": [7.12, 11.895, 1.96]}
+    },
+    {
+      "name": "mullion_30",
+      "material": "frame",
+      "shape": {"type": "box", "min": [9.47, 11.805, 0.98], "max": [9.53, 11.895, 2.42]}
+    },
+    {
+      "name": "transom_30",
+      "material": "frame",
+      "shape": {"type": "box", "min": [8.88, 11.805, 1.91], "max": [10.12, 11.895, 1.96]}
+    },
+    {
+      "name": "mullion_31",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-11.895, 8.97, 0.98], "max": [-11.805, 9.03, 2.42]}
+    },
+    {
+      "name": "transom_31",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-11.895, 8.38, 1.91], "max": [-11.805, 9.62, 1.96]}
+    },
+    {
+      "name": "mullion_32",
+      "material": "frame",
+      "shape": {"type": "box", "min": [11.805, 8.97, 0.98], "max": [11.895, 9.03, 2.42]}
+    },
+    {
+      "name": "transom_32",
+      "material": "frame",
+      "shape": {"type": "box", "min": [11.805, 8.38, 1.91], "max": [11.895, 9.62, 1.96]}
+    },
+    {
+      "name": "mullion_33",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-4.53, 6.105, 4.08], "max": [-4.47, 6.195, 5.52]}
+    },
+    {
+      "name": "transom_33",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-5.12, 6.105, 5.01], "max": [-3.88, 6.195, 5.06]}
+    },
+    {
+      "name": "mullion_34",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-1.53, 6.105, 4.08], "max": [-1.47, 6.195, 5.52]}
+    },
+    {
+      "name": "transom_34",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-2.12, 6.105, 5.01], "max": [-0.88, 6.195, 5.06]}
+    },
+    {
+      "name": "mullion_35",
+      "material": "frame",
+      "shape": {"type": "box", "min": [1.47, 6.105, 4.08], "max": [1.53, 6.195, 5.52]}
+    },
+    {
+      "name": "transom_35",
+      "material": "frame",
+      "shape": {"type": "box", "min": [0.88, 6.105, 5.01], "max": [2.12, 6.195, 5.06]}
+    },
+    {
+      "name": "mullion_36",
+      "material": "frame",
+      "shape": {"type": "box", "min": [4.47, 6.105, 4.08], "max": [4.53, 6.195, 5.52]}
+    },
+    {
+      "name": "transom_36",
+      "material": "frame",
+      "shape": {"type": "box", "min": [3.88, 6.105, 5.01], "max": [5.12, 6.195, 5.06]}
+    },
+    {
+      "name": "mullion_37",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-9.53, 11.805, 4.08], "max": [-9.47, 11.895, 5.52]}
+    },
+    {
+      "name": "transom_37",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-10.12, 11.805, 5.01], "max": [-8.88, 11.895, 5.06]}
+    },
+    {
+      "name": "mullion_38",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-6.53, 11.805, 4.08], "max": [-6.47, 11.895, 5.52]}
+    },
+    {
+      "name": "transom_38",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-7.12, 11.805, 5.01], "max": [-5.88, 11.895, 5.06]}
+    },
+    {
+      "name": "mullion_39",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-2.03, 11.805, 4.08], "max": [-1.97, 11.895, 5.52]}
+    },
+    {
+      "name": "transom_39",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-2.62, 11.805, 5.01], "max": [-1.38, 11.895, 5.06]}
+    },
+    {
+      "name": "mullion_40",
+      "material": "frame",
+      "shape": {"type": "box", "min": [1.97, 11.805, 4.08], "max": [2.03, 11.895, 5.52]}
+    },
+    {
+      "name": "transom_40",
+      "material": "frame",
+      "shape": {"type": "box", "min": [1.38, 11.805, 5.01], "max": [2.62, 11.895, 5.06]}
+    },
+    {
+      "name": "mullion_41",
+      "material": "frame",
+      "shape": {"type": "box", "min": [6.47, 11.805, 4.08], "max": [6.53, 11.895, 5.52]}
+    },
+    {
+      "name": "transom_41",
+      "material": "frame",
+      "shape": {"type": "box", "min": [5.88, 11.805, 5.01], "max": [7.12, 11.895, 5.06]}
+    },
+    {
+      "name": "mullion_42",
+      "material": "frame",
+      "shape": {"type": "box", "min": [9.47, 11.805, 4.08], "max": [9.53, 11.895, 5.52]}
+    },
+    {
+      "name": "transom_42",
+      "material": "frame",
+      "shape": {"type": "box", "min": [8.88, 11.805, 5.01], "max": [10.12, 11.895, 5.06]}
+    },
+    {
+      "name": "mullion_43",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-11.895, 8.97, 4.08], "max": [-11.805, 9.03, 5.52]}
+    },
+    {
+      "name": "transom_43",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-11.895, 8.38, 5.01], "max": [-11.805, 9.62, 5.06]}
+    },
+    {
+      "name": "mullion_44",
+      "material": "frame",
+      "shape": {"type": "box", "min": [11.805, 8.97, 4.08], "max": [11.895, 9.03, 5.52]}
+    },
+    {
+      "name": "transom_44",
+      "material": "frame",
+      "shape": {"type": "box", "min": [11.805, 8.38, 5.01], "max": [11.895, 9.62, 5.06]}
+    },
+    {
+      "name": "mullion_45",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-6.195, -3.03, 0.98], "max": [-6.105, -2.97, 2.42]}
+    },
+    {
+      "name": "transom_45",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-6.195, -3.62, 1.91], "max": [-6.105, -2.38, 1.96]}
+    },
+    {
+      "name": "mullion_46",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-6.195, -0.03, 0.98], "max": [-6.105, 0.03, 2.42]}
+    },
+    {
+      "name": "transom_46",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-6.195, -0.62, 1.91], "max": [-6.105, 0.62, 1.96]}
+    },
+    {
+      "name": "mullion_47",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-6.195, 2.97, 0.98], "max": [-6.105, 3.03, 2.42]}
+    },
+    {
+      "name": "transom_47",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-6.195, 2.38, 1.91], "max": [-6.105, 3.62, 1.96]}
+    },
+    {
+      "name": "mullion_48",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-11.895, -3.03, 0.98], "max": [-11.805, -2.97, 2.42]}
+    },
+    {
+      "name": "transom_48",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-11.895, -3.62, 1.91], "max": [-11.805, -2.38, 1.96]}
+    },
+    {
+      "name": "mullion_49",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-11.895, -0.03, 0.98], "max": [-11.805, 0.03, 2.42]}
+    },
+    {
+      "name": "transom_49",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-11.895, -0.62, 1.91], "max": [-11.805, 0.62, 1.96]}
+    },
+    {
+      "name": "mullion_50",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-11.895, 2.97, 0.98], "max": [-11.805, 3.03, 2.42]}
+    },
+    {
+      "name": "transom_50",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-11.895, 2.38, 1.91], "max": [-11.805, 3.62, 1.96]}
+    },
+    {
+      "name": "mullion_51",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-6.195, -3.03, 4.08], "max": [-6.105, -2.97, 5.52]}
+    },
+    {
+      "name": "transom_51",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-6.195, -3.62, 5.01], "max": [-6.105, -2.38, 5.06]}
+    },
+    {
+      "name": "mullion_52",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-6.195, -0.03, 4.08], "max": [-6.105, 0.03, 5.52]}
+    },
+    {
+      "name": "transom_52",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-6.195, -0.62, 5.01], "max": [-6.105, 0.62, 5.06]}
+    },
+    {
+      "name": "mullion_53",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-6.195, 2.97, 4.08], "max": [-6.105, 3.03, 5.52]}
+    },
+    {
+      "name": "transom_53",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-6.195, 2.38, 5.01], "max": [-6.105, 3.62, 5.06]}
+    },
+    {
+      "name": "mullion_54",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-11.895, -3.03, 4.08], "max": [-11.805, -2.97, 5.52]}
+    },
+    {
+      "name": "transom_54",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-11.895, -3.62, 5.01], "max": [-11.805, -2.38, 5.06]}
+    },
+    {
+      "name": "mullion_55",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-11.895, -0.03, 4.08], "max": [-11.805, 0.03, 5.52]}
+    },
+    {
+      "name": "transom_55",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-11.895, -0.62, 5.01], "max": [-11.805, 0.62, 5.06]}
+    },
+    {
+      "name": "mullion_56",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-11.895, 2.97, 4.08], "max": [-11.805, 3.03, 5.52]}
+    },
+    {
+      "name": "transom_56",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-11.895, 2.38, 5.01], "max": [-11.805, 3.62, 5.06]}
+    },
+    {
+      "name": "mullion_57",
+      "material": "frame",
+      "shape": {"type": "box", "min": [6.105, -3.03, 0.98], "max": [6.195, -2.97, 2.42]}
+    },
+    {
+      "name": "transom_57",
+      "material": "frame",
+      "shape": {"type": "box", "min": [6.105, -3.62, 1.91], "max": [6.195, -2.38, 1.96]}
+    },
+    {
+      "name": "mullion_58",
+      "material": "frame",
+      "shape": {"type": "box", "min": [6.105, -0.03, 0.98], "max": [6.195, 0.03, 2.42]}
+    },
+    {
+      "name": "transom_58",
+      "material": "frame",
+      "shape": {"type": "box", "min": [6.105, -0.62, 1.91], "max": [6.195, 0.62, 1.96]}
+    },
+    {
+      "name": "mullion_59",
+      "material": "frame",
+      "shape": {"type": "box", "min": [6.105, 2.97, 0.98], "max": [6.195, 3.03, 2.42]}
+    },
+    {
+      "name": "transom_59",
+      "material": "frame",
+      "shape": {"type": "box", "min": [6.105, 2.38, 1.91], "max": [6.195, 3.62, 1.96]}
+    },
+    {
+      "name": "mullion_60",
+      "material": "frame",
+      "shape": {"type": "box", "min": [11.805, -3.03, 0.98], "max": [11.895, -2.97, 2.42]}
+    },
+    {
+      "name": "transom_60",
+      "material": "frame",
+      "shape": {"type": "box", "min": [11.805, -3.62, 1.91], "max": [11.895, -2.38, 1.96]}
+    },
+    {
+      "name": "mullion_61",
+      "material": "frame",
+      "shape": {"type": "box", "min": [11.805, -0.03, 0.98], "max": [11.895, 0.03, 2.42]}
+    },
+    {
+      "name": "transom_61",
+      "material": "frame",
+      "shape": {"type": "box", "min": [11.805, -0.62, 1.91], "max": [11.895, 0.62, 1.96]}
+    },
+    {
+      "name": "mullion_62",
+      "material": "frame",
+      "shape": {"type": "box", "min": [11.805, 2.97, 0.98], "max": [11.895, 3.03, 2.42]}
+    },
+    {
+      "name": "transom_62",
+      "material": "frame",
+      "shape": {"type": "box", "min": [11.805, 2.38, 1.91], "max": [11.895, 3.62, 1.96]}
+    },
+    {
+      "name": "mullion_63",
+      "material": "frame",
+      "shape": {"type": "box", "min": [6.105, -3.03, 4.08], "max": [6.195, -2.97, 5.52]}
+    },
+    {
+      "name": "transom_63",
+      "material": "frame",
+      "shape": {"type": "box", "min": [6.105, -3.62, 5.01], "max": [6.195, -2.38, 5.06]}
+    },
+    {
+      "name": "mullion_64",
+      "material": "frame",
+      "shape": {"type": "box", "min": [6.105, -0.03, 4.08], "max": [6.195, 0.03, 5.52]}
+    },
+    {
+      "name": "transom_64",
+      "material": "frame",
+      "shape": {"type": "box", "min": [6.105, -0.62, 5.01], "max": [6.195, 0.62, 5.06]}
+    },
+    {
+      "name": "mullion_65",
+      "material": "frame",
+      "shape": {"type": "box", "min": [6.105, 2.97, 4.08], "max": [6.195, 3.03, 5.52]}
+    },
+    {
+      "name": "transom_65",
+      "material": "frame",
+      "shape": {"type": "box", "min": [6.105, 2.38, 5.01], "max": [6.195, 3.62, 5.06]}
+    },
+    {
+      "name": "mullion_66",
+      "material": "frame",
+      "shape": {"type": "box", "min": [11.805, -3.03, 4.08], "max": [11.895, -2.97, 5.52]}
+    },
+    {
+      "name": "transom_66",
+      "material": "frame",
+      "shape": {"type": "box", "min": [11.805, -3.62, 5.01], "max": [11.895, -2.38, 5.06]}
+    },
+    {
+      "name": "mullion_67",
+      "material": "frame",
+      "shape": {"type": "box", "min": [11.805, -0.03, 4.08], "max": [11.895, 0.03, 5.52]}
+    },
+    {
+      "name": "transom_67",
+      "material": "frame",
+      "shape": {"type": "box", "min": [11.805, -0.62, 5.01], "max": [11.895, 0.62, 5.06]}
+    },
+    {
+      "name": "mullion_68",
+      "material": "frame",
+      "shape": {"type": "box", "min": [11.805, 2.97, 4.08], "max": [11.895, 3.03, 5.52]}
+    },
+    {
+      "name": "transom_68",
+      "material": "frame",
+      "shape": {"type": "box", "min": [11.805, 2.38, 5.01], "max": [11.895, 3.62, 5.06]}
+    },
+    {
+      "name": "balcony_slab",
+      "material": "stone",
+      "shape": {"type": "box", "min": [-2.6, -6.0, 3.05], "max": [2.6, -4.9, 3.25]}
+    },
+    {
+      "name": "balcony_rail",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-2.6, -4.95, 4.15], "max": [2.6, -4.9, 4.25]}
+    },
+    {
+      "name": "balcony_rail_w",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-2.6, -6.0, 4.15], "max": [-2.55, -4.9, 4.25]}
+    },
+    {
+      "name": "balcony_rail_e",
+      "material": "frame",
+      "shape": {"type": "box", "min": [2.55, -6.0, 4.15], "max": [2.6, -4.9, 4.25]}
+    },
+    {
+      "name": "baluster_0",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-2.595, -4.95, 3.2], "max": [-2.555, -4.91, 4.2]}
+    },
+    {
+      "name": "baluster_1",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-1.95125, -4.95, 3.2], "max": [-1.91125, -4.91, 4.2]}
+    },
+    {
+      "name": "baluster_2",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-1.3075, -4.95, 3.2], "max": [-1.2675, -4.91, 4.2]}
+    },
+    {
+      "name": "baluster_3",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-0.66375, -4.95, 3.2], "max": [-0.62375, -4.91, 4.2]}
+    },
+    {
+      "name": "baluster_4",
+      "material": "frame",
+      "shape": {"type": "box", "min": [-0.02, -4.95, 3.2], "max": [0.02, -4.91, 4.2]}
+    },
+    {
+      "name": "baluster_5",
+      "material": "frame",
+      "shape": {"type": "box", "min": [0.62375, -4.95, 3.2], "max": [0.66375, -4.91, 4.2]}
+    },
+    {
+      "name": "baluster_6",
+      "material": "frame",
+      "shape": {"type": "box", "min": [1.2675, -4.95, 3.2], "max": [1.3075, -4.91, 4.2]}
+    },
+    {
+      "name": "baluster_7",
+      "material": "frame",
+      "shape": {"type": "box", "min": [1.91125, -4.95, 3.2], "max": [1.95125, -4.91, 4.2]}
+    },
+    {
+      "name": "baluster_8",
+      "material": "frame",
+      "shape": {"type": "box", "min": [2.555, -4.95, 3.2], "max": [2.595, -4.91, 4.2]}
+    },
+    {
+      "name": "roof_south",
+      "material": "terracotta",
+      "shape": {"type": "box", "min": [-12.05, -12.05, 6.35], "max": [12.05, -5.95, 6.47]}
+    },
+    {
+      "name": "roof_north",
+      "material": "terracotta",
+      "shape": {"type": "box", "min": [-12.05, 5.95, 6.35], "max": [12.05, 12.05, 6.47]}
+    },
+    {
+      "name": "roof_west",
+      "material": "terracotta",
+      "shape": {"type": "box", "min": [-12.05, -6.05, 6.35], "max": [-5.95, 6.05, 6.47]}
+    },
+    {
+      "name": "roof_east",
+      "material": "terracotta",
+      "shape": {"type": "box", "min": [5.95, -6.05, 6.35], "max": [12.05, 6.05, 6.47]}
+    },
+    {
+      "name": "lawn",
+      "material": "lawn",
+      "shape": {"type": "box", "min": [-3.5, -1.5, -0.05], "max": [3.5, 3.5, 0.03]}
+    },
+    {
+      "name": "bench_w",
+      "material": "wood",
+      "shape": {"type": "box", "min": [-5.4, -2.0, -0.05], "max": [-4.9, 0.0, 0.45]}
+    },
+    {
+      "name": "bench_e",
+      "material": "wood",
+      "shape": {"type": "box", "min": [4.9, 2.0, -0.05], "max": [5.4, 4.0, 0.45]}
+    },
+    {
+      "name": "planter_0",
+      "material": "terracotta",
+      "shape": {"type": "box", "min": [-5.55, -5.55, -0.05], "max": [-4.65, -4.65, 0.6]}
+    },
+    {
+      "name": "planter_1",
+      "material": "terracotta",
+      "shape": {"type": "box", "min": [4.65, -5.55, -0.05], "max": [5.55, -4.65, 0.6]}
+    },
+    {
+      "name": "planter_2",
+      "material": "terracotta",
+      "shape": {"type": "box", "min": [-5.55, 4.65, -0.05], "max": [-4.65, 5.55, 0.6]}
+    },
+    {
+      "name": "planter_3",
+      "material": "terracotta",
+      "shape": {"type": "box", "min": [4.65, 4.65, -0.05], "max": [5.55, 5.55, 0.6]}
+    },
+    {"name": "rug", "material": "rug", "shape": {"type": "box", "min": [-2.4, -8.5, 0.1], "max": [0.8, -6.9, 0.16]}},
+    {
+      "name": "table_top",
+      "material": "wood",
+      "shape": {"type": "box", "min": [-1.6, -8.1, 0.87], "max": [0.2, -7.3, 0.92]}
+    },
+    {
+      "name": "table_leg_0",
+      "material": "wood",
+      "shape": {"type": "box", "min": [-1.58, -8.08, 0.1], "max": [-1.52, -8.02, 0.87]}
+    },
+    {
+      "name": "table_leg_1",
+      "material": "wood",
+      "shape": {"type": "box", "min": [0.12, -8.08, 0.1], "max": [0.18, -8.02, 0.87]}
+    },
+    {
+      "name": "table_leg_2",
+      "material": "wood",
+      "shape": {"type": "box", "min": [-1.58, -7.38, 0.1], "max": [-1.52, -7.32, 0.87]}
+    },
+    {
+      "name": "table_leg_3",
+      "material": "wood",
+      "shape": {"type": "box", "min": [0.12, -7.38, 0.1], "max": [0.18, -7.32, 0.87]}
+    },
+    {
+      "name": "sofa",
+      "material": "fabric",
+      "shape": {"type": "box", "min": [-3.85, -8.85, 0.1], "max": [-3.0, -7.0, 0.6]}
+    },
+    {
+      "name": "sofa_back",
+      "material": "fabric",
+      "shape": {"type": "box", "min": [-3.95, -8.85, 0.1], "max": [-3.75, -7.0, 1.0]}
+    },
+    {
+      "name": "shelves",
+      "material": "wood",
+      "shape": {"type": "box", "min": [3.5, -8.6, 0.1], "max": [3.95, -7.6, 2.0]}
+    },
+    {
+      "name": "bed",
+      "material": "fabric",
+      "shape": {"type": "box", "min": [-1.6, -11.75, 0.1], "max": [0.4, -9.8, 0.55]}
+    },
+    {
+      "name": "headboard",
+      "material": "wood",
+      "shape": {"type": "box", "min": [-1.6, -11.75, 0.1], "max": [0.4, -11.62, 1.1]}
+    },
+    {
+      "name": "nightstand",
+      "material": "wood",
+      "shape": {"type": "box", "min": [0.55, -11.75, 0.1], "max": [1.0, -11.3, 0.6]}
+    },
+    {
+      "name": "wardrobe",
+      "material": "wood",
+      "shape": {"type": "box", "min": [-3.95, -11.0, 0.1], "max": [-3.35, -9.6, 2.1]}
+    }
+  ],
+  "lights": [
+    {
+      "name": "sun",
+      "type": "directional",
+      "direction": [0.3535534, -0.6123724, -0.7071068],
+      "irradiance": [7.5, 7.1, 6.5]
+    },
+    {"name": "sky", "type": "environment", "radiance": [0.32, 0.42, 0.62]},
+    {"name": "pendant", "type": "point", "position": [-0.6, -10.3, 2.45], "intensity": [2.2, 1.9, 1.4]}
+  ],
+  "stations": [
+    {"name": "courtyard", "position": [2.5, 1.0, 1.7], "look_at": [-1.0, -6.0, 1.9], "vfov_deg": 70.0},
+    {"name": "window_room", "position": [3.2, -6.9, 1.6], "look_at": [-2.0, -8.4, 0.7], "vfov_deg": 70.0},
+    {"name": "deep_room", "position": [3.2, -11.2, 1.6], "look_at": [-0.5, -9.0, 1.0], "vfov_deg": 70.0}
+  ],
+  "rois": [
+    {
+      "name": "courtyard_ground",
+      "role": "lit",
+      "box": {"min": [-6.0, -6.0, -0.01], "max": [6.0, 6.0, 0.04]},
+      "normal": [0, 0, 1],
+      "views": ["courtyard"]
+    },
+    {
+      "name": "window_room_floor",
+      "role": "lit",
+      "box": {"min": [-3.925, -8.925, 0.14], "max": [3.925, -6.3, 0.17]},
+      "normal": [0, 0, 1],
+      "views": ["window_room"]
+    },
+    {
+      "name": "deep_room",
+      "role": "any",
+      "box": {"min": [-3.925, -11.7, 0.14], "max": [3.925, -9.075, 2.96]},
+      "views": ["deep_room"]
+    }
+  ],
+  "reference": {"spp": 2048, "batches": 4}
+}

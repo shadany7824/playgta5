@@ -1,0 +1,47 @@
+{
+  "spec_version": 1,
+  "name": "dyn_light_switch",
+  "group": "targeted",
+  "description": "A 6 x 4 m room with a point light that switches off at frame 120 and on again at frame 240 (60 fps). A shelf shadows part of the floor from the lamp, so that ROI is lit only by bounces.",
+  "failure_mode": "stale indirect light after a light switches off and on (afterglow and re-convergence)",
+  "image": {"width": 256, "height": 192},
+  "display": {"exposure": 0.5},
+  "materials": {
+    "plaster": {"type": "diffuse", "albedo": [0.75, 0.75, 0.72]},
+    "wood": {"type": "diffuse", "albedo": [0.6, 0.5, 0.4]}
+  },
+  "objects": [
+    {
+      "name": "room",
+      "material": "plaster",
+      "shape": {"type": "room", "min": [0.0, 0.0, 0.0], "max": [6.0, 4.0, 2.6], "thickness": 0.2}
+    },
+    {"name": "shelf", "material": "wood", "shape": {"type": "box", "min": [2.6, 1.0, -0.05], "max": [2.9, 4.05, 1.8]}}
+  ],
+  "lights": [{"name": "lamp", "type": "point", "position": [1.2, 2.5, 2.0], "intensity": [10.0, 9.2, 8.0]}],
+  "stations": [{"name": "s0", "position": [5.6, 0.4, 1.7], "look_at": [2.0, 2.6, 0.5], "vfov_deg": 70.0}],
+  "rois": [
+    {
+      "name": "lit_floor",
+      "role": "lit",
+      "box": {"min": [0.0, 0.0, -0.01], "max": [2.6, 1.0, 0.01]},
+      "normal": [0, 0, 1]
+    },
+    {
+      "name": "behind_shelf",
+      "role": "lit",
+      "box": {"min": [2.9, 1.2, -0.01], "max": [5.0, 3.8, 0.01]},
+      "normal": [0, 0, 1]
+    }
+  ],
+  "timeline": {
+    "station": "s0",
+    "fps": 60,
+    "end_frame": 359,
+    "steps": [
+      {"frame": 120, "actions": [{"op": "set_light", "light": "lamp", "intensity": [0.0, 0.0, 0.0]}]},
+      {"frame": 240, "actions": [{"op": "set_light", "light": "lamp", "intensity": [10.0, 9.2, 8.0]}]}
+    ]
+  },
+  "reference": {"spp": 4096, "batches": 4}
+}

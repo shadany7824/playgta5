@@ -1,0 +1,10 @@
+# Lighting comparison harness (docs/DESIGN.md). Python 3.11+; versions pinned to the verified environment.
+numpy==2.5.3; python_version >= "3.12"
+numpy>=2.0,<3; python_version < "3.12"       # numpy 2.5 needs Python 3.12+
+Pillow==12.3.0
+wgpu==0.32.0                                   # threejs-native runner (wgpu-native, Vulkan)
+mitsuba==3.9.1                                 # reference renderer (pulls its matching drjit)
+flip-evaluator==1.7                            # HDR-FLIP metric
+playwright==1.63.0                             # threejs-web runner (then: python -m playwright install chromium)
+pytest==9.1.1
+OpenEXR==3.5.2                                 # test-only: independent EXR implementation for tests/test_exr.py

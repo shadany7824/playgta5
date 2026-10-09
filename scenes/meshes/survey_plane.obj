@@ -1,0 +1,11 @@
+# cal_survey_origin ground plane in WORLD (survey) coordinates: UTM 19S metres.
+# Survey origin [346000.0, 6297000.0, 570.0]; local = world - origin, computed in float64 by the resolver.
+# The local plane equals cal_point_plane's quad exactly: x in [-4.25, 4.25], y in [-3.125, 3.125],
+# z = 0.
+# The y values (e.g. 6296996.875) are not representable in float32 (spacing 0.5 there), so a resolver
+# that casts world coordinates to float32 before subtracting the origin moves the plane by up to 0.25 m.
+v 345995.7500 6296996.8750 570.0000
+v 346004.2500 6296996.8750 570.0000
+v 346004.2500 6297003.1250 570.0000
+v 345995.7500 6297003.1250 570.0000
+f 1 2 3 4

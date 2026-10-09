@@ -1,0 +1,57 @@
+{
+  "spec_version": 1,
+  "name": "thin_wall",
+  "group": "targeted",
+  "description": "A 6 x 4 x 2.5 m room split in two by a 5 cm wall (embedded into the floor, ceiling and side walls, so the unlit half is sealed). A point light 0.3 m from the wall lights one half; the other half is exactly black in the reference. Stations on both sides.",
+  "failure_mode": "light leaking through a 5 cm wall next to a point light 0.3 m away (shadow-map bias and filtering at the base of the wall)",
+  "image": {"width": 256, "height": 192},
+  "display": {"exposure": 0.6},
+  "materials": {"plaster": {"type": "diffuse", "albedo": [0.75, 0.75, 0.72]}},
+  "objects": [
+    {
+      "name": "room",
+      "material": "plaster",
+      "shape": {"type": "room", "min": [-3.0, -2.0, 0.0], "max": [3.0, 2.0, 2.5], "thickness": 0.2}
+    },
+    {
+      "name": "wall",
+      "material": "plaster",
+      "shape": {"type": "box", "min": [-0.025, -2.1, -0.1], "max": [0.025, 2.1, 2.6]}
+    }
+  ],
+  "lights": [{"name": "lamp", "type": "point", "position": [0.325, 0.0, 1.0], "intensity": [2.0, 1.9, 1.7]}],
+  "stations": [
+    {"name": "lit", "position": [2.7, -1.7, 1.6], "look_at": [0.2, 0.6, 0.5], "vfov_deg": 70.0},
+    {"name": "dark", "position": [-2.7, -1.7, 1.6], "look_at": [-0.2, 0.6, 0.5], "vfov_deg": 70.0}
+  ],
+  "rois": [
+    {
+      "name": "lit_floor",
+      "role": "lit",
+      "box": {"min": [0.025, -1.9, -0.01], "max": [1.5, 1.9, 0.01]},
+      "normal": [0, 0, 1],
+      "views": ["lit"]
+    },
+    {
+      "name": "base_floor",
+      "role": "dark",
+      "box": {"min": [-0.6, -1.9, -0.01], "max": [-0.025, 1.9, 0.01]},
+      "normal": [0, 0, 1],
+      "views": ["dark"]
+    },
+    {
+      "name": "base_wall",
+      "role": "dark",
+      "box": {"min": [-0.035, -1.9, 0.0], "max": [-0.015, 1.9, 0.6]},
+      "normal": [-1, 0, 0],
+      "views": ["dark"]
+    },
+    {
+      "name": "dark_half",
+      "role": "dark",
+      "box": {"min": [-3.01, -2.01, -0.01], "max": [-0.02, 2.01, 2.51]},
+      "views": ["dark"]
+    }
+  ],
+  "reference": {"spp": 4096, "batches": 4}
+}

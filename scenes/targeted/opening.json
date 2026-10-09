@@ -1,0 +1,53 @@
+{
+  "spec_version": 1,
+  "name": "opening",
+  "group": "targeted",
+  "description": "Two 4 x 4 m rooms joined by a 1 x 2 m doorway in a 0.2 m wall. A point light in room A (x < 0); both stations are in room B. The floor just past the doorway gets direct light; room B's far corner gets light only by bounces.",
+  "failure_mode": "indirect light through a 1 x 2 m doorway into the adjoining room (the far corner is lit only by bounces)",
+  "image": {"width": 256, "height": 192},
+  "display": {"exposure": 1.0},
+  "materials": {"plaster": {"type": "diffuse", "albedo": [0.75, 0.75, 0.72]}},
+  "objects": [
+    {
+      "name": "room",
+      "material": "plaster",
+      "shape": {"type": "room", "min": [-4.0, -2.0, 0.0], "max": [4.0, 2.0, 2.5], "thickness": 0.2}
+    },
+    {
+      "name": "divider_s",
+      "material": "plaster",
+      "shape": {"type": "box", "min": [-0.1, -2.1, -0.1], "max": [0.1, -0.5, 2.6]}
+    },
+    {
+      "name": "divider_n",
+      "material": "plaster",
+      "shape": {"type": "box", "min": [-0.1, 0.5, -0.1], "max": [0.1, 2.1, 2.6]}
+    },
+    {
+      "name": "lintel",
+      "material": "plaster",
+      "shape": {"type": "box", "min": [-0.1, -0.5, 2.0], "max": [0.1, 0.5, 2.6]}
+    }
+  ],
+  "lights": [{"name": "lamp", "type": "point", "position": [-1.5, -1.2, 2.2], "intensity": [10.0, 9.4, 8.4]}],
+  "stations": [
+    {"name": "toward_door", "position": [3.7, 1.6, 1.6], "look_at": [0.0, -0.3, 0.8], "vfov_deg": 70.0},
+    {"name": "far_corner", "position": [0.8, 1.6, 1.7], "look_at": [4.0, -1.7, 0.4], "vfov_deg": 70.0}
+  ],
+  "rois": [
+    {
+      "name": "door_floor",
+      "role": "lit",
+      "box": {"min": [0.1, -0.9, -0.01], "max": [1.6, 0.9, 0.01]},
+      "normal": [0, 0, 1],
+      "views": ["toward_door"]
+    },
+    {
+      "name": "far_corner",
+      "role": "lit",
+      "box": {"min": [2.9, -2.01, -0.01], "max": [4.01, -0.9, 1.2]},
+      "views": ["far_corner"]
+    }
+  ],
+  "reference": {"spp": 4096, "batches": 4}
+}

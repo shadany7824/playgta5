@@ -1,0 +1,4 @@
+# Windows launchers of the lighting harness: CRLF in every checkout (cmd.exe misparses LF-only batch files).
+/Setup.cmd text eol=crlf
+/Inspect.cmd text eol=crlf
+/Run-Harness.cmd text eol=crlf

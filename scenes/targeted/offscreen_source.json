@@ -1,0 +1,63 @@
+{
+  "spec_version": 1,
+  "name": "offscreen_source",
+  "group": "targeted",
+  "description": "A 6 x 4 m room lit only by a sun through a window in the -x wall, behind both cameras: the bright floor patch is never in view, so everything the cameras see is indirect. The +y wall is red; the white floor and ceiling next to it pick up red bounce light.",
+  "failure_mode": "indirect light from a bright sunlit patch outside the camera's view, with red colour bleeding from a side wall",
+  "image": {"width": 256, "height": 192},
+  "display": {"exposure": 12.0},
+  "materials": {
+    "white": {"type": "diffuse", "albedo": [0.8, 0.8, 0.8]},
+    "red": {"type": "diffuse", "albedo": [0.8, 0.12, 0.1]}
+  },
+  "objects": [
+    {
+      "name": "room",
+      "material": "white",
+      "shape": {
+        "type": "room",
+        "min": [0.0, -2.0, 0.0],
+        "max": [6.0, 2.0, 2.7],
+        "thickness": 0.2,
+        "omit": ["+y"],
+        "openings": [{"wall": "-x", "u": [-0.8, 0.8], "v": [0.8, 2.2]}]
+      }
+    },
+    {"name": "red_wall", "material": "red", "shape": {"type": "box", "min": [0.0, 2.0, 0.0], "max": [6.0, 2.2, 2.7]}}
+  ],
+  "lights": [
+    {
+      "name": "sun",
+      "type": "directional",
+      "direction": [0.7544065, 0.1330222, -0.6427876],
+      "irradiance": [6.0, 5.6, 5.0]
+    }
+  ],
+  "stations": [
+    {"name": "s0", "position": [3.1, -1.4, 1.5], "look_at": [6.0, 0.9, 0.9], "vfov_deg": 60.0},
+    {"name": "s1", "position": [3.0, -1.6, 1.0], "look_at": [5.6, 1.7, 2.4], "vfov_deg": 60.0}
+  ],
+  "rois": [
+    {
+      "name": "bleed_floor",
+      "role": "bleed",
+      "box": {"min": [2.5, 1.0, -0.01], "max": [6.0, 2.0, 0.01]},
+      "normal": [0, 0, 1],
+      "views": ["s0"]
+    },
+    {
+      "name": "bleed_ceiling",
+      "role": "bleed",
+      "box": {"min": [2.5, 1.0, 2.69], "max": [6.0, 2.0, 2.71]},
+      "normal": [0, 0, -1],
+      "views": ["s1"]
+    },
+    {
+      "name": "far_wall",
+      "role": "lit",
+      "box": {"min": [5.99, -2.0, 0.0], "max": [6.01, 2.0, 2.7]},
+      "normal": [-1, 0, 0]
+    }
+  ],
+  "reference": {"spp": 4096, "batches": 4}
+}

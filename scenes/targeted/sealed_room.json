@@ -1,0 +1,43 @@
+{
+  "spec_version": 1,
+  "name": "sealed_room",
+  "group": "targeted",
+  "description": "Two separate closed rooms (0.25 m walls, 1.5 m apart). A point light in one; the other has no light and no opening, so in the reference every surface in it is exactly black. One station in each room.",
+  "failure_mode": "light leaking into a sealed, unlit room through 0.25 m walls",
+  "image": {"width": 256, "height": 192},
+  "display": {"exposure": 0.2},
+  "materials": {"plaster": {"type": "diffuse", "albedo": [0.75, 0.75, 0.72]}},
+  "objects": [
+    {
+      "name": "room_lit",
+      "material": "plaster",
+      "shape": {"type": "room", "min": [-5.0, -2.0, 0.0], "max": [-1.0, 2.0, 2.5], "thickness": 0.25}
+    },
+    {
+      "name": "room_dark",
+      "material": "plaster",
+      "shape": {"type": "room", "min": [1.0, -2.0, 0.0], "max": [5.0, 2.0, 2.5], "thickness": 0.25}
+    }
+  ],
+  "lights": [{"name": "lamp", "type": "point", "position": [-3.0, 0.6, 1.9], "intensity": [12.0, 11.0, 10.0]}],
+  "stations": [
+    {"name": "lit", "position": [-4.6, -1.6, 1.6], "look_at": [-2.0, 1.0, 0.7], "vfov_deg": 70.0},
+    {"name": "dark", "position": [1.4, -1.6, 1.6], "look_at": [4.0, 1.0, 0.7], "vfov_deg": 70.0}
+  ],
+  "rois": [
+    {
+      "name": "lit_floor",
+      "role": "lit",
+      "box": {"min": [-5.0, -2.0, -0.01], "max": [-1.0, 2.0, 0.01]},
+      "normal": [0, 0, 1],
+      "views": ["lit"]
+    },
+    {
+      "name": "dark_room",
+      "role": "dark",
+      "box": {"min": [0.99, -2.01, -0.01], "max": [5.01, 2.01, 2.51]},
+      "views": ["dark"]
+    }
+  ],
+  "reference": {"spp": 4096, "batches": 4}
+}

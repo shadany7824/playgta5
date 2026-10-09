@@ -1,0 +1,61 @@
+{
+  "spec_version": 1,
+  "name": "cal_handedness",
+  "group": "calibration",
+  "description": "Camera above the origin looking down -Z with up +Y. Three diffuse 0.6 m quads 1 cm above a dark floor, lit by a sun from straight above: red centred at +x (must appear on the image's right), green at +y (top), white at the origin (centre). Checks handedness, image orientation (row 0 = top) and linear output (each quad shows rho/pi * E * cos). No rect lights, so every engine can run it.",
+  "image": {"width": 256, "height": 192},
+  "display": {"exposure": 1.6},
+  "materials": {
+    "floor": {"type": "diffuse", "albedo": [0.05, 0.05, 0.05]},
+    "red": {"type": "diffuse", "albedo": [0.8, 0.0, 0.0]},
+    "green": {"type": "diffuse", "albedo": [0.0, 0.8, 0.0]},
+    "white": {"type": "diffuse", "albedo": [0.8, 0.8, 0.8]}
+  },
+  "objects": [
+    {
+      "name": "floor",
+      "material": "floor",
+      "shape": {"type": "quad", "origin": [-4.0, -3.0, 0.0], "u": [8.0, 0.0, 0.0], "v": [0.0, 6.0, 0.0]}
+    },
+    {
+      "name": "red",
+      "material": "red",
+      "shape": {"type": "quad", "origin": [1.2, -0.3, 0.01], "u": [0.6, 0.0, 0.0], "v": [0.0, 0.6, 0.0]}
+    },
+    {
+      "name": "green",
+      "material": "green",
+      "shape": {"type": "quad", "origin": [-0.3, 0.9, 0.01], "u": [0.6, 0.0, 0.0], "v": [0.0, 0.6, 0.0]}
+    },
+    {
+      "name": "white",
+      "material": "white",
+      "shape": {"type": "quad", "origin": [-0.3, -0.3, 0.01], "u": [0.6, 0.0, 0.0], "v": [0.0, 0.6, 0.0]}
+    }
+  ],
+  "lights": [{"name": "sun", "type": "directional", "direction": [0.0, 0.0, -1.0], "irradiance": [3.0, 3.0, 3.0]}],
+  "stations": [
+    {"name": "s0", "position": [0.0, 0.0, 4.0], "look_at": [0.0, 0.0, 0.0], "up": [0.0, 1.0, 0.0], "vfov_deg": 60.0}
+  ],
+  "rois": [
+    {
+      "name": "quads",
+      "role": "oracle",
+      "box": {"min": [-0.35, -0.35, 0.009], "max": [1.85, 1.55, 0.011]},
+      "normal": [0, 0, 1],
+      "min_cos": 0.99
+    }
+  ],
+  "reference": {"spp": 1024, "batches": 4},
+  "oracle": {
+    "type": "handedness",
+    "light": "sun",
+    "object": "floor",
+    "tolerance_px": 1.0,
+    "quads": [
+      {"object": "red", "pixel": [190.51, 96.0], "radiance": [0.7639437, 0.0, 0.0]},
+      {"object": "green", "pixel": [128.0, 45.992], "radiance": [0.0, 0.7639437, 0.0]},
+      {"object": "white", "pixel": [128.0, 96.0], "radiance": [0.7639437, 0.7639437, 0.7639437]}
+    ]
+  }
+}

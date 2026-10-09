@@ -1,0 +1,31 @@
+{
+  "spec_version": 1,
+  "name": "cal_point_plane",
+  "group": "calibration",
+  "description": "Point light 1.25 m above a coloured diffuse plane, off-centre, seen from straight above. Checks point-light intensity units (W/sr), the inverse-square law, the Lambert 1/pi and the light's position (an x/y sign error moves the hot spot).",
+  "image": {"width": 256, "height": 192},
+  "display": {"exposure": 1.5},
+  "materials": {"plane": {"type": "diffuse", "albedo": [0.8, 0.65, 0.5]}},
+  "objects": [
+    {
+      "name": "plane",
+      "material": "plane",
+      "shape": {"type": "quad", "origin": [-4.25, -3.125, 0.0], "u": [8.5, 0.0, 0.0], "v": [0.0, 6.25, 0.0]}
+    }
+  ],
+  "lights": [{"name": "lamp", "type": "point", "position": [0.375, -0.25, 1.25], "intensity": [6.0, 5.0, 4.0]}],
+  "stations": [
+    {"name": "s0", "position": [0.0, 0.0, 3.5], "look_at": [0.0, 0.0, 0.0], "up": [0.0, 1.0, 0.0], "vfov_deg": 60.0}
+  ],
+  "rois": [
+    {
+      "name": "plane",
+      "role": "oracle",
+      "box": {"min": [-4.25, -3.125, -0.01], "max": [4.25, 3.125, 0.01]},
+      "normal": [0, 0, 1],
+      "min_cos": 0.99
+    }
+  ],
+  "reference": {"spp": 1024, "batches": 4},
+  "oracle": {"type": "point_plane", "light": "lamp", "object": "plane"}
+}

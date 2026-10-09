@@ -1,0 +1,76 @@
+{
+  "spec_version": 1,
+  "name": "cal_furnace",
+  "group": "calibration",
+  "description": "White furnace: a closed 2 x 2 x 2 m box whose six inner faces are rect lights with radiance L_e and albedo 0.8, camera inside. full = L_e/(1-rho) = 5 L_e, direct = L_e (1+rho) = 1.8 L_e, isolated = L_e rho^2/(1-rho) = 3.2 L_e everywhere, so a single bounce (0.8 L_e) is told apart from full GI. Checks energy conservation. The 'anchor' box below the furnace is never seen (spec v1 needs one object).",
+  "image": {"width": 256, "height": 192},
+  "display": {"exposure": 0.26},
+  "materials": {"anchor": {"type": "diffuse", "albedo": [0.5, 0.5, 0.5]}},
+  "objects": [
+    {
+      "name": "anchor",
+      "material": "anchor",
+      "shape": {"type": "box", "min": [-0.05, -0.05, -5.05], "max": [0.05, 0.05, -4.95]}
+    }
+  ],
+  "lights": [
+    {
+      "name": "floor",
+      "type": "rect",
+      "origin": [-1.001, -1.001, 0.0],
+      "u": [2.002, 0, 0],
+      "v": [0, 2.002, 0],
+      "radiance": [1.0, 0.9, 0.8],
+      "albedo": [0.8, 0.8, 0.8]
+    },
+    {
+      "name": "ceiling",
+      "type": "rect",
+      "origin": [-1.001, -1.001, 2.0],
+      "u": [0, 2.002, 0],
+      "v": [2.002, 0, 0],
+      "radiance": [1.0, 0.9, 0.8],
+      "albedo": [0.8, 0.8, 0.8]
+    },
+    {
+      "name": "wall_nx",
+      "type": "rect",
+      "origin": [-1.0, -1.001, -0.001],
+      "u": [0, 2.002, 0],
+      "v": [0, 0, 2.002],
+      "radiance": [1.0, 0.9, 0.8],
+      "albedo": [0.8, 0.8, 0.8]
+    },
+    {
+      "name": "wall_px",
+      "type": "rect",
+      "origin": [1.0, -1.001, -0.001],
+      "u": [0, 0, 2.002],
+      "v": [0, 2.002, 0],
+      "radiance": [1.0, 0.9, 0.8],
+      "albedo": [0.8, 0.8, 0.8]
+    },
+    {
+      "name": "wall_ny",
+      "type": "rect",
+      "origin": [-1.001, -1.0, -0.001],
+      "u": [0, 0, 2.002],
+      "v": [2.002, 0, 0],
+      "radiance": [1.0, 0.9, 0.8],
+      "albedo": [0.8, 0.8, 0.8]
+    },
+    {
+      "name": "wall_py",
+      "type": "rect",
+      "origin": [-1.001, 1.0, -0.001],
+      "u": [2.002, 0, 0],
+      "v": [0, 0, 2.002],
+      "radiance": [1.0, 0.9, 0.8],
+      "albedo": [0.8, 0.8, 0.8]
+    }
+  ],
+  "stations": [{"name": "s0", "position": [0.0, -0.55, 0.9], "look_at": [0.35, 1.0, 1.25], "vfov_deg": 75.0}],
+  "rois": [{"name": "box", "role": "oracle", "box": {"min": [-1.01, -1.01, -0.01], "max": [1.01, 1.01, 2.01]}}],
+  "reference": {"spp": 4096, "batches": 4},
+  "oracle": {"type": "furnace", "radiance": [1.0, 0.9, 0.8], "albedo": [0.8, 0.8, 0.8]}
+}
