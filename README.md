@@ -42,6 +42,14 @@ And don't email me for asking the mirror folder. I will not reply to the email.
 
 4. Voila!
 
+# Fix: game freezes when a TV movie stops
+Some missions freeze for good, for example Complications (mission 3) when Michael's TV switches off. This build cannot play Bink movies, so the game waits forever for a TV movie that never loads. To fix it, run this once from the repo folder after adding your mirror:
+
+- Windows: `runtime\python.exe patch_movie_wait.py`
+- macOS / Linux: `python3 patch_movie_wait.py`
+
+It should print `game.wasm patched: 7 movie waits now skipped`. It changes 7 bytes in `game.wasm` and keeps the old file as `game.wasm.pre-movie-patch`. To undo it, copy that file back over `game.wasm`. Reload the page after patching. TV screens stay blank.
+
 # Requirement
 Scripts require standard-library Python 3.11 or newer. The bundled Python path
 in the commands above is specific to the original PC; the portable ZIP instead
