@@ -27,7 +27,7 @@ No copyrighted file is included in this repo. If Rockstar Games or any affiliate
 And don't email me for asking the mirror folder. I will not reply to the email.
 
 # How to use
-1. Download the ZIP or just `git clone` it. It should have all this file and folders.
+1. Download the ZIP or just `git clone` it. It should have all these files and folders.
 <p align="center">
   <img src="media/Screenshot 2026-10-07 172103.png" alt="playgta5 SC">
 </p>
