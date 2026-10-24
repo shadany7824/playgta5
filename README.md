@@ -47,10 +47,31 @@ And don't email me for asking the mirror folder. I will not reply to the email.
 
 4. Voila!
 
+## macOS launchers and controller support (mirror-overlay)
+`mirror-overlay/` holds updated files for the portable `mirror` folder (no game assets):
+macOS launchers (`Launch-Local.command`, `Launch-LAN.command`), the server with macOS
+fixes (`serve_local.py`), its `README.md`, and the game page with Xbox/PlayStation
+controller support (`index.html`). After you've added your `mirror` folder, copy them in:
+
+```
+cp mirror-overlay/Launch-*.command mirror-overlay/serve_local.py mirror-overlay/README.md mirror/
+cp mirror-overlay/index.html mirror/mirror/playgta5.com/index.html
+```
+
+The controller layout is in `mirror-overlay/README.md`.
+
+## macOS
+1. Install Python 3.9+ if you don't have it: `xcode-select --install` (or `brew install python`).
+2. Double-click `Launch-Local.command` (or run `./Launch-Local.command` in Terminal). It opens `http://localhost:8000/`.
+3. If macOS says the file can't be opened because it's from an unidentified developer, right-click it and choose **Open**, or run:
+   `xattr -d com.apple.quarantine Launch-Local.command && chmod +x Launch-Local.command`
+4. The launcher opens Google Chrome when it's installed, otherwise your default browser. Use Chrome: Safari stalls at 6% on the loading screen. The bundled `runtime/` folder is Windows-only and is ignored on macOS.
+
 # Requirement
 Scripts require standard-library Python 3.11 or newer. The bundled Python path
 in the commands above is specific to the original PC; the portable ZIP instead
-provides `runtime\python.exe` and the double-click launcher.
+provides `runtime\python.exe` and the double-click launcher. On macOS the `.command`
+launchers use the system `python3` (3.9 or newer).
 Completed files and `.part` transfers are retained for resumption. Final checks
 cover inventory sizes, runtime hash samples, WASM signature, HTTP isolation,
 range reads and both batch formats. Actual gameplay requires separate browser
