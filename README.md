@@ -16,7 +16,7 @@ X: @Sebas_Kitten
 # Link
 Telegram: https://t.me/reGRANDTA
 
-Discord: https://discord.gg/hrbcPjjZfj
+Discord: https://discord.gg/MzFABxxSq7
 
 
 # Disclaimer
