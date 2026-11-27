@@ -1,0 +1,19 @@
+<!doctype html>
+<html><meta charset="utf-8"><title>Userdata inspect</title>
+<style>body{font:14px ui-monospace,monospace;background:#111;color:#ddd;padding:20px}button{padding:8px;margin:4px}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#000;padding:10px}</style>
+<h2>gta5-userdata / files</h2>
+<div id="out">loading…</div>
+<button onclick="setMode(3)">Set global settings.xml SamplingMode=3 (0.75x)</button>
+<button onclick="setMode(4)">Set 4 (0.833x)</button>
+<button onclick="setMode(0)">Set 0 (off = full 1080p)</button>
+<pre id="log"></pre>
+<script>
+const DB='gta5-userdata', STORE='files';
+function open(){return new Promise((res,rej)=>{const r=indexedDB.open(DB,1);r.onupgradeneeded=()=>r.result.createObjectStore(STORE);r.onsuccess=()=>res(r.result);r.onerror=()=>rej(r.error);});}
+async function keys(){const db=await open();return new Promise(res=>{const out=[];const c=db.transaction(STORE,'readonly').objectStore(STORE).openCursor();c.onsuccess=e=>{const x=e.target.result;if(!x){res(out);return;}out.push(x.key);x.continue();};});}
+function textOf(v){if(!v)return '';const d=v.data||v;if(d instanceof ArrayBuffer)return new TextDecoder().decode(d);if(d&&d.buffer)return new TextDecoder().decode(new Uint8Array(d.buffer,d.byteOffset,d.byteLength));return String(d);}
+async function dump(){const ks=await keys();document.getElementById('out').innerHTML='<b>keys:</b><br>'+ks.map(k=>String(k)).join('<br>');const wanted=ks.filter(k=>/settings\.xml/i.test(String(k)));let s='';for(const k of wanted){const db=await open();const v=await new Promise(r=>{const q=db.transaction(STORE,'readonly').objectStore(STORE).get(k);q.onsuccess=()=>r(q.result);});s+='\n=== '+k+' ===\n'+textOf(v);}document.getElementById('log').textContent=s||'(no settings.xml key found)';}
+async function setMode(mode){const ks=await keys();const k=ks.find(x=>/settings\.xml$/i.test(String(x))&&!/Profiles/i.test(String(x)))||ks.find(x=>/settings\.xml$/i.test(String(x)));if(!k){document.getElementById('log').textContent='No settings.xml key found; open the game once first.';return;}const db=await open();const v=await new Promise(r=>{const q=db.transaction(STORE,'readwrite').objectStore(STORE).get(k);q.onsuccess=()=>r(q.result);});let xml=textOf(v);if(!xml){document.getElementById('log').textContent='empty record';return;}const before=xml;const re=/<SamplingMode\s+value="\d+"\s*\/>/i;if(re.test(xml)){xml=xml.replace(re,'<SamplingMode value="'+mode+'" />');}else if(/<video[^>]*>/i.test(xml)){xml=xml.replace(/(<video[^>]*>)/i,'$1<SamplingMode value="'+mode+'" />');}else if(/<Settings[^>]*>/i.test(xml)){xml=xml.replace(/(<Settings[^>]*>)/i,'$1<video><SamplingMode value="'+mode+'" /></video>');}else{xml='<Settings version="9"><video><SamplingMode value="'+mode+'" /></video></Settings>';}const bytes=new TextEncoder().encode(xml);await new Promise((res,rej)=>{const t=db.transaction(STORE,'readwrite');t.objectStore(STORE).put({data:bytes,mtime:Date.now()},k);t.oncomplete=res;t.onerror=()=>rej(t.error);});document.getElementById('log').textContent='WROTE '+k+' mode '+mode+'\nchanged='+(before!==xml)+'\n\n'+xml.slice(0,1200);}
+setMode(3).then(() => { document.title = 'MODE3-DONE'; }).catch(e => { document.title = 'MODE3-ERR'; });
+</script>
+</html>

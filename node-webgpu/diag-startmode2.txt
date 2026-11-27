@@ -1,0 +1,265 @@
+[harness] waiting for workers...
+[harness] waiting for workers...
+[harness] worker signal: io loaded
+[harness] starting game.js
+[wasm] region 0x2200000 +466 MB (cleared 0 MB, heap end before 0x203d000)
+[wasm] region 0x1f600000 +8 MB (cleared 0 MB, heap end before 0x1f43d000)
+[wasm] region 0x20000000 +256 MB (cleared 0 MB, heap end before 0x1fe01000)
+[wasm] region 0x30200000 +256 MB (cleared 0 MB, heap end before 0x30001000)
+[wasm] region 0x40400000 +196 MB (cleared 0 MB, heap end before 0x40201000)
+[wasm] region 0x4ca00000 +220 MB (cleared 0 MB, heap end before 0x4c801000)
+[harness] runtime initialized
+Warning: *** Unknown option 'wgpu' on command line (use -Xwgpu to suppress).
+[wasm] engine thread skipped: [RAGE] Hang Detect Thread
+[wasm] engine thread 1: [RAGE] Dependency 0
+[wgpu] start: ring 1516244992 size 33554432 canvas false shaders E:/gta/playgta5/mirror/playgta5.com/b/8b0b5899ed/shaders
+[wgpu] limits: maxDynamicUniformBuffersPerPipelineLayout=10 maxBindGroups=4 maxUniformBuffersPerShaderStage=12 maxVertexBuffers=8 maxInterStageShaderVariables=30 maxSampledTexturesPerShaderStage=48 maxColorAttachmentBytesPerSample=128
+[wgpu] device ready: D3D12 driver version 31.0.101.2140, features texture-compression-bc,texture-compression-bc-sliced-3d,depth32float-stencil8,float32-filterable,indirect-first-instance,rg11b10ufloat-renderable,bgra8unorm-storage,depth-clip-control,clip-distances,texture-formats-tier1,dual-source-blending
+[wgpu] pipeline recipes: 0 from this browser, 0 in the seed, 0 to compile ahead (1 at a time)
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '/game/')
+[wasm] engine thread 2: [RAGE] DVD Reader
+[wasm] engine thread 3: [RAGE] DVD Streamer
+[wasm] engine thread 4: [RAGE] HDD Reader
+[wasm] engine thread 5: [RAGE] HDD Streamer
+Warning: Settings file missing, regenerating!
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '.\')
+[wasm] engine thread 6: [RAGE] RenderThread
+[wasm] engine thread 7: ResourcePlacementThread
+[wgpu] lodpatch: wrote 0.3 to 23318984 + flag bit1 at 23319072 (bits 1050253722)
+[wasm] engine thread 8: [GTA] ControlMgr Update Thread
+[wasm] engine thread 9: gtaSched:0
+[wasm] mem: malloc arena 1522 MB (in use 1489 MB), game virtual 115/466 MB, resource virtual 0/256 MB, game physical 0/256 MB, resource physical 0/256 MB
+[wasm] engine thread 10: [RAGE Audio] Headless mixer
+[wasm] engine thread skipped: AsyncBink
+Error: Unable to open movie: Bink is not available on the WebAssembly build (no binkw64 for wasm; movies cannot be played)
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local NoiseSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local NoiseSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local NoiseSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local DepthMapTexSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local DepthMapTexSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local DepthMapTexSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local DepthMapTexSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local DepthMapTexSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local DepthMapTexSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local DepthMapTexSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local DepthMapTexSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local DepthMapTexSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local DepthMapTexSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local DepthMapTexSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local DepthMapTexSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local DepthMapTexSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local noiseSampler clashes with a global.
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+[console] 119 lines of this thread not shown here (the server log has them; ?console=1 shows everything)
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '.\')
+Error: [ragenet_transaction] NetworkAssertf(m_CxnMgr) FAILED
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '.\')
+Warning: [ui] Attempted to flip invoke buffers before we'd had a chance to flush the 3 invokes! We got ahead of ourselves, and so we skipped the buffer flip this time.
+Warning: [ui] Attempted to flip invoke buffers before we'd had a chance to flush the 3 invokes! We got ahead of ourselves, and so we skipped the buffer flip this time.
+Warning: [streaming] strStreamingLoaderManager::Flush - waiting for pending operations
+Warning: [Graphics] LookupVar(GBufferTexture0Param) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(hiDofUseSmallBlurOnly) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(Filmic1) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(GLRTex) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(seeThroughColorVisibleHot) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(DamageOverlayMisc) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(DamageOverlayForward) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(DamageOverlayTangent) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(DamageOverlayCenterPos) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(HDRTextureAA) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(PostFxHHTexture) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(BackBuffer) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(LensArtefactsTex) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(LightStreaksBlurColWeights) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(LightStreaksBlurColWeights) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(Bluriness) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(ConsoleEdgeSharpness) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(ConsoleEdgeThreshold) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(ConsoleEdgeThresholdMin) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(cocSpreadKernelRadius) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(AdaptiveDOFParamsBuffer) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(LightStreaksBlurColWeights) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(Bluriness) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(ConsoleEdgeSharpness) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(ConsoleEdgeThreshold) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(ConsoleEdgeThresholdMin) failed on required local (maybe due to unused var stripping?)
+[wasm] region 0x60000000 +212 MB (cleared 0 MB, heap end before 0x5fef0000)
+Warning: [Audio] Failed to find audio:/config/test_sounds.dat54
+[wasm] engine thread 13: AudSched:0
+[wasm] engine thread 14: AudSched:1
+[wasm] engine thread 15: [RAGE Audio] - Engine Thread
+[wasm] engine thread 16: North Audio Update
+Warning: [Control] 'INPUT_WEAPON_SPECIAL_TWO' conflicts with 'INPUT_PARACHUTE_BRAKE_RIGHT'.
+Warning: [Control] Mapping Conflict! KEY_E is mapped to INPUT_WEAPON_SPECIAL_TWO and INPUT_PARACHUTE_BRAKE_RIGHT!
+Warning: [Control] 'INPUT_VEH_HANDBRAKE' conflicts with 'INPUT_CELLPHONE_EXTRA_OPTION'.
+Warning: [Control] Mapping Conflict! KEY_SPACE is mapped to INPUT_VEH_HANDBRAKE and INPUT_CELLPHONE_EXTRA_OPTION!
+Warning: [Control] 'INPUT_VEH_FLY_ATTACK' conflicts with 'INPUT_CELLPHONE_EXTRA_OPTION'.
+Warning: [Control] Mapping Conflict! KEY_SPACE is mapped to INPUT_VEH_FLY_ATTACK and INPUT_CELLPHONE_EXTRA_OPTION!
+Warning: [Control] 'INPUT_MELEE_ATTACK_HEAVY' conflicts with 'INPUT_CELLPHONE_EXTRA_OPTION'.
+Warning: [Control] Mapping Conflict! KEY_SPACE is mapped to INPUT_MELEE_ATTACK_HEAVY and INPUT_CELLPHONE_EXTRA_OPTION!
+Warning: [Control] 'INPUT_PARACHUTE_BRAKE_RIGHT' conflicts with 'INPUT_WEAPON_SPECIAL_TWO'.
+Warning: [Control] Mapping Conflict! KEY_E is mapped to INPUT_PARACHUTE_BRAKE_RIGHT and INPUT_WEAPON_SPECIAL_TWO!
+Warning: [Control] 'INPUT_CELLPHONE_EXTRA_OPTION' conflicts with 'INPUT_VEH_HANDBRAKE'.
+Warning: [Control] Mapping Conflict! KEY_SPACE is mapped to INPUT_CELLPHONE_EXTRA_OPTION and INPUT_VEH_HANDBRAKE!
+Warning: [Control] 'INPUT_CELLPHONE_EXTRA_OPTION' conflicts with 'INPUT_VEH_FLY_ATTACK'.
+Warning: [Control] Mapping Conflict! KEY_SPACE is mapped to INPUT_CELLPHONE_EXTRA_OPTION and INPUT_VEH_FLY_ATTACK!
+Warning: [Control] 'INPUT_CELLPHONE_EXTRA_OPTION' conflicts with 'INPUT_MELEE_ATTACK_HEAVY'.
+Warning: [Control] Mapping Conflict! KEY_SPACE is mapped to INPUT_CELLPHONE_EXTRA_OPTION and INPUT_MELEE_ATTACK_HEAVY!
+[wasm] start mode: waiting for the choice on the loading screen
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] fps: 22.5 (225 frames, 6 draws/frame, 1.4 submits/frame: present 1.0, idle 0.4, texture upload 0.0), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +8 (cache 8, evicted 0), pipelines +4 (216 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 2.8/13.6/6.9/0.0/1.3/0.0/1.3/1.3/13.8/15.7/1.3), TIME draw/up/bg/pipe/ensure/present/shader 1.73/0.23/0.11/1.01/0.16/0.45/0.15 ms/f, clears 1.0/f, passBegins 1.3/f, proxyCopies 0.0/f, worker busy 10% (5.0 ms/frame)
+[wgpu] stutter: 220 frames > 25 ms, 5 > 40 ms, worst 2650 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 2650: 2248/42/3/23 3.9MB/0/3 | 206: 68/0/0/48 1.7MB/0/1 | 129: 0/85/3/9 0.3MB/0/2 | 86: 32/45/2/3 0.3MB/0/1
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] fps: 31.3 (314 frames, 12 draws/frame, 1.0 submits/frame: present 1.0, idle 0.0), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +0 (cache 8, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 5.0/24.0/12.0/0.0/1.0/0.0/1.0/1.0/24.0/21.4/1.0), TIME draw/up/bg/pipe/ensure/present/shader 0.57/0.16/0.05/0.02/0.11/0.36/0.01 ms/f, clears 1.0/f, passBegins 1.0/f, proxyCopies 0.0/f, worker busy 4% (1.3 ms/frame)
+[wgpu] stutter: 313 frames > 25 ms, 3 > 40 ms, worst 43 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 43: 41/0/0/0 0.0MB/0/0 | 42: 35/0/0/0 0.2MB/0/0 | 41: 40/0/0/0 0.2MB/0/1
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] fps: 31.4 (314 frames, 12 draws/frame, 1.0 submits/frame: present 1.0, idle 0.0), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +0 (cache 8, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 5.0/24.0/12.0/0.0/1.0/0.0/1.0/1.0/24.0/19.0/1.0), TIME draw/up/bg/pipe/ensure/present/shader 0.54/0.11/0.05/0.02/0.10/0.35/0.01 ms/f, clears 1.0/f, passBegins 1.0/f, proxyCopies 0.0/f, worker busy 4% (1.2 ms/frame)
+[wgpu] stutter: 314 frames > 25 ms, 1 > 40 ms, worst 42 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 42: 41/0/0/0 0.0MB/0/0
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] fps: 31.4 (314 frames, 12 draws/frame, 1.0 submits/frame: present 1.0, idle 0.0), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +0 (cache 8, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 5.0/24.0/12.0/0.0/1.0/0.0/1.0/1.0/24.0/19.0/1.0), TIME draw/up/bg/pipe/ensure/present/shader 0.49/0.11/0.05/0.01/0.10/0.35/0.01 ms/f, clears 1.0/f, passBegins 1.0/f, proxyCopies 0.0/f, worker busy 4% (1.2 ms/frame)
+[wgpu] stutter: 314 frames > 25 ms, 1 > 40 ms, worst 47 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 47: 45/0/0/0 0.0MB/0/0
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] fps: 31.3 (313 frames, 12 draws/frame, 1.0 submits/frame: present 1.0, idle 0.1), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +0 (cache 8, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 5.0/24.0/12.0/0.0/1.0/0.0/1.0/1.0/24.0/19.0/1.0), TIME draw/up/bg/pipe/ensure/present/shader 0.47/0.11/0.05/0.01/0.10/0.34/0.01 ms/f, clears 1.0/f, passBegins 1.0/f, proxyCopies 0.0/f, worker busy 4% (1.1 ms/frame)
+[wgpu] stutter: 313 frames > 25 ms, 1 > 40 ms, worst 45 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 45: 43/0/0/0 0.0MB/0/0
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] fps: 30.8 (309 frames, 12 draws/frame, 1.1 submits/frame: present 1.0, idle 0.1), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +0 (cache 8, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 5.1/24.0/12.0/0.0/1.1/0.0/1.1/1.1/24.0/19.0/1.1), TIME draw/up/bg/pipe/ensure/present/shader 0.56/0.13/0.06/0.02/0.12/0.40/0.01 ms/f, clears 1.0/f, passBegins 1.1/f, proxyCopies 0.0/f, worker busy 4% (1.3 ms/frame)
+[wgpu] stutter: 309 frames > 25 ms, 5 > 40 ms, worst 50 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 50: 48/0/0/0 0.0MB/0/0 | 42: 41/0/0/0 0.0MB/0/0 | 41: 39/0/0/0 0.0MB/0/1 | 41: 39/0/0/0 0.0MB/0/0
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] fps: 31.3 (314 frames, 12 draws/frame, 1.0 submits/frame: present 1.0, idle 0.1), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +0 (cache 8, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 5.0/24.0/12.0/0.0/1.0/0.0/1.0/1.0/24.0/19.0/1.0), TIME draw/up/bg/pipe/ensure/present/shader 0.46/0.12/0.05/0.01/0.11/0.35/0.01 ms/f, clears 1.0/f, passBegins 1.0/f, proxyCopies 0.0/f, worker busy 4% (1.1 ms/frame)
+[wgpu] stutter: 312 frames > 25 ms, 3 > 40 ms, worst 52 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 52: 47/0/0/0 0.0MB/0/0 | 48: 46/0/0/0 0.0MB/0/0 | 44: 42/0/0/0 0.0MB/0/1
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] fps: 30.9 (310 frames, 12 draws/frame, 1.1 submits/frame: present 1.0, idle 0.1), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +0 (cache 8, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 5.0/24.0/12.0/0.0/1.0/0.0/1.0/1.0/24.0/19.0/1.0), TIME draw/up/bg/pipe/ensure/present/shader 0.49/0.12/0.05/0.03/0.10/0.33/0.01 ms/f, clears 1.0/f, passBegins 1.0/f, proxyCopies 0.0/f, worker busy 4% (1.1 ms/frame)
+[wgpu] stutter: 309 frames > 25 ms, 7 > 40 ms, worst 46 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 46: 44/0/0/0 0.0MB/0/0 | 43: 41/0/0/0 0.0MB/0/0 | 42: 41/0/0/0 0.0MB/0/0 | 41: 40/0/0/0 0.0MB/0/0
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] fps: 30.6 (306 frames, 12 draws/frame, 1.0 submits/frame: present 1.0, idle 0.1), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +0 (cache 8, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 5.0/24.0/12.0/0.0/1.0/0.0/1.0/1.0/24.0/19.0/1.0), TIME draw/up/bg/pipe/ensure/present/shader 0.44/0.11/0.05/0.02/0.09/0.32/0.01 ms/f, clears 1.0/f, passBegins 1.0/f, proxyCopies 0.0/f, worker busy 3% (1.1 ms/frame)
+[wgpu] stutter: 305 frames > 25 ms, 18 > 40 ms, worst 48 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 48: 47/0/0/0 0.0MB/0/0 | 47: 46/0/0/0 0.0MB/0/0 | 45: 44/0/0/0 0.0MB/0/0 | 45: 44/0/0/0 0.0MB/0/0
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] fps: 30.5 (305 frames, 12 draws/frame, 1.1 submits/frame: present 0.9, idle 0.1), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +0 (cache 8, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 5.0/24.0/12.0/0.0/1.0/0.0/1.0/1.0/24.0/19.0/1.0), TIME draw/up/bg/pipe/ensure/present/shader 0.42/0.11/0.04/0.01/0.09/0.29/0.00 ms/f, clears 1.0/f, passBegins 1.0/f, proxyCopies 0.0/f, worker busy 3% (1.0 ms/frame)
+[wgpu] stutter: 305 frames > 25 ms, 18 > 40 ms, worst 46 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 46: 45/0/0/0 0.0MB/0/0 | 45: 43/0/0/0 0.0MB/0/0 | 44: 44/0/0/0 0.0MB/0/0 | 44: 42/0/0/0 0.0MB/0/0
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] fps: 30.5 (305 frames, 12 draws/frame, 1.0 submits/frame: present 0.9, idle 0.1), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +0 (cache 8, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 5.0/24.0/12.0/0.0/1.0/0.0/1.0/1.0/24.0/19.0/1.0), TIME draw/up/bg/pipe/ensure/present/shader 0.43/0.11/0.05/0.01/0.09/0.31/0.00 ms/f, clears 1.0/f, passBegins 1.0/f, proxyCopies 0.0/f, worker busy 3% (1.0 ms/frame)
+[wgpu] stutter: 304 frames > 25 ms, 17 > 40 ms, worst 45 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 45: 45/0/0/0 0.0MB/0/0 | 45: 44/0/0/0 0.0MB/0/0 | 44: 43/0/0/0 0.0MB/0/0 | 44: 43/0/0/0 0.0MB/0/0
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] fps: 29.5 (296 frames, 12 draws/frame, 1.0 submits/frame: present 0.9, idle 0.1), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +0 (cache 8, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 5.0/24.0/12.0/0.0/1.0/0.0/1.0/1.0/24.0/19.0/1.0), TIME draw/up/bg/pipe/ensure/present/shader 0.45/0.11/0.05/0.01/0.10/0.31/0.01 ms/f, clears 1.0/f, passBegins 1.0/f, proxyCopies 0.0/f, worker busy 3% (1.1 ms/frame)
+[wgpu] stutter: 296 frames > 25 ms, 40 > 40 ms, worst 46 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 46: 45/0/0/0 0.0MB/0/0 | 46: 44/0/0/0 0.0MB/0/0 | 45: 44/0/0/0 0.0MB/0/0 | 44: 43/0/0/0 0.0MB/0/0
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] fps: 29.7 (297 frames, 12 draws/frame, 1.1 submits/frame: present 1.0, idle 0.1), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +0 (cache 8, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 5.1/24.0/12.0/0.0/1.1/0.0/1.1/1.1/24.0/19.0/1.1), TIME draw/up/bg/pipe/ensure/present/shader 0.51/0.12/0.06/0.02/0.10/0.36/0.00 ms/f, clears 1.0/f, passBegins 1.1/f, proxyCopies 0.0/f, worker busy 4% (1.2 ms/frame)
+[wgpu] stutter: 295 frames > 25 ms, 42 > 40 ms, worst 59 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 59: 58/0/0/0 0.0MB/0/0 | 46: 45/0/0/0 0.0MB/0/0 | 45: 44/0/0/0 0.0MB/0/0 | 45: 44/0/0/0 0.0MB/0/1
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] fps: 29.7 (297 frames, 12 draws/frame, 1.1 submits/frame: present 1.0, idle 0.1), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +0 (cache 8, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 5.1/24.0/12.0/0.0/1.1/0.0/1.1/1.1/24.0/19.0/1.1), TIME draw/up/bg/pipe/ensure/present/shader 0.49/0.12/0.05/0.01/0.10/0.35/0.00 ms/f, clears 1.0/f, passBegins 1.1/f, proxyCopies 0.0/f, worker busy 3% (1.2 ms/frame)
+[wgpu] stutter: 297 frames > 25 ms, 41 > 40 ms, worst 47 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 47: 46/0/0/0 0.0MB/0/0 | 46: 45/0/0/0 0.0MB/0/0 | 46: 45/0/0/0 0.0MB/0/0 | 45: 43/0/0/0 0.0MB/0/1
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] fps: 29.8 (298 frames, 12 draws/frame, 1.1 submits/frame: present 1.0, idle 0.1), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +0 (cache 8, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 5.1/24.0/12.0/0.0/1.1/0.0/1.1/1.1/24.0/19.0/1.1), TIME draw/up/bg/pipe/ensure/present/shader 0.49/0.12/0.05/0.02/0.11/0.36/0.01 ms/f, clears 1.0/f, passBegins 1.1/f, proxyCopies 0.0/f, worker busy 4% (1.2 ms/frame)
+[wgpu] stutter: 298 frames > 25 ms, 30 > 40 ms, worst 46 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 46: 45/0/0/0 0.0MB/0/0 | 46: 45/0/0/0 0.0MB/0/0 | 46: 44/0/0/0 0.0MB/0/0 | 46: 45/0/0/0 0.0MB/0/0
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] fps: 29.9 (299 frames, 12 draws/frame, 1.1 submits/frame: present 0.9, idle 0.1), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +0 (cache 8, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 5.1/24.0/12.0/0.0/1.1/0.0/1.1/1.1/24.0/19.0/1.1), TIME draw/up/bg/pipe/ensure/present/shader 0.50/0.12/0.05/0.01/0.10/0.36/0.00 ms/f, clears 1.0/f, passBegins 1.1/f, proxyCopies 0.0/f, worker busy 4% (1.2 ms/frame)
+[wgpu] stutter: 299 frames > 25 ms, 22 > 40 ms, worst 46 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 46: 44/0/0/0 0.0MB/0/0 | 45: 43/0/0/0 0.0MB/0/1 | 45: 44/0/0/0 0.0MB/0/0 | 44: 43/0/0/0 0.0MB/0/0
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] fps: 29.8 (298 frames, 12 draws/frame, 1.1 submits/frame: present 1.0, idle 0.1), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +0 (cache 8, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 5.1/24.0/12.0/0.0/1.1/0.0/1.1/1.1/24.0/19.0/1.1), TIME draw/up/bg/pipe/ensure/present/shader 0.48/0.12/0.05/0.01/0.10/0.34/0.00 ms/f, clears 1.0/f, passBegins 1.1/f, proxyCopies 0.0/f, worker busy 3% (1.1 ms/frame)
+[wgpu] stutter: 297 frames > 25 ms, 29 > 40 ms, worst 50 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 50: 49/0/0/0 0.0MB/0/0 | 46: 45/0/0/0 0.0MB/0/0 | 46: 45/0/0/0 0.0MB/0/0 | 45: 44/0/0/0 0.0MB/0/0
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] fps: 29.6 (297 frames, 12 draws/frame, 1.1 submits/frame: present 1.0, idle 0.1), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +0 (cache 8, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 5.1/24.0/12.0/0.0/1.1/0.0/1.1/1.1/24.0/19.0/1.1), TIME draw/up/bg/pipe/ensure/present/shader 0.45/0.11/0.05/0.01/0.09/0.32/0.00 ms/f, clears 1.0/f, passBegins 1.1/f, proxyCopies 0.0/f, worker busy 3% (1.1 ms/frame)
+[wgpu] stutter: 297 frames > 25 ms, 37 > 40 ms, worst 47 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 47: 45/0/0/0 0.0MB/0/0 | 47: 45/0/0/0 0.0MB/0/0 | 46: 45/0/0/0 0.0MB/0/0 | 46: 45/0/0/0 0.0MB/0/0
+[wgpu] fps: 30.6 (307 frames, 12 draws/frame, 1.2 submits/frame: present 1.0, idle 0.2), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +0 (cache 8, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 5.2/24.0/12.0/0.0/1.2/0.0/1.2/1.2/24.0/19.0/1.2), TIME draw/up/bg/pipe/ensure/present/shader 0.58/0.13/0.06/0.02/0.13/0.44/0.01 ms/f, clears 1.0/f, passBegins 1.2/f, proxyCopies 0.0/f, worker busy 4% (1.4 ms/frame)
+[wgpu] stutter: 304 frames > 25 ms, 12 > 40 ms, worst 64 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 64: 62/0/0/0 0.0MB/0/0 | 63: 62/0/0/0 0.0MB/0/0 | 63: 62/0/0/0 0.0MB/0/0 | 45: 44/0/0/0 0.0MB/0/0
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] fps: 31.1 (311 frames, 12 draws/frame, 1.1 submits/frame: present 1.0, idle 0.1), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +0 (cache 8, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 5.1/24.0/12.0/0.0/1.1/0.0/1.1/1.1/24.0/19.0/1.1), TIME draw/up/bg/pipe/ensure/present/shader 0.50/0.12/0.05/0.01/0.10/0.36/0.00 ms/f, clears 1.0/f, passBegins 1.1/f, proxyCopies 0.0/f, worker busy 4% (1.2 ms/frame)
+[wgpu] stutter: 310 frames > 25 ms, 9 > 40 ms, worst 45 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 45: 43/0/0/0 0.0MB/0/0 | 43: 42/0/0/0 0.0MB/0/1 | 43: 41/0/0/0 0.0MB/0/0 | 43: 42/0/0/0 0.0MB/0/0
+[wgpu] fps: 31.3 (313 frames, 12 draws/frame, 1.0 submits/frame: present 1.0, idle 0.1), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +0 (cache 8, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 5.0/24.0/12.0/0.0/1.0/0.0/1.0/1.0/24.0/19.0/1.0), TIME draw/up/bg/pipe/ensure/present/shader 0.46/0.11/0.05/0.01/0.09/0.37/0.00 ms/f, clears 1.0/f, passBegins 1.0/f, proxyCopies 0.0/f, worker busy 4% (1.1 ms/frame)
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] stutter: 313 frames > 25 ms, 1 > 40 ms, worst 42 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 42: 41/0/0/0 0.0MB/0/0
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] fps: 31.3 (313 frames, 12 draws/frame, 1.1 submits/frame: present 1.0, idle 0.1), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +0 (cache 8, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 5.1/24.0/12.0/0.0/1.1/0.0/1.1/1.1/24.0/19.0/1.1), TIME draw/up/bg/pipe/ensure/present/shader 0.45/0.11/0.05/0.01/0.09/0.35/0.00 ms/f, clears 1.0/f, passBegins 1.1/f, proxyCopies 0.0/f, worker busy 3% (1.1 ms/frame)
+[wgpu] stutter: 313 frames > 25 ms, 1 > 40 ms, worst 45 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 45: 44/0/0/0 0.0MB/0/1
+[wgpu] fps: 31.4 (314 frames, 12 draws/frame, 1.1 submits/frame: present 0.9, idle 0.1), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +0 (cache 8, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 5.1/24.0/12.0/0.0/1.1/0.0/1.1/1.1/24.0/19.0/1.1), TIME draw/up/bg/pipe/ensure/present/shader 0.44/0.11/0.05/0.01/0.09/0.33/0.00 ms/f, clears 1.0/f, passBegins 1.1/f, proxyCopies 0.0/f, worker busy 3% (1.1 ms/frame)
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] stutter: 314 frames > 25 ms, 0 > 40 ms, worst 38 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] fps: 29.9 (299 frames, 12 draws/frame, 1.1 submits/frame: present 1.0, idle 0.1), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +0 (cache 8, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 5.1/24.0/12.0/0.0/1.1/0.0/1.1/1.1/24.0/19.0/1.1), TIME draw/up/bg/pipe/ensure/present/shader 0.52/0.12/0.06/0.01/0.10/0.38/0.01 ms/f, clears 1.0/f, passBegins 1.1/f, proxyCopies 0.0/f, worker busy 4% (1.2 ms/frame)
+[wgpu] stutter: 298 frames > 25 ms, 30 > 40 ms, worst 48 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 48: 46/0/0/0 0.0MB/0/0 | 46: 45/0/0/0 0.0MB/0/1 | 45: 44/0/0/0 0.0MB/0/0 | 45: 44/0/0/0 0.0MB/0/0
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] fps: 30.0 (300 frames, 12 draws/frame, 1.0 submits/frame: present 1.0, idle 0.1), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +0 (cache 8, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 5.0/24.0/12.0/0.0/1.0/0.0/1.0/1.0/24.0/19.0/1.0), TIME draw/up/bg/pipe/ensure/present/shader 0.44/0.11/0.05/0.01/0.09/0.33/0.00 ms/f, clears 1.0/f, passBegins 1.0/f, proxyCopies 0.0/f, worker busy 3% (1.1 ms/frame)
+[wgpu] stutter: 300 frames > 25 ms, 27 > 40 ms, worst 46 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 46: 45/0/0/0 0.0MB/0/0 | 46: 45/0/0/0 0.0MB/0/0 | 46: 44/0/0/0 0.0MB/0/0 | 45: 44/0/0/0 0.0MB/0/0

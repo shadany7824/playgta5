@@ -1,0 +1,22 @@
+[harness] waiting for workers...
+[harness] waiting for workers...
+[harness] worker signal: io loaded
+[harness] starting game.js
+[wasm] region 0x2200000 +466 MB (cleared 0 MB, heap end before 0x203d000)
+[wasm] region 0x1f600000 +8 MB (cleared 0 MB, heap end before 0x1f43d000)
+[wasm] region 0x20000000 +256 MB (cleared 0 MB, heap end before 0x1fe01000)
+[wasm] region 0x30200000 +256 MB (cleared 0 MB, heap end before 0x30001000)
+[wasm] region 0x40400000 +196 MB (cleared 0 MB, heap end before 0x40201000)
+[wasm] region 0x4ca00000 +220 MB (cleared 0 MB, heap end before 0x4c801000)
+[harness] runtime initialized
+Warning: *** Unknown option 'wgpu' on command line (use -Xwgpu to suppress).
+[wasm] engine thread skipped: [RAGE] Hang Detect Thread
+[wasm] engine thread 1: [RAGE] Dependency 0
+[wgpu] start: ring 1516244992 size 33554432 canvas false shaders E:/gta/playgta5/mirror/playgta5.com/b/8b0b5899ed/shaders
+Warning: Couldn't load Vulkan: DynamicLib.Open: vulkan-1.dll Windows Error: 87
+    at operator () (D:\a\node-webgpu\node-webgpu\third_party\dawn\src\dawn\native\vulkan\BackendVk.cpp:368)
+
+[wgpu] init failed: Error: no WebGPU adapter
+    at initDevice (E:\gta\playgta5\mirror\playgta5.com\b\8b0b5899ed\wgpu_worker.js:520:22)
+    at async start (E:\gta\playgta5\mirror\playgta5.com\b\8b0b5899ed\wgpu_worker.js:3040:3)
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '/game/')

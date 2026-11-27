@@ -1,0 +1,92 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261016120222
+Username: DESKTOP-US6FI1U\HP
+RunAs User: DESKTOP-US6FI1U\HP
+Configuration Name: 
+Machine: DESKTOP-US6FI1U (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File E:\Malik\game\playgta5\apply-optimizations.ps1
+Process ID: 676
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== PlayGTA5 optimization batch (admin part) ===
+Date: 2026-10-16 12:02:23
+
+--- 1/4 Defender exclusions ---
+ExclusionPath now:
+C:\Program Files\Google\Chrome\Application\chrome.exe
+C:\Program Files\Windows Defender\MsMpEng.exe
+E:\Malik\game\playgta5
+E:\Malik\game\playgta5 [\Device\HarddiskVolume7\Malik\game\playgta5] is not excluded. Exit code is 1.
+
+--- 2/4 SysMain (Superfetch) off ---
+[SC] ControlService FAILED 1062:
+
+The service has not been started.
+[SC] ChangeServiceConfig SUCCESS
+
+
+Name      : SysMain
+Status    : Stopped
+StartType : Disabled
+
+
+
+
+--- 3/4 Pagefile: fixed 16 GB on C: ---
+Automatic pagefile management: already OFF
+Set-CimInstance : Value out of range 
+At E:\Malik\game\playgta5\apply-optimizations.ps1:33 char:3
++   Set-CimInstance -InputObject $pf -Property @{ InitialSize = 16384;  ...
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Win32_PageFileS...\pagefile.sys"):CimInstance) [Set-CimInstance], 
+CimException
+    + FullyQualifiedErrorId : HRESULT 0x8004102b,Microsoft.Management.Infrastructure.CimCmdlets.SetCimInstanceCommand
+Set-CimInstance : Value out of range
+At E:\Malik\game\playgta5\apply-optimizations.ps1:33 char:3
++   Set-CimInstance -InputObject $pf -Property @{ InitialSize = 16384;  ...
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Win32_PageFileS...\pagefile.sys"):CimInstance) [Set-CimInstance], CimExce
+   ption
+    + FullyQualifiedErrorId : HRESULT 0x8004102b,Microsoft.Management.Infrastructure.CimCmdlets.SetCimInstanceCommand
+
+C: pagefile updated to fixed 16384 MB (applies at next reboot)
+All pagefiles now:
+
+Name            InitialSize MaximumSize
+----            ----------- -----------
+C:\pagefile.sys       10240       10240
+
+
+
+--- 4/4 HDD E: fragmentation analysis (read-only) ---
+
+Invoking analysis on (E:)...
+
+
+The operation completed successfully.
+
+Post Defragmentation Report:
+
+        Volume Information:
+                Volume size                 = 453.97 GB
+                Free space                  = 378.45 GB
+                Total fragmented space      = 24%
+                Largest free space size     = 365.21 GB
+
+        Note: File fragments larger than 64MB are not included in the fragmentation statistics.
+
+        It is recommended that you defragment this volume.
+
+=== batch complete ===
+**********************
+Windows PowerShell transcript end
+End time: 20261016120258
+**********************

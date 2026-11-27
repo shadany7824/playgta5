@@ -255,7 +255,7 @@ function batchFetch(runsIn, compressed, wanted) {
 // Lanes: the host answers a Range request (Apache) at a few hundred KB/s per stream whatever the link is, and the speed grows with the number of streams (measured from here:
 // 6 in flight 3.4 MB/s, 32 3.6, 64 7.1, 128 14.1 MB/s): the boot set (~580 MB) is fetched as ranges, RUN_LANES at a time. Compressible small files still go through the host's
 // PHP (compressed batches), few at a time: PHP answers about 16 requests at once.
-const RUN_LANES = 32, BATCH_LANES = 4, RUN_GAP = 64;		// RUN_GAP: blocks; two ranges of a file closer than this are fetched as one (the bytes between are read next to them)
+const RUN_LANES = 16, BATCH_LANES = 4, RUN_GAP = 64;		// local SSD serve: 16 lanes is plenty and leaves CPU cycles for the game (remote host needed 32+)
 async function prefetch(name) {
 	let set;
 	try { const r = await fetchRetry(base + name, { cache: 'no-store' }); if (!r.ok) return; set = await r.json(); } catch (e) { return; }
@@ -528,7 +528,7 @@ async function serve(slot) {
 // (ensureBlocks), one that arrives after finds its blocks stored. Hints for blocks already stored or on their way cost nothing. Two kinds: reads the engine has queued (normal) and
 // look-ahead at objects it has requested but not queued yet (bit 30 of the length: strStreamingInfoManager::WasmAnnounceUpcoming); the first are fetched first, the second only while
 // fewer than LOW_PAR are in flight and at low fetch priority, so that the reads the engine blocks on (the audio engine's included) are not queued behind them.
-const HINT_PAR = 96, LOW_PAR = 48, HINT_QUEUE_MAX = 2000;		// 96 in flight: a small read takes ~1.5 s whatever the link, so the speed is the number in flight (measured: 15 in flight = 1.3 MB/s)
+const HINT_PAR = 24, LOW_PAR = 8, HINT_QUEUE_MAX = 2000;		// local SSD serve: 24 in flight keeps the ~6 sockets fed with far less CPU/queue churn (remote tuning was 96/48 for ~1.5 s reads over the internet)
 const hintQueue = [], lowQueue = [];
 let hintActive = 0, lowActive = 0, hintsSeen = 0, hintsFetched = 0;
 function pumpHints() {

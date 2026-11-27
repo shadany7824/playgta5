@@ -1,0 +1,212 @@
+
+===== rage_dlCmdNewDrawList_ExecuteStatic (line 526848) =====
+function rage_dlCmdNewDrawList_ExecuteStatic(a:int_ptr) { // func4868
+  var c:int;
+  var e:int_ptr;
+  var d:int_ptr = stack_pointer - 16L;
+  stack_pointer = d;
+  var b:int = a[4];
+  if (b < 11054960L[0]:ushort) {
+    11012076L[0]:int =
+      (b = (c = a[2] & 1) +
+           (e = 11054952L[0]:long + (i64_extend_i32_u(b) << 2L))[0]);
+    11012076L[0]:int =
+      b -
+      if (e[0] != b) {
+        (e = 11012152L[0]:long)[21118] = e[21118] | -2147483648;
+        a[2] & 1;
+      } else {
+        c
+      }
+    if (eqz(11062204L[0]:ubyte)) {
+      if (11012027L[0]:ubyte >= 6) {
+        d[0] = a[1];
+        rage_diagLogf2(11012024L, 6, 2147984L, d);
+      }
+      b = a[1];
+      11062204L[0]:byte = 1;
+      11062200L[0]:int = b;
+    }
+    stack_pointer = d + 16L;
+    return ;
+  }
+  unreachable;
+}
+
+function rage_dlCmdNewDrawList_GetExtraDebugInfo(a:int_ptr, b:long, c:long, d:int_ptr):long { // func4869
+  d[0] = 16711935;
+  var e:int = a[4];
+  if (e >= 11054944L[0]:ushort) { unreachable }
+  return (11054936L[0]:long + (i64_extend_i32_u(e) << 3L))[0]:long;
+}
+
+
+===== rage_dlDrawListMgr_AdjustFragmentLOD (line 532126) =====
+function rage_dlDrawListMgr_AdjustFragmentLOD(a:int_ptr, b:int_ptr, c:int) { // func5015
+  var d:int;
+  var f:int_ptr = a + 16L;
+  var e:int = b[0];
+  if (c) {
+    c = a[4];
+    c = select_if(c, d = f[8], c > d);
+    if (c <= e + 1) goto B_a;
+    c = c - 1;
+    goto B_b;
+  }
+  c = a[3];
+  c = select_if(c, d = f[7], c > d);
+  if (c <= e) goto B_a;
+  label B_b:
+  b[0] = c;
+  label B_a:
+}
+
+function rage_dlDrawListMgr_AdjustVehicleHD(a:int_ptr, b:int, c:byte_ptr) { // func5016
+  if (a[4] <= 0) { if ((a + (i64_extend_i32_u(b) << 4L))[8]:int <= 0) goto B_a }
+  c[0] = 0;
+  label B_a:
+}
+
+function rage_dlDrawListMgr_SetStatsHighlight(a:long, b:int, c:long, d:int, e:int, f:int) { // func5017
+  var g:long;
+  a[84484]:byte = b;
+  a[21123]:int =
+    (((a[21123]:int & -469762049) | select_if(67108864, 0, d)) |
+     select_if(134217728, 0, e)) |
+    select_if(268435456, 0, f);
+  if (c != 0L) {
+    b = -1;
+    e = a[467]:int;
+
+===== rage_fwRenderListBuilder_AddToDrawListEntityListCore (line 545700) =====
+function rage_fwRenderListBuilder_AddToDrawListEntityListCore(a:int, b:int, c:int, d:int, e:int, f:{ a:long, b:long, c:long, d:long, e:long, f:int, g:int, h:int, i:int, j:ubyte }, g:int):int { // func5273
+  var x:{ a:long, b:ushort }
+  var z:{ a:int, b:int, c:int, d:int, e:long, f:ushort }
+  var m:int;
+  var q:int;
+  var i:int;
+  var k:int;
+  var j:int;
+  var aa:long;
+  var n:int;
+  var o:int;
+  var ca:byte_ptr = f.e;
+  ca[0] = 255;
+  if (a >= 11060248L[0]:ushort) goto B_a;
+  if (
+    b >= (x = 11060240L[0]:long + i64_extend_i32_u(a) * 24L).b) goto B_a;
+  var p:int = f.g;
+  if ((((p & (z = x.a + (i64_extend_i32_u(b) << 5L)).b) |
+        ((a = f.f) & (z.a ^ -1))) |
+       ((m = f.h) & (z.c ^ -1))) |
+      ((q = f.i) & z.d)) goto B_b;
+  var h:int = z.f;
+  if (eqz(h)) goto B_b;
+  var da:long = f.a;
+  var fa:long = i64_extend_i32_u(h) & 65535L;
+  var ga:long = fa - 3L;
+  var ha:simd = i32x4_splat(m) v128_or V128;
+  var r:int = (e | e >> 31) + 1;
+  var s:int = e > 3;
+  var t:int = e != 4;
+  var u:int = f.j & 1;
+  var v:int = e > 9;
+  var w:int = d == 1024;
+  x = 0L;
+  loop L_c {
+    var y:long = z.f;
+    if (x < ga) {
+      if (x + 3L < y) goto B_d;
+      goto B_a;
+    }
+
+===== rage_fwRenderPhase_DrawListPrologue (line 548250) =====
+function rage_fwRenderPhase_DrawListPrologue(a:long) { // func5296
+  var d:int;
+  var b:long = stack_pointer - 16L;
+  stack_pointer = b;
+  var c:long = 6593728L[0]:long;
+  call_indirect(0L,
+                rage_dlDrawListMgr_GetDrawListName(a[2]:int),
+                1048114L,
+                176,
+                0,
+                a[246]:float,
+                0,
+                c);
+  a = rage_dlCmdNewDrawList_dlCmdNewDrawList(
+        rage_dlCmdBase_operator_new(20L),
+        a[2]:int);
+  a[0]:int = (a[0]:int & -1048576) | 4101;
+  a = 11012104L[0]:long;
+  a[4218]:int = a[4218]:int + 1;
+  let t0 = SimdStoreLane(a, LoadZero(a) i32x4_add V128);
+  b[3]:int = 0;
+  if (rage_grcDebugDraw_IsExpectingSubRenderThreadDebugDraw(0)) {
+    11547040L[0]:int =
+      (d = rage_grcDebugDraw_AllocateSubRenderBatcher(0));
+    b[2]:int = d;
+    rage_DLC_AddInternal_rage_grcDebugDraw_LingerBuffer(b + 12L, b + 8L);
+  }
+  b[3]:int = 1;
+  if (rage_grcDebugDraw_IsExpectingSubRenderThreadDebugDraw(1)) {
+    b[2]:int = (d = rage_grcDebugDraw_AllocateSubRenderBatcher(b[3]:int));
+
+===== rage_fwScan_AddCullShape (line 566756) =====
+function rage_fwScan_AddCullShape():long { // func5760
+  var a:int;
+  11124760L[0]:short = (a = 11124760L[0]:ushort) + 1;
+  return (i64_extend_i32_u(a) & 65535L) * 368L + 11115040L;
+}
+
+function rage_fwScan_GetGbufScreenQuadPair(a:simd_ptr, b:ushort_ptr) { // func5761
+  var c:int;
+  a[0] =
+    (i64_extend_i32_u(select_if(c = i32_extend16_s(b[9] - 1150), 0, c > 0)) <<
+     4L)[695336]:simd;
+}
+
+function rage_fwScanNodes_RunFromDependency(a:long):int { // func5762
+  var f:long;
+  var r:int;
+  var s:int;
+  var i:long;
+  var l:simd;
+  var m:simd;
+  var w:float;
+  var u:int;
+  var t:int;
+  var o:simd;
+  var p:simd;
+
+===== rage_fwDrawData_AddToDrawList (line 522609) =====
+function rage_fwDrawData_AddToDrawList(a:long, b:long, c:long):long { // func4721
+  return 0L
+}
+
+function rage_fwWaypointRecordingRoute_SideDisttoUNIT8(a:float):int { // func4722
+  return i32_trunc_sat_f32_u(a * 0.125f * 255.0f)
+}
+
+function rage_fwWaypointRecordingRoute_UINT8toSideDist(a:int):float { // func4723
+  return f32_convert_i32_u(a) / 255.0f * 8.0f
+}
+
+function rage_fwWaypointRecordingRoute_MBRtoUINT8(a:float):int { // func4724
+  return i32_trunc_sat_f32_u(a * 64.0f)
+}
+
+function rage_fwWaypointRecordingRoute_UINT8toMBR(a:int):float { // func4725
+  return f32_convert_i32_u(a) * 0.015625f
+}
+
+function rage_fwWaypointRecordingRoute_HDGtoUINT8(a:float):int { // func4726
+  a = a * 57.295776f;
+  if (a < 0.0f) {
+    loop L_b {
+      a = a + 360.0f;
+      if (a < 0.0f) continue L_b;
+    }
+  }
+  if (a >= 360.0f) {
+    loop L_d {

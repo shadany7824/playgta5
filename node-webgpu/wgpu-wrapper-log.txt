@@ -1,0 +1,538 @@
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+02A self clean exit
+02A self clean exit
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+active worker tid=5 pid=6700
+02A self clean exit active tid=5
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+active worker tid=5 pid=6468
+02A self clean exit active tid=5
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+active worker tid=5 pid=7868 inspector started
+02A worker profile written tid=5
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+UNCAUGHT: Error: ENOENT: no such file or directory, open 'D:\wasm_tmp\shot_000300.png'
+    at Object.openSync (node:fs:621:18)
+    at Object.writeFileSync (node:fs:2496:35)
+    at screenshot (E:\gta\playgta5\mirror\playgta5.com\b\8b0b5899ed\wgpu_worker.js:2602:28)
+    at async present (E:\gta\playgta5\mirror\playgta5.com\b\8b0b5899ed\wgpu_worker.js:2857:3)
+    at async runCommands (E:\gta\playgta5\mirror\playgta5.com\b\8b0b5899ed\wgpu_worker.js:2907:55)
+    at async loop (E:\gta\playgta5\mirror\playgta5.com\b\8b0b5899ed\wgpu_worker.js:3020:10)
+    at async start (E:\gta\playgta5\mirror\playgta5.com\b\8b0b5899ed\wgpu_worker.js:3055:2)
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+UNCAUGHT: Error: ENOENT: no such file or directory, open 'E:\gta\playgta5\node-webgpu\shots\07-ped25\shot_000300.png'
+    at Object.openSync (node:fs:621:18)
+    at Object.writeFileSync (node:fs:2496:35)
+    at screenshot (E:\gta\playgta5\node-webgpu\wgpu_worker_node.js:2615:28)
+    at async present (E:\gta\playgta5\node-webgpu\wgpu_worker_node.js:2871:3)
+    at async runCommands (E:\gta\playgta5\node-webgpu\wgpu_worker_node.js:2921:55)
+    at async loop (E:\gta\playgta5\node-webgpu\wgpu_worker_node.js:3034:10)
+    at async start (E:\gta\playgta5\node-webgpu\wgpu_worker_node.js:3069:2)
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+UNCAUGHT: Error: ENOENT: no such file or directory, open 'E:\gta\playgta5\node-webgpu\shots\07-ped25\shot_000300.png'
+    at Object.openSync (node:fs:621:18)
+    at Object.writeFileSync (node:fs:2496:35)
+    at screenshot (E:\gta\playgta5\node-webgpu\wgpu_worker_node.js:2615:28)
+    at async present (E:\gta\playgta5\node-webgpu\wgpu_worker_node.js:2871:3)
+    at async runCommands (E:\gta\playgta5\node-webgpu\wgpu_worker_node.js:2921:55)
+    at async loop (E:\gta\playgta5\node-webgpu\wgpu_worker_node.js:3034:10)
+    at async start (E:\gta\playgta5\node-webgpu\wgpu_worker_node.js:3069:2)
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+UNCAUGHT: TypeError: nativeDriver.reset is not a function
+    at ensurePass (E:\gta\playgta5\node-webgpu\wgpu_worker_node.js:1577:31)
+    at doDraw (E:\gta\playgta5\node-webgpu\wgpu_worker_node.js:1873:42)
+    at runCommands (E:\gta\playgta5\node-webgpu\wgpu_worker_node.js:3065:142)
+    at loop (E:\gta\playgta5\node-webgpu\wgpu_worker_node.js:3131:16)
+    at async start (E:\gta\playgta5\node-webgpu\wgpu_worker_node.js:3166:2)
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery
+wrapper2 loaded
+wrapper2 loaded
+MSG keys: memory,ring,size,dbg,shaderUrl,shotEvery

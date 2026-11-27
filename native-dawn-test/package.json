@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "webgpu-node": "^0.2.0"
+  }
+}

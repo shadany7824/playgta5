@@ -1,0 +1,199 @@
+[wgpu] native Dawn driver loaded
+[wasm] region 0x2200000 +466 MB (cleared 0 MB, heap end before 0x203d000)
+[wasm] region 0x1f600000 +8 MB (cleared 0 MB, heap end before 0x1f43d000)
+[wasm] region 0x20000000 +256 MB (cleared 0 MB, heap end before 0x1fe01000)
+[wasm] region 0x30200000 +256 MB (cleared 0 MB, heap end before 0x30001000)
+[wasm] region 0x40400000 +196 MB (cleared 0 MB, heap end before 0x40201000)
+[wasm] region 0x4ca00000 +220 MB (cleared 0 MB, heap end before 0x4c801000)
+[wasm] engine thread skipped: [RAGE] Hang Detect Thread
+[wasm] engine thread 1: [RAGE] Dependency 0
+[wgpu] native Dawn driver loaded
+[wgpu] start: ring 1516244992 size 33554432 canvas false shaders E:/gta/playgta5/mirror/playgta5.com/b/8b0b5899ed/shaders
+[wgpu] limits: maxDynamicUniformBuffersPerPipelineLayout=10 maxBindGroups=4 maxUniformBuffersPerShaderStage=12 maxVertexBuffers=8 maxInterStageShaderVariables=30 maxSampledTexturesPerShaderStage=48 maxColorAttachmentBytesPerSample=128
+[wgpu] device ready: D3D12 driver version 31.0.101.2140, features texture-compression-bc,texture-compression-bc-sliced-3d,depth32float-stencil8,float32-filterable,indirect-first-instance,rg11b10ufloat-renderable,bgra8unorm-storage,depth-clip-control,clip-distances,texture-formats-tier1,dual-source-blending
+[wgpu] pipeline recipes: 0 from this browser, 478 in the seed, 478 to compile ahead (1 at a time)
+[wasm] engine thread 2: [RAGE] DVD Reader
+[wasm] engine thread 3: [RAGE] DVD Streamer
+[wasm] engine thread 4: [RAGE] HDD Reader
+[wasm] engine thread 5: [RAGE] HDD Streamer
+[wasm] engine thread 6: [RAGE] RenderThread
+[wgpu] OCCFLAG 6621392=3 softRasterizer=enabled
+[wasm] engine thread 7: ResourcePlacementThread
+[wgpu] pipeline failed (scaleform_shaders::VS_GFill_ColorPremult + scaleform_shaders::PS_GFill_ColorPremult): An error occurred while generating Tint IR
+error: swizzle view instruction still has usages after lowering
+ - While initializing [RenderPipeline "scaleform_shaders::VS_GFill_ColorPremult + scaleform_shaders::PS_GFill_ColorPremult"]
+
+[wgpu] pipeline failed (scaleform_shaders::VS_TexturedSprite + scaleform_shaders::PS_TexturedSprite_Alpha): An error occurred while generating Tint IR
+error: swizzle view instruction still has usages after lowering
+ - While initializing [RenderPipeline "scaleform_shaders::VS_TexturedSprite + scaleform_shaders::PS_TexturedSprite_Alpha"]
+
+[wgpu] pipeline failed (scaleform_shaders::VS_GFill_1Texture + scaleform_shaders::PS_GFill_1Texture): An error occurred while generating Tint IR
+error: swizzle view instruction still has usages after lowering
+ - While initializing [RenderPipeline "scaleform_shaders::VS_GFill_1Texture + scaleform_shaders::PS_GFill_1Texture"]
+
+[wasm] engine thread 8: [GTA] ControlMgr Update Thread
+[wasm] engine thread 9: gtaSched:0
+[wasm] mem: malloc arena 1522 MB (in use 1489 MB), game virtual 115/466 MB, resource virtual 0/256 MB, game physical 0/256 MB, resource physical 0/256 MB
+[wasm] engine thread 10: [RAGE Audio] Headless mixer
+[wasm] engine thread skipped: AsyncBink
+[wgpu] pipeline failed (terrain_cb_w_4lyr_pxm_spm::VS_TransformDeferred + terrain_cb_w_4lyr_pxm_spm::PS_TexturedDeferred): An error occurred while generating Tint IR
+error: swizzle view instruction still has usages after lowering
+ - While initializing [RenderPipeline "terrain_cb_w_4lyr_pxm_spm::VS_TransformDeferred + terrain_cb_w_4lyr_pxm_spm::PS_TexturedDeferred"]
+
+[console] 109 lines of this thread not shown here (the server log has them; ?console=1 shows everything)
+[wasm] engine thread skipped: HttpQuery
+[wasm] engine thread skipped: BugstarAssertLogging
+[wasm] region 0x62c00000 +212 MB (cleared 0 MB, heap end before 0x62b16000)
+[wasm] engine thread 13: AudSched:0
+[wasm] engine thread 14: AudSched:1
+[wasm] engine thread 15: [RAGE Audio] - Engine Thread
+[wasm] engine thread 16: North Audio Update
+[wasm] start mode: sandbox
+[wasm] engine thread skipped: Replay Default Recording
+[wasm] engine thread skipped: Replay Ped Recording
+[wasm] engine thread skipped: Replay Vehicle Recording
+[wasm] engine thread skipped: Replay Game/Object Recording
+[wasm] engine thread skipped: Replay Quantize
+[wasm] engine thread skipped: Fwd Thread
+[wasm] engine thread skipped: Back Thread
+[wasm] engine thread 17: ReplayFileManager Thread
+[wasm] engine thread skipped: ReplayFile Notification Thread
+[wasm] engine thread 18: PathServerThread
+[wasm] engine thread 19: ShapeTestAsyncSched:1
+[wasm] engine thread 20: AsyncShapeTestMgr
+[wasm] engine thread 21: ClothInstanceSched:0
+[wasm] engine thread 22: ptxUpdate:0
+[wasm] engine thread 23: ptxUpdate:1
+[wasm] engine thread 24: RMPTFX Update
+[wgpu] pipeline failed (ped_hair_cutout_alpha::VS_PedTransformSkinD + ped_hair_spiked::PS_DeferredPedTextured_SubSampleAlpha): An error occurred while generating Tint IR
+error: swizzle view instruction still has usages after lowering
+ - While initializing [RenderPipeline "ped_hair_cutout_alpha::VS_PedTransformSkinD + ped_hair_spiked::PS_DeferredPedTextured_SubSampleAlpha"]
+
+[wgpu] pipeline failed (ped_hair_cutout_alpha::VS_PedTransformSkinD + ped_hair_spiked::PS_DeferredPedTexturedC): An error occurred while generating Tint IR
+error: swizzle view instruction still has usages after lowering
+ - While initializing [RenderPipeline "ped_hair_cutout_alpha::VS_PedTransformSkinD + ped_hair_spiked::PS_DeferredPedTexturedC"]
+
+[wgpu] pipeline failed (ped_hair_cutout_alpha::VS_PedTransformSkinD + ped_hair_cutout_alpha::PS_DeferredPedTextured_SubSampleAlpha): An error occurred while generating Tint IR
+error: swizzle view instruction still has usages after lowering
+ - While initializing [RenderPipeline "ped_hair_cutout_alpha::VS_PedTransformSkinD + ped_hair_cutout_alpha::PS_DeferredPedTextured_SubSampleAlpha"]
+
+[console] 83 lines of this thread not shown here (the server log has them; ?console=1 shows everything)
+[console] 236 lines of this thread not shown here (the server log has them; ?console=1 shows everything)
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 2 (46 ms, longest 34 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] OCCFLAG 6621392=3 softRasterizer=enabled
+[wgpu] fps: 26.9 (270 frames, 0 draws/frame, 1.4 submits/frame: present 1.0, idle 0.4, readback 0.0), draws waiting for a compiling pipeline +23, validation errors +0, clamped draws +0, bind groups +0 (cache 0, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 0.0/0.0/0.0/0.0/0.0/0.0/0.0/0.0/0.0/15.3/0.0), TIME draw/up/bg/pipe/ensure/present/shader 0.39/0.36/0.00/0.04/0.27/2.00/0.01 ms/f, clears 1.0/f, passBegins 1.3/f, proxyCopies 0.0/f, worker busy 21% (8.9 ms/frame)
+[wgpu] stutter: 59 frames > 25 ms, 32 > 40 ms, worst 3420 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 3420: 2923/0/174/24 3.9MB/0/0 | 460: 459/0/0/0 0.0MB/0/0 | 220: 76/0/0/64 3.1MB/0/1 | 189: 12/0/0/33 24.5MB/0/0
+[wgpu] pipeline failed (im::VS_DistantCars + im::PS_DistantCars): An error occurred while generating Tint IR
+error: swizzle view instruction still has usages after lowering
+ - While initializing [RenderPipeline "im::VS_DistantCars + im::PS_DistantCars"]
+
+[wgpu] cloth_default::PS_CascadeShadows_texture writes colour output(s) 0 with no render target bound
+[wgpu] trees::PS_CascadeShadows_texture writes colour output(s) 0 with no render target bound
+[console] 451 lines of this thread not shown here (the server log has them; ?console=1 shows everything)
+[wgpu] water::PS_OceanHeight writes colour output(s) 0 with no render target bound
+[wgpu] cloth_default::PS_TexturedUnlit writes colour output(s) 0 with no render target bound
+[console] 4418 lines of this thread not shown here (the server log has them; ?console=1 shows everything)
+[wgpu] terrain_cb_4lyr_pxm::PS_TexturedUnlit writes colour output(s) 0 with no render target bound
+[wgpu] pipeline failed (directional::VS_directional_standard + directional::PS_directional_scatter): An error occurred while generating Tint IR
+error: swizzle view instruction still has usages after lowering
+ - While initializing [RenderPipeline "directional::VS_directional_standard + directional::PS_directional_scatter"]
+
+[wgpu] pipeline failed (waterTex::VS + waterTex::PS_WaterBlend): An error occurred while generating Tint IR
+error: swizzle view instruction still has usages after lowering
+ - While initializing [RenderPipeline "waterTex::VS + waterTex::PS_WaterBlend"]
+
+[wgpu] pipeline failed (postfx::VS_PassthroughPFogRay + postfx::PS_FogRays): An error occurred while generating Tint IR
+error: swizzle view instruction still has usages after lowering
+ - While initializing [RenderPipeline "postfx::VS_PassthroughPFogRay + postfx::PS_FogRays"]
+
+[wasm] engine thread 25: [GTA Audio] User Music Scan Thread
+[wgpu] pipeline failed (sky_system::vs_sky_normal_none + sky_system::ps_sky_normal_stars): An error occurred while generating Tint IR
+error: swizzle view instruction still has usages after lowering
+ - While initializing [RenderPipeline "sky_system::vs_sky_normal_none + sky_system::ps_sky_normal_stars"]
+
+[wgpu] pipeline failed (clouds_anim::VSCloudsVertScatterPiercing_Infinite + clouds_anim::PSCloudsVertScatterPiercing_Anim): An error occurred while generating Tint IR
+error: swizzle view instruction still has usages after lowering
+ - While initializing [RenderPipeline "clouds_anim::VSCloudsVertScatterPiercing_Infinite + clouds_anim::PSCloudsVertScatterPiercing_Anim"]
+
+[wgpu] pipeline failed (clouds_animsoft::VSCloudsVertScatterPiercing + clouds_altitude::PSCloudsVertScatterPiercing_AnimSoft): An error occurred while generating Tint IR
+error: swizzle view instruction still has usages after lowering
+ - While initializing [RenderPipeline "clouds_animsoft::VSCloudsVertScatterPiercing + clouds_altitude::PSCloudsVertScatterPiercing_AnimSoft"]
+
+[wgpu] pipeline failed (cable::VS_Cable + cable::PS_Cable): An error occurred while generating Tint IR
+error: swizzle view instruction still has usages after lowering
+ - While initializing [RenderPipeline "cable::VS_Cable + cable::PS_Cable"]
+
+[wgpu] pipeline failed (cable::VS_Cable + cable::PS_Cable): An error occurred while generating Tint IR
+error: swizzle view instruction still has usages after lowering
+ - While initializing [RenderPipeline "cable::VS_Cable + cable::PS_Cable"]
+
+[wgpu] pipeline failed (glass_pv_env::VS_GlassEnvLow_lightweight0 + glass_pv::PS_BreakableGlassLow): An error occurred while generating Tint IR
+error: swizzle view instruction still has usages after lowering
+ - While initializing [RenderPipeline "glass_pv_env::VS_GlassEnvLow_lightweight0 + glass_pv::PS_BreakableGlassLow"]
+
+[wgpu] pipeline failed (postfx::VS_PassthroughComposite + postfx::PS_CompositeExtraFX): An error occurred while generating Tint IR
+error: swizzle view instruction still has usages after lowering
+ - While initializing [RenderPipeline "postfx::VS_PassthroughComposite + postfx::PS_CompositeExtraFX"]
+
+[wgpu] OCCFLAG 6621392=3 softRasterizer=enabled
+[wgpu] fps: 52.6 (527 frames, 0 draws/frame, 1.2 submits/frame: present 1.0, idle 0.2), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +0 (cache 0, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 0.0/0.0/0.0/0.0/0.0/0.0/0.0/0.0/0.0/23.8/0.0), TIME draw/up/bg/pipe/ensure/present/shader 0.25/0.23/0.00/0.03/0.14/1.09/0.01 ms/f, clears 1.0/f, passBegins 1.2/f, proxyCopies 0.0/f, worker busy 15% (2.6 ms/frame)
+[wgpu] stutter: 56 frames > 25 ms, 30 > 40 ms, worst 253 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 253: 253/0/0/0 0.2MB/0/0 | 232: 232/0/0/0 0.0MB/0/0 | 221: 220/0/0/0 0.0MB/0/0 | 140: 0/0/0/45 9.5MB/0/0
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[console] 84 lines of this thread not shown here (the server log has them; ?console=1 shows everything)
+[console] 731 lines of this thread not shown here (the server log has them; ?console=1 shows everything)
+[wgpu] deferred_lighting::PS_ambientScaleEllipsoid writes colour output(s) 1,2 with no render target bound
+[wgpu] pipeline failed (ptxgpu_update::VS_ragePassThroughNoXformTexOnly + ptxgpu_update::PS_ptxgpuUpdateGround): An error occurred while generating Tint IR
+error: swizzle view instruction still has usages after lowering
+ - While initializing [RenderPipeline "ptxgpu_update::VS_ragePassThroughNoXformTexOnly + ptxgpu_update::PS_ptxgpuUpdateGround"]
+
+[wgpu] ptfx_sprite::PS_RGBA_lit_softBM0 writes colour output(s) 1,2 with no render target bound
+[wgpu] pipeline failed (ptfx_sprite::VS_lit + ptfx_sprite::PS_RGBA_lit_softBM0): An error occurred while generating Tint IR
+error: swizzle view instruction still has usages after lowering
+ - While initializing [RenderPipeline "ptfx_sprite::VS_lit + ptfx_sprite::PS_RGBA_lit_softBM0"]
+
+[console] 653 lines of this thread not shown here (the server log has them; ?console=1 shows everything)
+[wgpu] ptfx_model::PS_Textured_Zero_DOF writes colour output(s) 1,2 with no render target bound
+[wgpu] ptfx_sprite::PS_RGBA_litBM0 writes colour output(s) 1,2 with no render target bound
+[wgpu] pipeline failed (ptfx_sprite::VS_lit + ptfx_sprite::PS_RGBA_litBM0): An error occurred while generating Tint IR
+error: swizzle view instruction still has usages after lowering
+ - While initializing [RenderPipeline "ptfx_sprite::VS_lit + ptfx_sprite::PS_RGBA_litBM0"]
+
+[console] 135 lines of this thread not shown here (the server log has them; ?console=1 shows everything)
+[wgpu] emissivenight::PS_TexturedUnlit writes colour output(s) 0 with no render target bound
+[wgpu] cloth_normal_spec_tnt::PS_TexturedUnlit writes colour output(s) 0 with no render target bound
+[wgpu] emissive::PS_TexturedUnlit writes colour output(s) 0 with no render target bound
+[wgpu] terrain_cb_4lyr_lod::PS_TexturedUnlit writes colour output(s) 0 with no render target bound
+[wgpu] terrain_cb_4lyr_2tex_blend_lod::PS_TexturedUnlit writes colour output(s) 0 with no render target bound
+[wgpu] pipeline failed (scaleform_shaders::VS_SolidFill + scaleform_shaders::PS_SolidFill): An error occurred while generating Tint IR
+error: swizzle view instruction still has usages after lowering
+ - While initializing [RenderPipeline "scaleform_shaders::VS_SolidFill + scaleform_shaders::PS_SolidFill"]
+
+[wgpu] pipeline failed (ptxgpu_render::VS_ptxgpuRenderDrop_NoAnimate_NoABBlend_NoBackgroundDistortion_LookUp + ptxgpu_render::PS_ptxgpuRenderSoft_NoAnimate_NoABBlend_NoBackgroundDistortion): An error occurred while generating Tint IR
+error: swizzle view instruction still has usages after lowering
+ - While initializing [RenderPipeline "ptxgpu_render::VS_ptxgpuRenderDrop_NoAnimate_NoABBlend_NoBackgroundDistortion_LookUp + ptxgpu_render::PS_ptxgpuRenderSoft_NoAnimate_NoABBlend_NoBackgroundDistortion"]
+
+[wgpu] pipeline failed (default::VS_TransformCube + glass_env::PS_TexturedCube): An error occurred while generating Tint IR
+error: swizzle view instruction still has usages after lowering
+ - While initializing [RenderPipeline "default::VS_TransformCube + glass_env::PS_TexturedCube"]
+
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] OCCFLAG 6621392=3 softRasterizer=enabled
+[wgpu] fps: 41.6 (417 frames, 0 draws/frame, 1.1 submits/frame: present 1.0, idle 0.1), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +0 (cache 0, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 0.0/0.0/0.0/0.0/0.0/0.0/0.0/0.0/0.0/32.0/0.0), TIME draw/up/bg/pipe/ensure/present/shader 0.31/0.39/0.00/0.08/0.17/2.68/0.01 ms/f, clears 1.0/f, passBegins 1.1/f, proxyCopies 0.0/f, worker busy 34% (6.6 ms/frame)
+[wgpu] stutter: 90 frames > 25 ms, 51 > 40 ms, worst 262 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 262: 260/0/0/0 0.2MB/0/0 | 261: 260/0/0/0 0.0MB/0/0 | 197: 14/0/42/0 0.2MB/0/1 | 194: 51/0/0/1 0.2MB/0/0
+[wasm] region 0x78400000 +256 MB (cleared 0 MB, heap end before 0x78291000)
+[wgpu] pipeline failed (terrain_cb_w_4lyr_pxm_spm::VS_TransformDeferred + terrain_cb_w_4lyr_pxm_spm::PS_TexturedDeferred_AlphaClip): An error occurred while generating Tint IR
+error: swizzle view instruction still has usages after lowering
+ - While initializing [RenderPipeline "terrain_cb_w_4lyr_pxm_spm::VS_TransformDeferred + terrain_cb_w_4lyr_pxm_spm::PS_TexturedDeferred_AlphaClip"]
+
+[wasm] mem: malloc arena 2181 MB (in use 2139 MB), game virtual 335/466 MB, resource virtual 271/512 MB, game physical 1/256 MB, resource physical 1/256 MB
+[wgpu] vehicle_paint6_enveff::PS_VehicleTexturedUnlit writes colour output(s) 0 with no render target bound
+[wgpu] vehicle_vehglass::PS_VehicleTexturedUnlit writes colour output(s) 0 with no render target bound
+[wgpu] terrain_cb_w_4lyr_2tex_blend_pxm::PS_TexturedUnlit writes colour output(s) 0 with no render target bound
+[wgpu] pipeline failed (vehicle_licenseplate::VS_VehicleTransformSkinD + vehicle_mesh::PS_DeferredVehicleTextured): An error occurred while generating Tint IR
+error: swizzle view instruction still has usages after lowering
+ - While initializing [RenderPipeline "vehicle_licenseplate::VS_VehicleTransformSkinD + vehicle_mesh::PS_DeferredVehicleTextured"]
+
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] OCCFLAG 6621392=3 softRasterizer=enabled
+[wgpu] fps: 33.5 (336 frames, 0 draws/frame, 1.1 submits/frame: present 1.0, idle 0.1), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +0 (cache 0, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 0.0/0.0/0.0/0.0/0.0/0.0/0.0/0.0/0.0/57.4/0.0), TIME draw/up/bg/pipe/ensure/present/shader 0.31/1.08/0.00/0.04/0.21/5.54/0.01 ms/f, clears 1.0/f, passBegins 1.1/f, proxyCopies 0.0/f, worker busy 74% (20.1 ms/frame)
+[wgpu] stutter: 129 frames > 25 ms, 91 > 40 ms, worst 283 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 283: 0/0/21/16 1.6MB/0/0 | 234: 0/0/11/18 12.0MB/0/0 | 230: 229/0/0/0 0.2MB/0/0 | 192: 6/0/3/13 5.0MB/0/0

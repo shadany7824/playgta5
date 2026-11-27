@@ -1,0 +1,129 @@
+[wasm] region 0x2200000 +466 MB (cleared 0 MB, heap end before 0x203d000)
+[wasm] region 0x1f600000 +8 MB (cleared 0 MB, heap end before 0x1f43d000)
+[wasm] region 0x20000000 +256 MB (cleared 0 MB, heap end before 0x1fe01000)
+[wasm] region 0x30200000 +256 MB (cleared 0 MB, heap end before 0x30001000)
+[wasm] region 0x40400000 +196 MB (cleared 0 MB, heap end before 0x40201000)
+[wasm] region 0x4ca00000 +220 MB (cleared 0 MB, heap end before 0x4c801000)
+[wasm] engine thread skipped: [RAGE] Hang Detect Thread
+[wasm] engine thread 1: [RAGE] Dependency 0
+[wgpu] start: ring 1516244992 size 33554432 canvas false shaders E:/gta/playgta5/mirror/playgta5.com/b/8b0b5899ed/shaders
+[wgpu] limits: maxDynamicUniformBuffersPerPipelineLayout=10 maxBindGroups=4 maxUniformBuffersPerShaderStage=12 maxVertexBuffers=8 maxInterStageShaderVariables=30 maxSampledTexturesPerShaderStage=48 maxColorAttachmentBytesPerSample=128
+[wgpu] device ready: D3D12 driver version 31.0.101.2140, features texture-compression-bc,texture-compression-bc-sliced-3d,depth32float-stencil8,float32-filterable,indirect-first-instance,rg11b10ufloat-renderable,bgra8unorm-storage,depth-clip-control,clip-distances,texture-formats-tier1,dual-source-blending
+[wgpu] pipeline recipes: 0 from this browser, 478 in the seed, 478 to compile ahead (1 at a time)
+[wasm] engine thread 2: [RAGE] DVD Reader
+[wasm] engine thread 3: [RAGE] DVD Streamer
+[wasm] engine thread 4: [RAGE] HDD Reader
+[wasm] engine thread 5: [RAGE] HDD Streamer
+[wasm] engine thread 6: [RAGE] RenderThread
+[wgpu] OCCFLAG 6621392=3 softRasterizer=enabled
+[wasm] engine thread 7: ResourcePlacementThread
+[wasm] engine thread 8: [GTA] ControlMgr Update Thread
+[wasm] engine thread 9: gtaSched:0
+[wasm] mem: malloc arena 1522 MB (in use 1489 MB), game virtual 115/466 MB, resource virtual 0/256 MB, game physical 0/256 MB, resource physical 0/256 MB
+[wasm] engine thread 10: [RAGE Audio] Headless mixer
+[wasm] engine thread skipped: AsyncBink
+[console] 109 lines of this thread not shown here (the server log has them; ?console=1 shows everything)
+[wasm] engine thread skipped: HttpQuery
+[wasm] engine thread skipped: BugstarAssertLogging
+[wasm] region 0x62c00000 +212 MB (cleared 0 MB, heap end before 0x62b16000)
+[wasm] engine thread 13: AudSched:0
+[wasm] engine thread 14: AudSched:1
+[wasm] engine thread 15: [RAGE Audio] - Engine Thread
+[wasm] engine thread 16: North Audio Update
+[wasm] start mode: sandbox
+[wasm] engine thread skipped: Replay Default Recording
+[wasm] engine thread skipped: Replay Ped Recording
+[wasm] engine thread skipped: Replay Vehicle Recording
+[wasm] engine thread skipped: Replay Game/Object Recording
+[wasm] engine thread skipped: Replay Quantize
+[wasm] engine thread skipped: Fwd Thread
+[wasm] engine thread skipped: Back Thread
+[wasm] engine thread 17: ReplayFileManager Thread
+[wasm] engine thread skipped: ReplayFile Notification Thread
+[wasm] engine thread 18: PathServerThread
+[wasm] engine thread 19: ShapeTestAsyncSched:1
+[wasm] engine thread 20: AsyncShapeTestMgr
+[wasm] engine thread 21: ClothInstanceSched:0
+[wasm] engine thread 22: ptxUpdate:0
+[wasm] engine thread 23: ptxUpdate:1
+[wasm] engine thread 24: RMPTFX Update
+[console] 87 lines of this thread not shown here (the server log has them; ?console=1 shows everything)
+[console] 236 lines of this thread not shown here (the server log has them; ?console=1 shows everything)
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 2 (16 ms, longest 15 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] OCCFLAG 6621392=3 softRasterizer=enabled
+[wgpu] fps: 30.3 (303 frames, 5 draws/frame, 1.1 submits/frame: present 1.0, idle 0.1, readback 0.0, texture upload 0.0), draws waiting for a compiling pipeline +23, validation errors +0, clamped draws +0, bind groups +4 (cache 4, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 2.0/11.7/5.9/0.0/1.1/0.0/1.1/1.1/11.7/14.5/1.1), TIME draw/up/bg/pipe/ensure/present/shader 0.89/0.31/0.14/0.04/0.29/1.79/0.01 ms/f, clears 1.0/f, passBegins 1.1/f, proxyCopies 0.0/f, worker busy 22% (8.2 ms/frame)
+[wgpu] stutter: 48 frames > 25 ms, 18 > 40 ms, worst 3541 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 3541: 3071/0/168/24 3.9MB/0/3 | 391: 30/0/0/22 4.3MB/0/0 | 300: 299/0/0/0 0.2MB/0/0 | 247: 73/0/0/41 3.1MB/0/0
+[console] 451 lines of this thread not shown here (the server log has them; ?console=1 shows everything)
+[wgpu] cloth_default::PS_CascadeShadows_texture writes colour output(s) 0 with no render target bound
+[wgpu] trees::PS_CascadeShadows_texture writes colour output(s) 0 with no render target bound
+[console] 4418 lines of this thread not shown here (the server log has them; ?console=1 shows everything)
+[wgpu] water::PS_OceanHeight writes colour output(s) 0 with no render target bound
+[wgpu] cloth_default::PS_TexturedUnlit writes colour output(s) 0 with no render target bound
+[wgpu] terrain_cb_4lyr_pxm::PS_TexturedUnlit writes colour output(s) 0 with no render target bound
+[wasm] engine thread 25: [GTA Audio] User Music Scan Thread
+[wgpu] OCCFLAG 6621392=3 softRasterizer=enabled
+[wgpu] fps: 55.5 (565 frames, 11 draws/frame, 1.0 submits/frame: present 1.0, idle 0.1, texture upload 0.0), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +2 (cache 6, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 4.8/23.2/11.6/0.0/1.0/0.0/1.0/1.0/23.2/21.6/1.0), TIME draw/up/bg/pipe/ensure/present/shader 0.79/0.19/0.11/0.02/0.14/1.01/0.01 ms/f, clears 1.0/f, passBegins 1.0/f, proxyCopies 0.0/f, worker busy 14% (2.5 ms/frame)
+[wgpu] stutter: 35 frames > 25 ms, 7 > 40 ms, worst 344 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 344: 343/0/0/0 0.2MB/0/0 | 279: 278/0/0/0 0.0MB/0/0 | 242: 241/0/0/0 0.0MB/0/0 | 234: 231/0/0/0 0.0MB/0/1
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[console] 306 lines of this thread not shown here (the server log has them; ?console=1 shows everything)
+[console] 621 lines of this thread not shown here (the server log has them; ?console=1 shows everything)
+[wgpu] deferred_lighting::PS_ambientScaleEllipsoid writes colour output(s) 1,2 with no render target bound
+[console] 766 lines of this thread not shown here (the server log has them; ?console=1 shows everything)
+[wgpu] ptfx_sprite::PS_RGBA_lit_softBM0 writes colour output(s) 1,2 with no render target bound
+[wgpu] ptfx_model::PS_Textured_Zero_DOF writes colour output(s) 1,2 with no render target bound
+[wgpu] ptfx_sprite::PS_RGBA_litBM0 writes colour output(s) 1,2 with no render target bound
+[wgpu] emissivenight::PS_TexturedUnlit writes colour output(s) 0 with no render target bound
+[wgpu] cloth_normal_spec_tnt::PS_TexturedUnlit writes colour output(s) 0 with no render target bound
+[wgpu] emissive::PS_TexturedUnlit writes colour output(s) 0 with no render target bound
+[wgpu] terrain_cb_4lyr_lod::PS_TexturedUnlit writes colour output(s) 0 with no render target bound
+[wgpu] terrain_cb_4lyr_2tex_blend_lod::PS_TexturedUnlit writes colour output(s) 0 with no render target bound
+[wasm] region 0x77e00000 +256 MB (cleared 0 MB, heap end before 0x77c27000)
+[wgpu] OCCFLAG 6621392=3 softRasterizer=enabled
+[wgpu] fps: 50.5 (506 frames, 13 draws/frame, 1.0 submits/frame: present 1.0, idle 0.0, texture upload 0.0), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +1 (cache 7, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 6.7/27.4/13.7/0.0/1.6/0.0/1.0/1.0/27.4/32.5/1.0), TIME draw/up/bg/pipe/ensure/present/shader 0.92/0.47/0.13/0.03/0.14/1.62/0.01 ms/f, clears 1.0/f, passBegins 1.0/f, proxyCopies 0.0/f, worker busy 28% (5.4 ms/frame)
+[wgpu] stutter: 60 frames > 25 ms, 25 > 40 ms, worst 389 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 389: 388/0/0/0 0.2MB/0/0 | 270: 9/0/0/1 0.2MB/0/0 | 252: 250/0/0/0 0.2MB/0/0 | 221: 0/0/2/0 0.2MB/0/1
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wasm] mem: malloc arena 2182 MB (in use 2133 MB), game virtual 336/466 MB, resource virtual 354/512 MB, game physical 1/256 MB, resource physical 1/256 MB
+[wgpu] vehicle_paint6_enveff::PS_VehicleTexturedUnlit writes colour output(s) 0 with no render target bound
+[wgpu] vehicle_vehglass::PS_VehicleTexturedUnlit writes colour output(s) 0 with no render target bound
+[wgpu] terrain_cb_w_4lyr_2tex_blend_pxm::PS_TexturedUnlit writes colour output(s) 0 with no render target bound
+[wgpu] glass_env::PS_Textured_Zero_DOF writes colour output(s) 1,2 with no render target bound
+[wgpu] spec::PS_Textured_Zero_DOF writes colour output(s) 1,2 with no render target bound
+[wgpu] normal_spec::PS_Textured_Zero_DOF writes colour output(s) 1,2 with no render target bound
+[wgpu] OCCFLAG 6621392=3 softRasterizer=enabled
+[wgpu] fps: 29.3 (299 frames, 31 draws/frame, 1.0 submits/frame: present 1.0, readback 0.0, idle 0.0), draws waiting for a compiling pipeline +310, validation errors +0, clamped draws +0, bind groups +936 (cache 943, evicted 0), pipelines +50 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 11.3/48.2/30.7/18.8/1.3/0.0/1.3/2.7/43.3/93.7/1.0), TIME draw/up/bg/pipe/ensure/present/shader 4.68/1.50/0.89/0.30/0.22/1.91/1.45 ms/f, clears 1.1/f, passBegins 1.3/f, proxyCopies 0.0/f, worker busy 76% (24.8 ms/frame)
+[wgpu] stutter: 118 frames > 25 ms, 82 > 40 ms, worst 1458 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 1458: 98/0/340/1 1.2MB/0/54 | 358: 0/0/54/3 0.4MB/0/23 | 300: 299/0/0/0 0.0MB/0/0 | 168: 0/0/3/51 9.4MB/0/1
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 7 (1018 ms, longest 990 ms), skipped 0 (previous still in flight), ring full 41 ms, fences 0 ms
+[wasm] mem: malloc arena 2182 MB (in use 2142 MB), game virtual 337/466 MB, resource virtual 453/512 MB, game physical 0/256 MB, resource physical 0/256 MB
+[wgpu] world shown: title screen held 6.9 s for compiling pipelines (569 draws skipped meanwhile, 0 still compiling); compiled ahead 290, used 170, compiled when first drawn 56; shader variants for the inter-stage limit: 0 vertex, 0 pixel
+[wgpu] OCCFLAG 6621392=3 softRasterizer=enabled
+[wgpu] fps: 3.7 (37 frames, 3202 draws/frame, 2.4 submits/frame: readback 1.4, present 0.9, texture upload 0.0), draws waiting for a compiling pipeline +448, validation errors +0, clamped draws +0, bind groups +162 (cache 1105, evicted 0), pipelines +6 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 1104.9/4111.3/3095.6/2976.9/77.4/0.0/58.1/304.4/3296.5/3441.5/2.4), TIME draw/up/bg/pipe/ensure/present/shader 178.27/11.67/38.32/3.52/8.98/11.41/2.35 ms/f, clears 20.0/f, passBegins 58.2/f, proxyCopies 7.5/f, worker busy 94% (263.7 ms/frame)
+[wgpu] stutter: 37 frames > 25 ms, 37 > 40 ms, worst 638 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 638: 61/0/0/37 1.9MB/0/19 | 492: 120/0/0/14 1.1MB/0/15 | 456: 4/0/0/8 1.5MB/0/60 | 405: 52/0/0/48 1.8MB/0/20
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] deferred_lighting::PS_ambientScaleTexture writes colour output(s) 1,2 with no render target bound
+[wasm] mem: malloc arena 2182 MB (in use 2147 MB), game virtual 338/466 MB, resource virtual 497/512 MB, game physical 0/256 MB, resource physical 0/256 MB
+[wgpu] vehicle_dash_emissive::PS_VehicleTextured_ZeroDOF writes colour output(s) 1,2 with no render target bound
+[wgpu] ptfx_sprite::PS_RGB_refractBM0 writes colour output(s) 1,2 with no render target bound
+[wasm] region 0x88800000 +256 MB (cleared 0 MB, heap end before 0x88661000)
+[wgpu] OCCFLAG 6621392=3 softRasterizer=enabled
+[wgpu] fps: 4.6 (46 frames, 3220 draws/frame, 2.4 submits/frame: readback 1.4, present 1.0), draws waiting for a compiling pipeline +24, validation errors +0, clamped draws +0, bind groups +45 (cache 1150, evicted 0), pipelines +6 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 1107.9/4130.0/3110.8/2992.7/76.2/0.0/56.7/303.8/3309.3/3416.0/2.4), TIME draw/up/bg/pipe/ensure/present/shader 152.42/8.86/28.50/3.33/7.49/10.91/2.68 ms/f, clears 21.5/f, passBegins 56.7/f, proxyCopies 7.0/f, worker busy 95% (208.0 ms/frame)
+[wgpu] stutter: 46 frames > 25 ms, 46 > 40 ms, worst 303 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 303: 14/0/16/1 0.5MB/0/28 | 283: 16/0/55/1 0.5MB/0/4 | 282: 8/0/19/6 1.3MB/0/40 | 267: 11/0/9/4 0.6MB/0/3
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wasm] mem: malloc arena 2440 MB (in use 2404 MB), game virtual 338/466 MB, resource virtual 513/768 MB, game physical 0/256 MB, resource physical 0/256 MB
+[wgpu] cloth_default::PS_Textured_Zero_DOF writes colour output(s) 1,2 with no render target bound
+[wgpu] OCCFLAG 6621392=3 softRasterizer=enabled
+[wgpu] fps: 4.6 (47 frames, 3235 draws/frame, 2.4 submits/frame: readback 1.4, present 1.0), draws waiting for a compiling pipeline +27, validation errors +0, clamped draws +0, bind groups +19 (cache 1169, evicted 0), pipelines +7 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 1125.4/4153.4/3121.8/3001.3/77.2/0.0/57.2/307.4/3326.1/3422.9/2.3), TIME draw/up/bg/pipe/ensure/present/shader 156.50/8.25/27.66/2.99/7.49/10.29/4.15 ms/f, clears 23.0/f, passBegins 57.2/f, proxyCopies 7.0/f, worker busy 94% (201.3 ms/frame)
+[wgpu] stutter: 47 frames > 25 ms, 47 > 40 ms, worst 364 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 364: 16/0/22/1 0.5MB/0/16 | 271: 12/0/3/40 6.8MB/0/16 | 270: 15/0/3/3 0.5MB/0/27 | 257: 34/0/0/9 0.8MB/0/4
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wasm] mem: malloc arena 2440 MB (in use 2405 MB), game virtual 339/466 MB, resource virtual 530/768 MB, game physical 0/256 MB, resource physical 0/256 MB
+[wgpu] OCCFLAG 6621392=3 softRasterizer=enabled
+[wgpu] fps: 4.8 (49 frames, 3244 draws/frame, 2.3 submits/frame: readback 1.3, present 1.0, idle 0.0), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +4 (cache 1173, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 1129.1/4164.3/3126.2/3003.9/77.2/0.0/57.2/306.0/3337.4/3440.9/2.3), TIME draw/up/bg/pipe/ensure/present/shader 151.26/7.68/27.42/2.44/7.68/9.08/1.42 ms/f, clears 23.0/f, passBegins 57.2/f, proxyCopies 7.0/f, worker busy 94% (190.6 ms/frame)
+[wgpu] stutter: 49 frames > 25 ms, 49 > 40 ms, worst 253 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 253: 4/0/0/33 7.0MB/0/23 | 252: 19/0/0/3 3.9MB/0/22 | 241: 21/0/15/8 0.5MB/0/6 | 238: 22/0/0/1 1.7MB/0/21
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] vehicle_paint3::PS_VehicleTexturedUnlit writes colour output(s) 0 with no render target bound
+[wasm] mem: malloc arena 2440 MB (in use 2405 MB), game virtual 339/466 MB, resource virtual 532/768 MB, game physical 0/256 MB, resource physical 0/256 MB
+[wgpu] vehicle_paint1::PS_VehicleTexturedUnlit writes colour output(s) 0 with no render target bound
+[wgpu] OCCFLAG 6621392=3 softRasterizer=enabled
+[wgpu] fps: 4.9 (50 frames, 3254 draws/frame, 2.2 submits/frame: readback 1.3, present 0.9), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +5 (cache 1178, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 1131.8/4176.3/3140.1/3020.4/77.1/0.0/57.1/308.1/3345.2/3441.9/2.2), TIME draw/up/bg/pipe/ensure/present/shader 146.94/7.52/27.87/2.50/7.88/9.55/1.49 ms/f, clears 23.0/f, passBegins 57.1/f, proxyCopies 7.0/f, worker busy 94% (194.6 ms/frame)
+[wgpu] stutter: 50 frames > 25 ms, 50 > 40 ms, worst 343 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 343: 16/0/27/30 5.8MB/0/15 | 253: 32/0/39/1 0.5MB/0/23 | 240: 30/0/4/6 0.5MB/0/4 | 229: 13/0/2/1 0.5MB/0/29
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wasm] mem: malloc arena 2440 MB (in use 2405 MB), game virtual 339/466 MB, resource virtual 539/768 MB, game physical 3/256 MB, resource physical 3/256 MB

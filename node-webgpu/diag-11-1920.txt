@@ -1,0 +1,1365 @@
+[harness] waiting for workers...
+[harness] waiting for workers...
+[harness] worker signal: io loaded
+[harness] starting game.js
+[wasm] region 0x2200000 +466 MB (cleared 0 MB, heap end before 0x203d000)
+[wasm] region 0x1f600000 +8 MB (cleared 0 MB, heap end before 0x1f43d000)
+[wasm] region 0x20000000 +256 MB (cleared 0 MB, heap end before 0x1fe01000)
+[wasm] region 0x30200000 +256 MB (cleared 0 MB, heap end before 0x30001000)
+[wasm] region 0x40400000 +196 MB (cleared 0 MB, heap end before 0x40201000)
+[wasm] region 0x4ca00000 +220 MB (cleared 0 MB, heap end before 0x4c801000)
+[harness] runtime initialized
+Warning: *** Unknown option 'wgpu' on command line (use -Xwgpu to suppress).
+[wasm] engine thread skipped: [RAGE] Hang Detect Thread
+[wasm] engine thread 1: [RAGE] Dependency 0
+[wgpu] start: ring 1516244992 size 33554432 canvas false shaders E:/gta/playgta5/mirror/playgta5.com/b/8b0b5899ed/shaders
+[wgpu] limits: maxDynamicUniformBuffersPerPipelineLayout=10 maxBindGroups=4 maxUniformBuffersPerShaderStage=12 maxVertexBuffers=8 maxInterStageShaderVariables=30 maxSampledTexturesPerShaderStage=48 maxColorAttachmentBytesPerSample=128
+[wgpu] device ready: D3D12 driver version 31.0.101.2140, features texture-compression-bc,texture-compression-bc-sliced-3d,depth32float-stencil8,float32-filterable,indirect-first-instance,rg11b10ufloat-renderable,bgra8unorm-storage,depth-clip-control,clip-distances,texture-formats-tier1,dual-source-blending
+[wgpu] pipeline recipes: 0 from this browser, 478 in the seed, 478 to compile ahead (1 at a time)
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '/game/')
+[wasm] engine thread 2: [RAGE] DVD Reader
+[wasm] engine thread 3: [RAGE] DVD Streamer
+[wasm] engine thread 4: [RAGE] HDD Reader
+[wasm] engine thread 5: [RAGE] HDD Streamer
+Warning: Settings file missing, regenerating!
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '.\')
+[wasm] engine thread 6: [RAGE] RenderThread
+[wgpu] lodpatch: wrote 0.3 to 23318984 + flag bit1 at 23319072 (bits 1050253722)
+[wasm] engine thread 7: ResourcePlacementThread
+[wasm] engine thread 8: [GTA] ControlMgr Update Thread
+[wasm] engine thread 9: gtaSched:0
+[wasm] mem: malloc arena 1522 MB (in use 1489 MB), game virtual 115/466 MB, resource virtual 0/256 MB, game physical 0/256 MB, resource physical 0/256 MB
+[wasm] engine thread 10: [RAGE Audio] Headless mixer
+[wasm] engine thread skipped: AsyncBink
+Error: Unable to open movie: Bink is not available on the WebAssembly build (no binkw64 for wasm; movies cannot be played)
+[wasm] window resized to 640x360 (was 1920x1080)
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local TextureSamplerDiffPal clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local NoiseSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local NoiseSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local NoiseSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local DepthMapTexSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local DepthMapTexSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local DepthMapTexSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local DepthMapTexSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local DepthMapTexSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local DepthMapTexSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local DepthMapTexSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local DepthMapTexSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local DepthMapTexSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local DepthMapTexSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local DepthMapTexSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local DepthMapTexSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local DepthMapTexSampler clashes with a global.
+Warning: [Graphics] grcProgram::ConnectCBuffer()...local noiseSampler clashes with a global.
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+Warning: [Parser] Couldn't find an enum name for value -1 in PSO file (enum type namehash = 27159db6)
+[console] 109 lines of this thread not shown here (the server log has them; ?console=1 shows everything)
+[wasm] engine thread skipped: HttpQuery
+[wasm] engine thread skipped: BugstarAssertLogging
+Warning: [file_asset] Cannot create file 'common:/data/debug/datetest.txt'.
+** POSSIBLE STALL: time bar PreLoadingScreensInit took 2656.71 ms, stack follows
+Warning: [streaming] [wasm] streaming dev 0: requested 3 (priority 3), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 3 (priority 3), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] strStreamingLoaderManager::Flush - waiting for pending operations
+Warning: [streaming] strStreamingLoaderManager::Flush - waiting for pending operations
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '.\')
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '.\')
+Warning: [streaming] strStreamingLoaderManager::Flush - waiting for pending operations
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '.\')
+Error: [ragenet_transaction] NetworkAssertf(m_CxnMgr) FAILED
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '.\')
+Warning: [ui] Attempted to flip invoke buffers before we'd had a chance to flush the 5 invokes! We got ahead of ourselves, and so we skipped the buffer flip this time.
+Warning: [ui] Attempted to flip invoke buffers before we'd had a chance to flush the 5 invokes! We got ahead of ourselves, and so we skipped the buffer flip this time.
+Warning: [streaming] strStreamingLoaderManager::Flush - waiting for pending operations
+Warning: [Graphics] LookupVar(GBufferTexture0Param) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(hiDofUseSmallBlurOnly) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(Filmic1) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(GLRTex) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(seeThroughColorVisibleHot) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(DamageOverlayMisc) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(DamageOverlayForward) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(DamageOverlayTangent) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(DamageOverlayCenterPos) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(HDRTextureAA) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(PostFxHHTexture) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(BackBuffer) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(LensArtefactsTex) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(LightStreaksBlurColWeights) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(LightStreaksBlurColWeights) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(Bluriness) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(ConsoleEdgeSharpness) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(ConsoleEdgeThreshold) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(ConsoleEdgeThresholdMin) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(cocSpreadKernelRadius) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(AdaptiveDOFParamsBuffer) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(LightStreaksBlurColWeights) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(Bluriness) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(ConsoleEdgeSharpness) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(ConsoleEdgeThreshold) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(ConsoleEdgeThresholdMin) failed on required local (maybe due to unused var stripping?)
+[wasm] region 0x60000000 +212 MB (cleared 37 MB, heap end before 0x62507000)
+Warning: [Audio] Failed to find audio:/config/test_sounds.dat54
+[wasm] engine thread 13: AudSched:0
+[wasm] engine thread 14: AudSched:1
+[wasm] engine thread 15: [RAGE Audio] - Engine Thread
+[wasm] engine thread 16: North Audio Update
+Warning: [Control] 'INPUT_WEAPON_SPECIAL_TWO' conflicts with 'INPUT_PARACHUTE_BRAKE_RIGHT'.
+Warning: [Control] Mapping Conflict! KEY_E is mapped to INPUT_WEAPON_SPECIAL_TWO and INPUT_PARACHUTE_BRAKE_RIGHT!
+Warning: [Control] 'INPUT_VEH_HANDBRAKE' conflicts with 'INPUT_CELLPHONE_EXTRA_OPTION'.
+Warning: [Control] Mapping Conflict! KEY_SPACE is mapped to INPUT_VEH_HANDBRAKE and INPUT_CELLPHONE_EXTRA_OPTION!
+Warning: [Control] 'INPUT_VEH_FLY_ATTACK' conflicts with 'INPUT_CELLPHONE_EXTRA_OPTION'.
+Warning: [Control] Mapping Conflict! KEY_SPACE is mapped to INPUT_VEH_FLY_ATTACK and INPUT_CELLPHONE_EXTRA_OPTION!
+Warning: [Control] 'INPUT_MELEE_ATTACK_HEAVY' conflicts with 'INPUT_CELLPHONE_EXTRA_OPTION'.
+Warning: [Control] Mapping Conflict! KEY_SPACE is mapped to INPUT_MELEE_ATTACK_HEAVY and INPUT_CELLPHONE_EXTRA_OPTION!
+Warning: [Control] 'INPUT_PARACHUTE_BRAKE_RIGHT' conflicts with 'INPUT_WEAPON_SPECIAL_TWO'.
+Warning: [Control] Mapping Conflict! KEY_E is mapped to INPUT_PARACHUTE_BRAKE_RIGHT and INPUT_WEAPON_SPECIAL_TWO!
+Warning: [Control] 'INPUT_CELLPHONE_EXTRA_OPTION' conflicts with 'INPUT_VEH_HANDBRAKE'.
+Warning: [Control] Mapping Conflict! KEY_SPACE is mapped to INPUT_CELLPHONE_EXTRA_OPTION and INPUT_VEH_HANDBRAKE!
+Warning: [Control] 'INPUT_CELLPHONE_EXTRA_OPTION' conflicts with 'INPUT_VEH_FLY_ATTACK'.
+Warning: [Control] Mapping Conflict! KEY_SPACE is mapped to INPUT_CELLPHONE_EXTRA_OPTION and INPUT_VEH_FLY_ATTACK!
+Warning: [Control] 'INPUT_CELLPHONE_EXTRA_OPTION' conflicts with 'INPUT_MELEE_ATTACK_HEAVY'.
+Warning: [Control] Mapping Conflict! KEY_SPACE is mapped to INPUT_CELLPHONE_EXTRA_OPTION and INPUT_MELEE_ATTACK_HEAVY!
+[wasm] start mode: sandbox
+Warning: [streaming] strStreamingLoaderManager::Flush - waiting for pending operations
+Warning: [streaming] strStreamingLoaderManager::Flush - waiting for pending operations
+Warning: [Graphics] LookupVar(DebugLightingParams) failed on required local (maybe due to unused var stripping?)
+Warning: [render] Tile size selected for tiled rendering is 16 (640 x 360)
+Warning: [Graphics] LookupVar(dstTextureSize) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(gbufferTextureDepth) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(gbufferTexture0) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(gbufferTexture1) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(gbufferTexture2) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(gbufferTexture3) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(deferredLightTexture1P) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(deferredLightTexture) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(deferredLightTexture1) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(deferredLightScreenSize) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(gbufferStencilTexture) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(lightsData) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(numLights) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(standardTexture1) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(deferredLightConsts) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(deferredLightParams0) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(deferredLightParams1) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(deferredLightParams2) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(deferredLightParams3) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(deferredLightParams4) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(deferredLightParams5) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(deferredLightPosition) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(deferredLightDirection) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(deferredLightTangent) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(deferredLightColourAndIntensity) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(deferredLightTexture) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(dShadowParam0) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(normalBuffer) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(perspectiveShear) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(gCSMShaderVars_deferred) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(intermediateTargetAA) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(gCSMShaderVars_deferred) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(deferredLightTexture1) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(deferredLightTexture) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(deferredLightScreenSize) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(DepthResolveTexture) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(ExtraParams0) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(ExtraParams1) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(ExtraParams2) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(ExtraParams3) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(ExtraParams4) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(PerspectiveShearParams0) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(PerspectiveShearParams1) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(PerspectiveShearParams2) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(PrevViewProj) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(StencilCopyTexture) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(deferredLightTexture1) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(deferredLightTexture) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(deferredLightScreenSize) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(blurDirection) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(depthOrigTexture) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(normalOrigTexture) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(origDepthTexParams) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(ExtraParams0) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(ExtraParams1) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(ExtraParams2) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(ExtraParams3) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(ExtraParams4) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(PerspectiveShearParams0) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(PerspectiveShearParams1) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(PerspectiveShearParams2) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(PrevViewProj) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(StencilCopyTexture) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(g_f4SampleWeights) failed on required local (maybe due to unused var stripping?)
+[wasm] engine thread skipped: Replay Default Recording
+[wasm] engine thread skipped: Replay Ped Recording
+[wasm] engine thread skipped: Replay Vehicle Recording
+[wasm] engine thread skipped: Replay Game/Object Recording
+[wasm] engine thread skipped: Replay Quantize
+[wasm] engine thread skipped: Fwd Thread
+[wasm] engine thread skipped: Back Thread
+[wasm] engine thread 17: ReplayFileManager Thread
+[wasm] engine thread skipped: ReplayFile Notification Thread
+Warning: [stat] All 'SaveCategory' must be set to '0' for non character stats, stat named '_SaveMpTimestamp_1' setup is wrong.
+Warning: [stat] All 'SaveCategory' must be set to '0' for non character stats, stat named '_SaveMpTimestamp_2' setup is wrong.
+Warning: [stat] All 'SaveCategory' must be set to '0' for non character stats, stat named '_SaveMpTimestamp_3' setup is wrong.
+Warning: [stat] All 'SaveCategory' must be set to '0' for non character stats, stat named '_SaveMpTimestamp_4' setup is wrong.
+Warning: [stat] All 'SaveCategory' must be set to '0' for non character stats, stat named '_SaveMpTimestamp_5' setup is wrong.
+Warning: [stat] All 'SaveCategory' must be set to '0' for non character stats, stat named '_MpProfileStatVersion_1' setup is wrong.
+Warning: [stat] All 'SaveCategory' must be set to '0' for non character stats, stat named '_MpProfileStatVersion_2' setup is wrong.
+Warning: [stat] All 'SaveCategory' must be set to '0' for non character stats, stat named '_MpProfileStatVersion_3' setup is wrong.
+Warning: [stat] All 'SaveCategory' must be set to '0' for non character stats, stat named '_MpProfileStatVersion_4' setup is wrong.
+Warning: [stat] All 'SaveCategory' must be set to '0' for non character stats, stat named '_MpProfileStatVersion_5' setup is wrong.
+Warning: [script] No script metadata at common:/data/scriptMetadata; multiplayer metadata lookups will be unavailable
+Warning: [Parser] Couldn't find structure definition for hash 0x36b97786
+Warning: [Parser] Couldn't find structure definition for hash 0x7e35ff90
+Error: [Parser] Couldn't find a parStructure to use for loading. Hash was 0x36b97786 (from Loading file 'platformcrc:/data/tune/defaulttasks.ymt.pso' in place)
+Error: [Parser] Couldn't find a parStructure to use for loading. Hash was 0x7e35ff90 (from Loading file 'platformcrc:/data/tune/defaulttasks.ymt.pso' in place)
+Warning: [Parser] Couldn't find structure definition for hash 0x72e3bf2b
+Error: [Parser] Couldn't find a parStructure to use for loading. Hash was 0x72e3bf2b (from Loading file 'platformcrc:/data/tune/physicstasks.ymt.pso' in place)
+Warning: [Graphics] LookupVar(HiResDepthPointMap) failed on required local (maybe due to unused var stripping?)
+[wasm] engine thread 18: PathServerThread
+[wasm] engine thread 19: ShapeTestAsyncSched:1
+[wasm] engine thread 20: AsyncShapeTestMgr
+[wasm] engine thread 21: ClothInstanceSched:0
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 1), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 1 (priority 1), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] strStreamingLoaderManager::Flush - waiting for pending operations
+Warning: [streaming] strStreamingLoaderManager::Flush - waiting for pending operations
+Warning: [streaming] strStreamingLoaderManager::Flush - waiting for pending operations
+Warning: [streaming] strStreamingLoaderManager::Flush - waiting for pending operations
+Warning: [streaming] strStreamingLoaderManager::Flush - waiting for pending operations
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '.\')
+Warning: [streaming] strStreamingLoaderManager::Flush - waiting for pending operations
+Warning: [Graphics] LookupVar(UpdateParams2) failed on required local (maybe due to unused var stripping?)
+Warning: [streaming] strStreamingLoaderManager::Flush - waiting for pending operations
+Warning: [streaming] strStreamingLoaderManager::Flush - waiting for pending operations
+Warning: [streaming] strStreamingLoaderManager::Flush - waiting for pending operations
+Warning: [Graphics] LookupVar(DecorationTattooAdjust) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(PaletteSelector2) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(TerrainGridProjDir) failed on required local (maybe due to unused var stripping?)
+[wasm] engine thread 22: ptxUpdate:0
+[wasm] engine thread 23: ptxUpdate:1
+[wasm] engine thread 24: RMPTFX Update
+Warning: [Graphics] Attempting to release NULL resource
+Warning: [Graphics] Attempting to release NULL resource
+Warning: [Graphics] Attempting to release NULL resource
+Warning: [Graphics] Attempting to release NULL resource
+Warning: [Graphics] Attempting to release NULL resource
+Warning: [Graphics] Attempting to release NULL resource
+Warning: [Graphics] Attempting to release NULL resource
+Warning: [Graphics] Attempting to release NULL resource
+Warning: [Graphics] Attempting to release NULL resource
+Warning: [Graphics] Attempting to release NULL resource
+Warning: [streaming] strStreamingLoaderManager::Flush - waiting for pending operations
+Warning: [streaming] strStreamingLoaderManager::Flush - waiting for pending operations
+Warning: [Graphics] LookupVar(deferredLightScreenSize) failed on required local (maybe due to unused var stripping?)
+Error: [Parser] Couldn't find enum value for node MenuOption, value MENU_OPTION_DISPLAY_CONTROL_CONFIG2 (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (198), InputGroup (-1) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (198), InputGroup (-1) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (198), InputGroup (-1) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Error: [Parser] Couldn't find enum value for node MenuUniqueId, value MENU_UNIQUE_ID_SETTINGS_VIDEO (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (198), InputGroup (-1) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (198), InputGroup (-1) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (198), InputGroup (-1) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (198), InputGroup (-1) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (198), InputGroup (-1) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (198), InputGroup (-1) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (198), InputGroup (-1) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (198), InputGroup (-1) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (198), InputGroup (-1) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (198), InputGroup (-1) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (9) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (9) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (9) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (9) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (9) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (9) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (9) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (9) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (9) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (9) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (9) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Error: [Parser] Couldn't find enum value for node MenuScreen, value MENU_UNIQUE_ID_SETTINGS_VIDEO (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Error: [Parser] Couldn't find enum value for node MenuPref, value PREF_CONTROLLER_LIGH_EFFECT (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+Warning: [ui] Unknown InputType (-1), InputGroup (10) and eInstructionButtons (9999) in order list! (from Loading file 'common:/data/ui/pausemenu.xml' into structure 'CMenuArray')
+[console] 411 lines of this thread not shown here (the server log has them; ?console=1 shows everything)
+Warning: [streaming] strStreamingLoaderManager::Flush - waiting for pending operations
+[wgpu] approximated D3D features: sampler border addressing: border colour 0.00,0.00,0.00,0.00 x5 | sampler MipLODBias: -1.00 x5 | sampler border addressing: border colour 1.00,1.00,1.00,1.00 x1 | sampler MipLODBias: 1.15 x1 | sampler MipLODBias: -1.50 x1 | sampler MipLODBias: -0.50 x1
+[wgpu] draws by target since last dump: rt0=1251(640x360 bgra8unorm) ds=5547 x1779
+[wgpu] top pipelines: scaleform_shaders::VS_TexturedSprite + scaleform_shaders::PS_TexturedSprite_Alpha x1184 | scaleform_shaders::VS_GFill_ColorPremult + scaleform_shaders::PS_GFill_ColorPremult x595
+[wgpu] screenshot E:/gta/playgta5/node-webgpu/shots/11-1920/shot_000300.png 640x360 bgra8unorm non-black 11522; draws so far 1779, skipped 23
+[wgpu] fps: 30.9 (309 frames, 5 draws/frame, 1.1 submits/frame: present 1.0, idle 0.1, readback 0.0, texture upload 0.0, other 0.0), draws waiting for a compiling pipeline +23, validation errors +0, clamped draws +0, bind groups +4 (cache 4, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 2.1/11.9/6.0/0.0/1.1/0.0/1.1/1.1/11.9/15.9/1.1), TIME draw/up/bg/pipe/ensure/present/shader 0.79/0.23/0.10/0.03/0.15/2.43/0.02 ms/f, clears 1.0/f, passBegins 1.1/f, proxyCopies 0.0/f, worker busy 24% (8.9 ms/frame)
+[wgpu] stutter: 49 frames > 25 ms, 21 > 40 ms, worst 3562 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 3562: 2943/0/148/55 3.9MB/0/0 | 286: 284/0/0/0 0.2MB/0/0 | 263: 45/0/0/80 3.1MB/0/4 | 207: 20/0/0/0 1.3MB/0/0
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 2 (24 ms, longest 22 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+Warning: [streaming] 1.901537 seconds in LoadImageDirectories
+Warning: [streaming] [wasm] streaming dev 0: requested 184 (priority 184), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 184 (priority 184), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Error: Request recording commoncrc:/data/levels/gta5/startupreq.ymt does not exist
+** POSSIBLE STALL: time bar Load RPF files took 2979.24 ms, stack follows
+Warning: [streaming] strStreamingLoaderManager::Flush - waiting for pending operations
+Warning: Ped HD assets for 'MP_M_ExArmy_01+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'MP_G_M_Pros_01+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Ashley+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Bankman+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Barry+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_BestMen+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Beverly+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Bride+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Natalia+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_ONeil+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Ortega+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'CSB_JackHowitzer+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'CSB_ProlSec+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_ProlSec_02+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Manuel+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_JimmyBoston+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_JoeMinuteMan+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Paper+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Priest+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Car3guy1+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Car3guy2+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Casey+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Chef+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Clay+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_ClayPain+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Cletus+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_ChrisFormage+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_ChengSr+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Dale+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Dreyfuss+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'ig_JohnnyKlebitz+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Josh+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Josef+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Janet+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_JewelAss+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_KerryMcIntosh+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_FBISuit_01+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Groom+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Hao+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Hunter+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_LifeInvad_01+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_LifeInvad_02+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_MaryAnn+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Maude+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'CSB_Maude+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Michelle+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_MrsPhillips+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_MRS_Thornhill+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Magenta+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Marnie+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Nigel+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Old_Man1A+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Old_Man2+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Terry+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_TomEpsilon+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'IG_Zimbor+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_F_M_Drowned_01+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_F_M_Corpse_01+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_F_M_Miranda+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_F_M_ProMourn_01+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_F_O_MovieStar+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_F_O_ProlHost_01+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_F_Y_PoppyMich+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_F_Y_Princess+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_F_Y_SpyActress+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_F_Y_HotPosh_01+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_F_Y_BikerChic+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_F_Y_COMJane+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_F_Y_corpse_01+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_F_Y_corpse_02+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_M_M_Aldinapoli+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'CSB_Anton+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_M_Y_Abner+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_M_Y_AntonB+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_M_M_MarkFost+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_M_Y_BabyD+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_M_M_BankMan+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_M_M_BikeHire_01+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_M_M_FIBArchitect+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_M_M_FilmDirector+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_M_M_GlenStank_01+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_M_M_Griff_01+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_M_Y_Justin+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_M_M_JewelSec_01+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_M_M_JewelThief+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_M_M_Jesus_01+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_M_M_PartyTarget+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_M_M_ProMourn_01+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_M_M_ProlSec_01+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_M_M_RivalPap+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_M_M_SpyActor+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_M_M_StreetArt_01+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_M_M_WillyFist+hi' not found! Disabling this type for HD.
+Warning: Ped HD assets for 'U_M_O_FilmNoir+hi' not found! Disabling this type for HD.
+[console] 451 lines of this thread not shown here (the server log has them; ?console=1 shows everything)
+Warning: [modelinfo] Modelinfo A_M_M_Tennis_01 cannot attach to any streamed graphics component.
+** POSSIBLE STALL: time bar commoncrc:/data/levels/gta5/gta5.meta took 4491.24 ms, stack follows
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '.\')
+Warning: stt_prop_stunt_soccer_ball doesn't exist
+Warning: stt_prop_stunt_soccer_lball doesn't exist
+Warning: stt_prop_stunt_soccer_sball doesn't exist
+Warning: stt_prop_stunt_tube_fn_05 doesn't exist
+Warning: stt_prop_stunt_tube_fn_04 doesn't exist
+Warning: stt_prop_stunt_tube_fn_03 doesn't exist
+Warning: stt_prop_stunt_tube_fn_02 doesn't exist
+Warning: stt_prop_stunt_tube_fn_01 doesn't exist
+Warning: hakuchou2 doesn't exist
+Warning: turismo2 doesn't exist
+Warning: brioso doesn't exist
+Warning: deveste doesn't exist
+Warning: Ignus2 doesn't exist
+Warning: omnisegt doesn't exist
+Warning: tenf2 doesn't exist
+Warning: tenf doesn't exist
+Warning: zeno doesn't exist
+Warning: shinobi doesn't exist
+Warning: reever doesn't exist
+Warning: patriot3 doesn't exist
+Warning: jubilee doesn't exist
+Warning: iwagen doesn't exist
+Warning: ignus doesn't exist
+Warning: granger2 doesn't exist
+Warning: deity doesn't exist
+Warning: comet7 doesn't exist
+Warning: cinquemila doesn't exist
+Warning: champion doesn't exist
+Warning: buffalo4 doesn't exist
+Warning: baller7 doesn't exist
+Warning: astron doesn't exist
+Warning: ZR350 doesn't exist
+Warning: Warrener2 doesn't exist
+Warning: Vectre doesn't exist
+Warning: Tailgater2 doesn't exist
+Warning: Sultan3 doesn't exist
+Warning: RT3000 doesn't exist
+Warning: Remus doesn't exist
+Warning: Previon doesn't exist
+Warning: Jester4 doesn't exist
+Warning: Growler doesn't exist
+Warning: Futo2 doesn't exist
+Warning: FreightCar2 doesn't exist
+Warning: Euros doesn't exist
+Warning: Dominator8 doesn't exist
+Warning: Dominator7 doesn't exist
+Warning: Cypher doesn't exist
+Warning: Comet6 doesn't exist
+Warning: Calico doesn't exist
+Warning: Slamtruck doesn't exist
+Warning: Dinghy5 doesn't exist
+Warning: Alkonost doesn't exist
+Warning: veto2 doesn't exist
+Warning: veto doesn't exist
+Warning: seasparrow3 doesn't exist
+Warning: seasparrow2 doesn't exist
+Warning: Patrolboat doesn't exist
+Warning: Annihilator2 doesn't exist
+Warning: Avisa doesn't exist
+Warning: Italirsx doesn't exist
+Warning: Kosatka doesn't exist
+Warning: Toreador doesn't exist
+Warning: Brioso2 doesn't exist
+Warning: Openwheel2 doesn't exist
+Warning: Openwheel1 doesn't exist
+Warning: formula2 doesn't exist
+Warning: formula doesn't exist
+Warning: minitank doesn't exist
+Warning: zhaba doesn't exist
+Warning: stryder doesn't exist
+Warning: furia doesn't exist
+Warning: zorrusso doesn't exist
+Warning: zion3 doesn't exist
+Warning: s80 doesn't exist
+Warning: peyote2 doesn't exist
+Warning: novak doesn't exist
+Warning: neo doesn't exist
+Warning: locust doesn't exist
+Warning: hellion doesn't exist
+Warning: emerus doesn't exist
+Warning: dynasty doesn't exist
+Warning: deathbike2 doesn't exist
+Warning: deathbike doesn't exist
+Warning: cerberus3 doesn't exist
+Warning: cerberus2 doesn't exist
+Warning: cerberus doesn't exist
+Warning: bruiser doesn't exist
+Warning: rcbandito doesn't exist
+Warning: scarab3 doesn't exist
+Warning: scarab2 doesn't exist
+Warning: scarab doesn't exist
+Warning: scramjet doesn't exist
+Warning: stafford doesn't exist
+Warning: terbyte doesn't exist
+Warning: menacer doesn't exist
+Warning: strikeforce doesn't exist
+Warning: pbus2 doesn't exist
+[wgpu] cloth_default::PS_CascadeShadows_texture writes colour output(s) 0 with no render target bound
+[wgpu] trees::PS_CascadeShadows_texture writes colour output(s) 0 with no render target bound
+[console] 4418 lines of this thread not shown here (the server log has them; ?console=1 shows everything)
+Warning: [streaming] strStreamingLoaderManager::Flush - waiting for pending operations
+Warning: [streaming] strStreamingLoaderManager::Flush - waiting for pending operations
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 1), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 1 (priority 1), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wgpu] approximated D3D features: sampler border addressing: border colour 0.00,0.00,0.00,0.00 x5 | sampler MipLODBias: -1.00 x5 | sampler border addressing: border colour 1.00,1.00,1.00,1.00 x1 | sampler MipLODBias: 1.15 x1 | sampler MipLODBias: -1.50 x1 | sampler MipLODBias: -0.50 x1
+[wgpu] draws by target since last dump: rt0=1251(640x360 bgra8unorm) ds=5547 x3468
+[wgpu] top pipelines: scaleform_shaders::VS_TexturedSprite + scaleform_shaders::PS_TexturedSprite_Alpha x2034 | scaleform_shaders::VS_GFill_1Texture + scaleform_shaders::PS_GFill_1Texture x834 | scaleform_shaders::VS_GFill_ColorPremult + scaleform_shaders::PS_GFill_ColorPremult x600
+[wgpu] screenshot E:/gta/playgta5/node-webgpu/shots/11-1920/shot_000600.png 640x360 bgra8unorm non-black 13746; draws so far 5247, skipped 23
+** POSSIBLE STALL: time bar fwAnimDirector took 2527.58 ms, stack follows
+Warning: [streaming] strStreamingLoaderManager::Flush - waiting for pending operations
+Warning: [streaming] strStreamingLoaderManager::Flush - waiting for pending operations
+[wgpu] water::PS_OceanHeight writes colour output(s) 0 with no render target bound
+Warning: [streaming] strStreamingLoaderManager::Flush - waiting for pending operations
+** POSSIBLE STALL: time bar Init after map loaded took 3955.45 ms, stack follows
+[wgpu] cloth_default::PS_TexturedUnlit writes colour output(s) 0 with no render target bound
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '/userdata/Documents\Rockstar Games\GTA V\User Music\')
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '.\')
+[wasm] engine thread 25: [GTA Audio] User Music Scan Thread
+[wgpu] terrain_cb_4lyr_pxm::PS_TexturedUnlit writes colour output(s) 0 with no render target bound
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '.\')
+Warning: [file_asset] Cannot create file 'common:/RadioLog.csv'.
+Warning: [Audio_NorthAudio] Failed to initialize police scanner street and area mapping for voice number 0
+Warning: [Audio_NorthAudio] Failed to initialize police scanner street and area mapping for voice number 2
+Warning: Failed to find animal audio game object ANIMAL_PARAMS_NONE.  Alert audio.
+Warning: Found animal audio game object ANIMAL_PARAMS_BOAR.
+Warning: Found animal audio game object ANIMAL_PARAMS_CHICKEN.
+Warning: Found animal audio game object ANIMAL_PARAMS_DOG.
+Warning: Found animal audio game object ANIMAL_PARAMS_DOG_ROTTWEILER.
+Warning: Found animal audio game object ANIMAL_PARAMS_HORSE.
+Warning: Found animal audio game object ANIMAL_PARAMS_COW.
+Warning: Found animal audio game object ANIMAL_PARAMS_COYOTE.
+Warning: Found animal audio game object ANIMAL_PARAMS_DEER.
+Warning: Found animal audio game object ANIMAL_PARAMS_EAGLE.
+Warning: Found animal audio game object ANIMAL_PARAMS_FISH.
+Warning: Found animal audio game object ANIMAL_PARAMS_HEN.
+Warning: Failed to find animal audio game object ANIMAL_PARAMS_MONKEY.  Alert audio.
+Warning: Found animal audio game object ANIMAL_PARAMS_MOUNTAIN_LION.
+Warning: Found animal audio game object ANIMAL_PARAMS_PIGEON.
+Warning: Found animal audio game object ANIMAL_PARAMS_RAT.
+Warning: Found animal audio game object ANIMAL_PARAMS_SEAGULL.
+Warning: Found animal audio game object ANIMAL_PARAMS_CROW.
+Warning: Found animal audio game object ANIMAL_PARAMS_PIG.
+Warning: Found animal audio game object ANIMAL_PARAMS_Chickenhawk.
+Warning: Found animal audio game object ANIMAL_PARAMS_Cormorant.
+Warning: Found animal audio game object ANIMAL_PARAMS_Rhesus.
+Warning: Found animal audio game object ANIMAL_PARAMS_Retriever.
+Warning: Found animal audio game object ANIMAL_PARAMS_Chimp.
+Warning: Found animal audio game object ANIMAL_PARAMS_Husky.
+Warning: Found animal audio game object ANIMAL_PARAMS_Shepherd.
+Warning: Found animal audio game object ANIMAL_PARAMS_Cat.
+Warning: Found animal audio game object ANIMAL_PARAMS_Whale.
+Warning: Found animal audio game object ANIMAL_PARAMS_Dolphin.
+Warning: Found animal audio game object ANIMAL_PARAMS_SmallDog.
+Warning: Failed to find animal audio game object ANIMAL_PARAMS_Hammerhead.  Alert audio.
+Warning: Failed to find animal audio game object ANIMAL_PARAMS_Stingray.  Alert audio.
+Warning: Found animal audio game object ANIMAL_PARAMS_Rabbit.
+Warning: Found animal audio game object ANIMAL_PARAMS_KillerWhale.
+Warning: [streaming] [wasm] streaming dev 0: requested 7 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 7 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Error: CPedVariationStream::Initialise: failed to load mp tint data data from 'common:/data/effects/peds/tint_data.meta'
+Error: [Parser] Couldn't convert " AT AT_FROM_ON_FOOT" to an enum value
+Error: [Parser] Couldn't convert " AT AT_FROM_ON_FOOT" to an enum value
+Error: [Parser] Couldn't convert " AT AT_FROM_ON_FOOT" to an enum value
+Error: [Parser] Couldn't convert " AT AT_FROM_ON_FOOT" to an enum value
+Error: [Parser] Couldn't convert " AT AT_FROM_ON_FOOT" to an enum value
+Warning: [streaming] strStreamingLoaderManager::Flush - waiting for pending operations
+Warning: [stat] INIT_SESSION - GetGameSessionState=18.
+Warning: [net_profile_stats] Set PS_SYNC_MP Synchronized counter=1.
+Warning: [stat_savemgr] Cloud operations disable:
+Warning: [stat_savemgr]    .... PARAM_nonetwork           = True
+Warning: [stat_savemgr]    .... PARAM_lan                 = False
+Warning: [stat_savemgr]    .... PARAM_nompsavegame        = False
+Warning: [stat_savemgr]    .... PARAM_cloudForceAvailable = False
+Warning: [stat_savemgr]    .... PARAM_failmpload = False, -1
+Warning: [stat_savemgr]    .... PARAM_failmploadalways = False, -1
+[wgpu] fps: 55.1 (552 frames, 11 draws/frame, 1.0 submits/frame: present 1.0, idle 0.0, texture upload 0.0, other 0.0), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +2 (cache 6, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 4.9/23.7/11.9/0.0/1.0/0.0/1.0/1.0/23.7/24.0/1.0), TIME draw/up/bg/pipe/ensure/present/shader 0.78/0.24/0.10/0.02/0.12/1.21/0.01 ms/f, clears 1.0/f, passBegins 1.0/f, proxyCopies 0.0/f, worker busy 17% (3.1 ms/frame)
+[wgpu] stutter: 29 frames > 25 ms, 13 > 40 ms, worst 292 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 292: 290/0/0/0 0.0MB/0/0 | 265: 263/0/0/0 0.2MB/0/0 | 225: 224/0/0/0 0.0MB/0/0 | 199: 198/0/0/0 0.0MB/0/0
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 2 ms, fences 0 ms
+Warning: [Graphics] LookupVar(Bluriness) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(ConsoleEdgeSharpness) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(ConsoleEdgeThreshold) failed on required local (maybe due to unused var stripping?)
+Warning: [Graphics] LookupVar(ConsoleEdgeThresholdMin) failed on required local (maybe due to unused var stripping?)
+Error: [net_logimpl] Creating a log file when the logging thread has not been started! You may lose data for Gameplay.log!
+Error: [net_logimpl] NetworkVerifyf(ms_SpoolThreadMutex) FAILED: Spool thread mutex does not exist!, cannot add Gameplay.log to logging thread for spooling!
+Warning: [ui] Skipping SF update has been skipped for 0 frames
+Warning: [ui] Skipping SF update has been skipped for 1 frames
+Warning: [streaming] strStreamingLoaderManager::Flush - waiting for pending operations
+Warning: [Scaleform] In arena minimap, large scaleform allocation of  (from Streaming load of Flash Movie 00464_minimap)
+Warning: [Scaleform] In arena minimap, large scaleform allocation of 
+Warning: [Scaleform]   from AS CFn: Adding gang_area_3 to _level0.asRootContainer.asBlipLayerContainer.asBlipContainer.asForegroundOverlay3D.asTerritory3D.
+Warning: [Scaleform]     from Executing _level0.asRootContainer.asBlipLayerContainer.asBlipContainer.asForegroundOverlay3D.asTerritory3D.gang_areas frame 0
+Warning: [Scaleform]       from AS CFn: Adding gang_areas to _level0.asRootContainer.asBlipLayerContainer.asBlipContainer.asForegroundOverlay3D.asTerritory3D
+Warning: [Scaleform]         from AS CFn: _level0.asRootContainer.asBlipLayerContainer.asBlipContainer.asForegroundOverlay3D.asTerritory3D.attachMovie(gang_areas
+Warning: [Scaleform]           from AS CFn: attachMovie
+Warning: [Scaleform]             from AS Fn: (null) :: TIMELINE.REGISTER_TERRITORY
+Warning: [Scaleform]               from Invoking actionscript function TIMELINE.REGISTER_TERRITORY in movie minimap
+Warning: [ui] Skipping SF update has been skipped for 2 frames
+Warning: [streaming] strStreamingLoaderManager::Flush - waiting for pending operations
+Warning: [Scaleform] In arena hud, large scaleform allocation of  (from Streaming load of Flash Movie 00100_hud)
+Warning: speeder has 0 (or negative) traction curve, traction cuver max 0.00
+Warning: speeder has invalid traction curve max 0.00, min 0.00
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x168ab460) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x168ab460) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x168ab484) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x168ab484) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x168ab4a8) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x168ab4a8) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x168ab4cc) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x168ab4cc) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x168ab4f0) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x168ab4f0) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x168ab514) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x168ab514) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x168ab538) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x168ab538) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x168ab55c) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x168ab55c) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x168ab580) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x168ab580) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x168ab5a4) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x168ab5a4) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x155a9fd0) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x155a9fd0) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x155a9ff4) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x155a9ff4) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x155aa018) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x155aa018) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x155aa03c) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x155aa03c) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x155aa060) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x155aa060) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x155aa084) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x155aa084) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x155aa0a8) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x155aa0a8) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x155aa0cc) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x155aa0cc) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x155aa0f0) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x155aa0f0) (from Creating data from file 'dlcMPBeach:/common/data/carvariations.meta')
+[wgpu] approximated D3D features: sampler border addressing: border colour 0.00,0.00,0.00,0.00 x5 | sampler MipLODBias: -1.00 x5 | sampler border addressing: border colour 1.00,1.00,1.00,1.00 x1 | sampler MipLODBias: 1.15 x1 | sampler MipLODBias: -1.50 x1 | sampler MipLODBias: -0.50 x1
+[wgpu] draws by target since last dump: rt0=1251(640x360 bgra8unorm) ds=5547 x3600
+[wgpu] top pipelines: scaleform_shaders::VS_TexturedSprite + scaleform_shaders::PS_TexturedSprite_Alpha x2100 | scaleform_shaders::VS_GFill_1Texture + scaleform_shaders::PS_GFill_1Texture x900 | scaleform_shaders::VS_GFill_ColorPremult + scaleform_shaders::PS_GFill_ColorPremult x600
+[wgpu] screenshot E:/gta/playgta5/node-webgpu/shots/11-1920/shot_000900.png 640x360 bgra8unorm non-black 13743; draws so far 8847, skipped 23
+[console] 310 lines of this thread not shown here (the server log has them; ?console=1 shows everything)
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x15956fa0) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x15956fa0) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x15956fc4) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x15956fc4) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x15956fe8) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x15956fe8) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x1595700c) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x1595700c) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x15957030) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x15957030) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x15957054) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x15957054) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x15957078) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x15957078) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x1595709c) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x1595709c) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x159570c0) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x159570c0) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x159570e4) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x159570e4) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x159e2f40) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x159e2f40) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x159e2f64) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x159e2f64) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x159e2f88) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x159e2f88) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x159e2fac) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x159e2fac) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x159e2fd0) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x159e2fd0) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x159e2ff4) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x159e2ff4) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x159e3018) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x159e3018) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x159e303c) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x159e303c) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x159e3060) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x159e3060) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x159e3084) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x159e3084) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x159e30a8) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x159e30a8) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x159e30cc) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x159e30cc) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x159e30f0) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x159e30f0) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0xb47e080) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0xb47e080) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0xb47e0a4) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0xb47e0a4) (from Creating data from file 'dlc_mpBusiness2CRC:/common/data/carvariations.meta')
+[console] 622 lines of this thread not shown here (the server log has them; ?console=1 shows everything)
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x166a3940) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x166a3940) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x166a3964) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x166a3964) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x166a3988) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x166a3988) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x166a39ac) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x166a39ac) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x166a39d0) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x166a39d0) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x166a39f4) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x166a39f4) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x166a3a18) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x166a3a18) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x109f9620) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x109f9620) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x109f9644) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x109f9644) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x109f9668) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x109f9668) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x109f968c) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x109f968c) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x109f96b0) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x109f96b0) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x109f96d4) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x109f96d4) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x109f96f8) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x109f96f8) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x1691ad90) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x1691ad90) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x1691adb4) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x1691adb4) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x1691add8) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x1691add8) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x1691adfc) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x1691adfc) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x1691ae20) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x1691ae20) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x1691ae44) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x1691ae44) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x1691ae68) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x1691ae68) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x1691ae8c) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x1691ae8c) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x1691aeb0) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x1691aeb0) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x1691aed4) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x1691aed4) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array indices is a fixed size and needs exactly 6 elements, but 4 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node indices, child of Item (#kids = 4, structAddr = 0x1691aef8) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Warning: [Parser] Array liveries is a fixed size and needs exactly 30 elements, but 8 were specified (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+Error: [Parser] Couldn't set the array size for node liveries, child of Item (#kids = 8, structAddr = 0x1691aef8) (from Creating data from file 'dlcMPLTSCRC:/common/data/carvariations.meta')
+[console] 770 lines of this thread not shown here (the server log has them; ?console=1 shows everything)
+Warning: [Audio] Enabling CPU-limited audio voice limits
+[wgpu] deferred_lighting::PS_ambientScaleEllipsoid writes colour output(s) 1,2 with no render target bound
+Error: [Script] Assert: SCRIPT: Script Name = startup : Program Counter = 37256 : GET_BASE_ELEMENT_LOCATION - Metadata block not found in METADATA! Please check block exists!, iBaseProperty: 1 iElement: 278 trying to grab object from ScriptData Instead. (from Updating script startup)
+Error: [GTAV x64 BankRelease 108] startup(37256): [Script] Error: Assert: SCRIPT: Script Name = startup : Program Counter = 37256 : GET_BASE_ELEMENT_LOCATION - Metadata block not found in METADATA! Please check block exists!, iBaseProperty: 1 iElement: 278 trying to grab object from ScriptData Instead.
+Error: [Script] Assert: SCRIPT: Script Name = startup : Program Counter = 37296 : GET_BASE_ELEMENT_LOCATION - Object Found In ScriptData, Please update the metadata, iBaseProperty: 1 iElement: 278 (from Updating script startup)
+Error: [GTAV x64 BankRelease 108] startup(37296): [Script] Error: Assert: SCRIPT: Script Name = startup : Program Counter = 37296 : GET_BASE_ELEMENT_LOCATION - Object Found In ScriptData, Please update the metadata, iBaseProperty: 1 iElement: 278
+[wgpu] ptfx_sprite::PS_RGBA_lit_softBM0 writes colour output(s) 1,2 with no render target bound
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '.\') (from Updating script Standard_global_reg)
+Warning: [file_asset] Cannot create file 'debug:/player_switch_scene.log'. (from Updating script Standard_global_reg)
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '.\') (from Updating script Standard_global_reg)
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '.\') (from Updating script Standard_global_reg)
+Warning: [file_asset] Cannot create file 'debug:/player_switch_scene.log'. (from Updating script Standard_global_reg)
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '.\') (from Updating script Standard_global_reg)
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '.\') (from Updating script Standard_global_reg)
+Warning: [file_asset] Cannot create file 'debug:/player_switch_scene.log'. (from Updating script Standard_global_reg)
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '.\') (from Updating script Standard_global_reg)
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '.\') (from Updating script Standard_global_reg)
+Warning: [file_asset] Cannot create file 'debug:/player_switch_scene.log'. (from Updating script Standard_global_reg)
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '.\') (from Updating script Standard_global_reg)
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '.\') (from Updating script Standard_global_reg)
+Warning: [file_asset] Cannot create file 'debug:/player_switch_scene.log'. (from Updating script Standard_global_reg)
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '.\') (from Updating script Standard_global_reg)
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '.\') (from Updating script Standard_global_reg)
+Warning: [file_asset] Cannot create file 'debug:/player_switch_scene.log'. (from Updating script Standard_global_reg)
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '.\') (from Updating script Standard_global_reg)
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '.\') (from Updating script Standard_global_reg)
+Warning: [file_asset] Cannot create file 'debug:/player_switch_scene.log'. (from Updating script Standard_global_reg)
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '.\') (from Updating script Standard_global_reg)
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '.\') (from Updating script Standard_global_reg)
+Warning: [file_asset] Cannot create file 'debug:/player_switch_scene.log'. (from Updating script Standard_global_reg)
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '.\') (from Updating script Standard_global_reg)
+[wgpu] ptfx_model::PS_Textured_Zero_DOF writes colour output(s) 1,2 with no render target bound
+[wgpu] ptfx_sprite::PS_RGBA_litBM0 writes colour output(s) 1,2 with no render target bound
+Warning: [streaming] [wasm] streaming dev 0: requested 711 (priority 152), pending 0 (IO 0), 0 KB (limits 30, 65536 KB) BURST
+Warning: [streaming] [wasm] streaming dev 1: requested 711 (priority 152), pending 0 (IO 0), 0 KB (limits 30, 65536 KB) BURST
+Warning: [streaming] strStreamingLoaderManager::Flush - waiting for pending operations
+[wgpu] emissivenight::PS_TexturedUnlit writes colour output(s) 0 with no render target bound
+[wgpu] cloth_normal_spec_tnt::PS_TexturedUnlit writes colour output(s) 0 with no render target bound
+[wgpu] emissive::PS_TexturedUnlit writes colour output(s) 0 with no render target bound
+[wgpu] terrain_cb_4lyr_lod::PS_TexturedUnlit writes colour output(s) 0 with no render target bound
+[wgpu] terrain_cb_4lyr_2tex_blend_lod::PS_TexturedUnlit writes colour output(s) 0 with no render target bound
+Warning: [streaming] [wasm] streaming dev 0: requested 743 (priority 130), pending 6 (IO 0), 0 KB (limits 30, 65536 KB) BURST
+Warning: [streaming] [wasm] streaming dev 1: requested 710 (priority 106), pending 14 (IO 1), 96 KB (limits 30, 65536 KB) BURST
+[wasm] region 0x73400000 +256 MB (cleared 0 MB, heap end before 0x733f7000)
+[wgpu] approximated D3D features: sampler border addressing: border colour 0.00,0.00,0.00,0.00 x5 | sampler MipLODBias: -1.00 x5 | sampler border addressing: border colour 1.00,1.00,1.00,1.00 x1 | sampler MipLODBias: 1.15 x1 | sampler MipLODBias: -1.50 x1 | sampler MipLODBias: -0.50 x1
+[wgpu] draws by target since last dump: rt0=1251(640x360 bgra8unorm) ds=5547 x3930
+[wgpu] top pipelines: scaleform_shaders::VS_TexturedSprite + scaleform_shaders::PS_TexturedSprite_Alpha x2210 | scaleform_shaders::VS_GFill_1Texture + scaleform_shaders::PS_GFill_1Texture x1010 | scaleform_shaders::VS_GFill_ColorPremult + scaleform_shaders::PS_GFill_ColorPremult x710
+[wgpu] screenshot E:/gta/playgta5/node-webgpu/shots/11-1920/shot_001200.png 640x360 bgra8unorm non-black 13742; draws so far 12777, skipped 23
+Warning: [streaming] [wasm] streaming dev 0: requested 319 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB) BURST
+Warning: [streaming] [wasm] streaming dev 1: requested 313 (priority 0), pending 20 (IO 16), 6728 KB (limits 30, 65536 KB) BURST
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] fps: 35.6 (357 frames, 12 draws/frame, 1.0 submits/frame: present 1.0, idle 0.0, other 0.0, texture upload 0.0), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +1 (cache 7, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 5.9/25.8/12.9/0.0/1.3/0.0/1.0/1.0/25.8/39.0/1.0), TIME draw/up/bg/pipe/ensure/present/shader 1.05/0.74/0.11/0.02/0.14/2.28/0.02 ms/f, clears 1.0/f, passBegins 1.0/f, proxyCopies 0.0/f, worker busy 48% (13.5 ms/frame)
+[wgpu] stutter: 71 frames > 25 ms, 42 > 40 ms, worst 509 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 509: 9/0/0/101 3.8MB/0/0 | 441: 0/0/0/41 4.4MB/0/0 | 327: 2/0/0/63 3.4MB/0/1 | 298: 297/0/0/0 0.2MB/0/0
+Warning: [streaming] [wasm] streaming dev 0: requested 168 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB) BURST
+Warning: [streaming] [wasm] streaming dev 1: requested 150 (priority 0), pending 9 (IO 0), 0 KB (limits 30, 65536 KB) BURST
+[wasm] mem: malloc arena 2102 MB (in use 2062 MB), game virtual 335/466 MB, resource virtual 325/512 MB, game physical 2/256 MB, resource physical 2/256 MB
+Warning: [streaming] [wasm] streaming dev 0: requested 145 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB) BURST
+Warning: [streaming] [wasm] streaming dev 1: requested 138 (priority 0), pending 22 (IO 2), 280 KB (limits 30, 65536 KB) BURST
+Warning: [streaming] [wasm] streaming dev 0: requested 196 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB) BURST
+Warning: [streaming] [wasm] streaming dev 1: requested 112 (priority 0), pending 10 (IO 3), 904 KB (limits 30, 65536 KB) BURST
+Warning: [file_asset] ASSET.SetPath works best with fully-qualified names (ie drive letter or device name, not '.\') (from Updating script Standard_global_reg)
+Warning: [file_asset] Cannot create file 'common:/DATA/debug/loadingtime.dat'. (from Updating script Standard_global_reg)
+[wasm] spawn loadout: 54 weapons restocked, 9999 rounds each: (many)
+Warning: [streaming] [wasm] streaming dev 0: requested 475 (priority 12), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 475 (priority 12), pending 14 (IO 2), 1488 KB (limits 30, 65536 KB)
+[wasm] spawn loadout: 2 weapons restocked, 9999 rounds each: WEAPON_BIRD_CRAP WEAPON_GRENADE
+[wasm] spawn loadout: 2 weapons restocked, 9999 rounds each: WEAPON_BIRD_CRAP WEAPON_GRENADE
+[wgpu] fps: 14.1 (144 frames, 130 draws/frame, 1.2 submits/frame: present 1.0, readback 0.2, idle 0.0, texture upload 0.0), draws waiting for a compiling pipeline +369, validation errors +0, clamped draws +0, bind groups +663 (cache 670, evicted 0), pipelines +42 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 39.3/158.3/130.3/112.1/6.5/0.0/5.1/11.7/148.0/197.8/1.0), TIME draw/up/bg/pipe/ensure/present/shader 14.17/2.88/2.54/0.49/0.84/3.28/2.42 ms/f, clears 2.5/f, passBegins 5.2/f, proxyCopies 0.5/f, worker busy 91% (62.0 ms/frame)
+[wgpu] stutter: 66 frames > 25 ms, 52 > 40 ms, worst 1444 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 1444: 141/0/188/4 1.2MB/0/64 | 685: 23/0/2/34 2.2MB/0/0 | 444: 0/0/0/40 7.6MB/0/0 | 342: 37/0/0/45 1.0MB/0/1
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 7 (1016 ms, longest 1012 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+Warning: [streaming] [wasm] streaming dev 0: requested 368 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 368 (priority 0), pending 25 (IO 9), 7030 KB (limits 30, 65536 KB)
+[wasm] spawn loadout: 2 weapons restocked, 9999 rounds each: WEAPON_BIRD_CRAP WEAPON_GRENADE
+Warning: [Scaleform] In arena pause_menu_sp_content, large scaleform allocation of  (from Streaming load of Flash Movie 00016_pause_menu_sp_content)
+[wasm] spawn loadout: WEAPON_BIRD_CRAP is taken away again at every check, no longer given to this ped
+[wasm] spawn loadout: WEAPON_GRENADE is taken away again at every check, no longer given to this ped
+[wasm] spawn loadout: 2 weapons restocked, 9999 rounds each: WEAPON_BIRD_CRAP WEAPON_GRENADE
+[wgpu] vehicle_paint6_enveff::PS_VehicleTexturedUnlit writes colour output(s) 0 with no render target bound
+[wgpu] spec::PS_Textured_Zero_DOF writes colour output(s) 1,2 with no render target bound
+[wgpu] vehicle_vehglass::PS_VehicleTexturedUnlit writes colour output(s) 0 with no render target bound
+Warning: [streaming] [wasm] streaming dev 0: requested 275 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 275 (priority 0), pending 12 (IO 4), 288 KB (limits 30, 65536 KB)
+[wasm] mem: malloc arena 2108 MB (in use 2071 MB), game virtual 337/466 MB, resource virtual 429/512 MB, game physical 38/256 MB, resource physical 38/256 MB
+[wgpu] world shown: title screen held 5.7 s for compiling pipelines (309 draws skipped meanwhile, 1 still compiling); compiled ahead 275, used 164, compiled when first drawn 47; shader variants for the inter-stage limit: 0 vertex, 0 pixel
+[wgpu] terrain_cb_w_4lyr_2tex_blend_pxm::PS_TexturedUnlit writes colour output(s) 0 with no render target bound
+Warning: [streaming] [wasm] streaming dev 0: requested 84 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 77 (priority 0), pending 17 (IO 3), 120 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 0: requested 3 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 3 (priority 0), pending 3 (IO 0), 0 KB (limits 30, 65536 KB)
+[wgpu] glass_env::PS_Textured_Zero_DOF writes colour output(s) 1,2 with no render target bound
+[wgpu] deferred_lighting::PS_ambientScaleTexture writes colour output(s) 1,2 with no render target bound
+[wasm] spawn loadout: 54 weapons restocked, 9999 rounds each: (many)
+Error: [net_leaderboard_mgr] NetworkAssertf(m_Allocator != 0) FAILED: "(null)" Leaderboard memory allocator has not been initialized. (from Updating script main)
+Error: [net_leaderboard_mgr] NetworkVerifyf(m_Allocator) FAILED: "(null)" Memory allocator heap doesn't exist (from Updating script main)
+Warning: [streaming] [wasm] streaming dev 0: requested 7 (priority 2), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 7 (priority 2), pending 7 (IO 1), 272 KB (limits 30, 65536 KB)
+[wasm] spawn loadout: 2 weapons restocked, 9999 rounds each: WEAPON_BIRD_CRAP WEAPON_GRENADE
+[wgpu] fps: 6.8 (68 frames, 1712 draws/frame, 2.3 submits/frame: readback 1.3, present 1.0), draws waiting for a compiling pipeline +100, validation errors +0, clamped draws +0, bind groups +240 (cache 910, evicted 0), pipelines +18 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 502.8/1954.4/1698.5/1587.8/74.4/0.0/55.1/148.6/1804.5/1558.8/2.3), TIME draw/up/bg/pipe/ensure/present/shader 94.18/5.57/12.88/1.76/5.86/6.31/4.23 ms/f, clears 20.0/f, passBegins 55.1/f, proxyCopies 6.2/f, worker busy 96% (145.4 ms/frame)
+[wgpu] stutter: 68 frames > 25 ms, 68 > 40 ms, worst 287 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 287: 8/0/0/10 11.9MB/0/11 | 275: 21/0/0/8 1.3MB/0/14 | 241: 0/0/15/26 31.3MB/0/61 | 240: 9/0/0/31 19.4MB/0/13
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 231 ms, fences 0 ms
+[wasm] spawn loadout: 2 weapons restocked, 9999 rounds each: WEAPON_BIRD_CRAP WEAPON_GRENADE
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wasm] spawn loadout: 2 weapons restocked, 9999 rounds each: WEAPON_BIRD_CRAP WEAPON_GRENADE
+[wgpu] vehicle_dash_emissive::PS_VehicleTextured_ZeroDOF writes colour output(s) 1,2 with no render target bound
+[wasm] region 0x83e00000 +256 MB (cleared 0 MB, heap end before 0x83c61000)
+[wgpu] ptfx_sprite::PS_RGB_refractBM0 writes colour output(s) 1,2 with no render target bound
+[wasm] spawn loadout: WEAPON_BIRD_CRAP is taken away again at every check, no longer given to this ped
+[wasm] spawn loadout: WEAPON_GRENADE is taken away again at every check, no longer given to this ped
+[wasm] spawn loadout: 2 weapons restocked, 9999 rounds each: WEAPON_BIRD_CRAP WEAPON_GRENADE
+Warning: [streaming] [wasm] streaming dev 0: requested 8 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 8 (priority 0), pending 6 (IO 3), 3720 KB (limits 30, 65536 KB)
+[wasm] mem: malloc arena 2366 MB (in use 2331 MB), game virtual 338/466 MB, resource virtual 509/768 MB, game physical 0/256 MB, resource physical 0/256 MB
+Warning: [streaming] [wasm] streaming dev 0: requested 7 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 7 (priority 0), pending 3 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wgpu] approximated D3D features: sampler border addressing: border colour 0.00,0.00,0.00,0.00 x5 | sampler MipLODBias: -1.00 x5 | sampler border addressing: border colour 1.00,1.00,1.00,1.00 x1 | sampler MipLODBias: 1.15 x1 | sampler MipLODBias: -1.50 x1 | sampler MipLODBias: -0.50 x1 | alpha-to-coverage without MSAA: grass::VS_Transform_REC + grass::PS_DeferredTextured x1 | border sampler bound by: waterTex::PS_WaterUpdateVelocity s14 x1
+[wgpu] draws by target since last dump: rt0=6369(640x360 bgra8unorm) ds=5547 x95704 | rt0=0 ds=6439 x88718 | rt0=13585(64x64 rg11b10ufloat) ds=13587 x52428 | rt0=5540(640x360 rgba16float) ds=5547 x5866 | rt0=5538(640x360 rgba16float) ds=5547 x5701 | rt0=1251(640x360 bgra8unorm) ds=5547 x3915 | rt0=5555(640x360 bgra8unorm) ds=5547 x3090 | rt0=13579(128x64 rg11b10ufloat) ds=0 x888 | rt0=5856(64x64 r32float) ds=0 x332 | rt0=6375(640x360 bgra8unorm) ds=5547 x296 | rt0=5852(320x180 rg16float) ds=0 x296 | rt0=6391(10x11 r32float) ds=0 x148
+[wgpu] top pipelines: cascadeshadows::VS_CascadeShadows_draw + - x66089 | default::VS_TransformCube + cubemap_reflect::PS_TexturedCube x39200 | trees_lod2::VS_PropFoliageDeferredLod2 + trees_lod2::PS_PropFoliageDeferredLod2_SubSampleAlpha x26537 | default::VS_TransformD + default::PS_DeferredTextured x18098 | silhouettelayer::VS_TransformSilhouette + silhouettelayer::PS_FogColor x7488 | cloth_default::VS_CascadeShadows_draw + cloth_default::PS_CascadeShadows_texture x5546 | default::VS_TransformD + default::PS_DeferredTextured_SubSampleAlpha x5495 | cubemap_reflect::VS_TransformCube + cubemap_reflect::PS_TexturedCube x5234
+[wgpu] screenshot E:/gta/playgta5/node-webgpu/shots/11-1920/shot_001500.png 640x360 bgra8unorm non-black 230387; draws so far 273133, skipped 492
+[wgpu] cloth_default::PS_Textured_Zero_DOF writes colour output(s) 1,2 with no render target bound
+Warning: [streaming] [wasm] streaming dev 0: requested 4 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 4 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wgpu] fps: 8.9 (89 frames, 1827 draws/frame, 2.3 submits/frame: readback 1.4, present 0.9, other 0.0), draws waiting for a compiling pipeline +1, validation errors +0, clamped draws +0, bind groups +166 (cache 1076, evicted 0), pipelines +1 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 568.0/2142.5/1804.2/1695.6/73.2/0.0/54.2/166.2/1915.9/1664.1/2.3), TIME draw/up/bg/pipe/ensure/present/shader 80.09/3.77/11.47/0.99/4.51/8.25/0.67 ms/f, clears 20.0/f, passBegins 54.2/f, proxyCopies 6.0/f, worker busy 95% (107.3 ms/frame)
+[wgpu] stutter: 89 frames > 25 ms, 89 > 40 ms, worst 291 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 291: 0/0/0/2 0.4MB/0/8 | 228: 8/0/0/3 0.5MB/0/17 | 176: 21/0/4/1 0.5MB/0/4 | 168: 0/0/0/18 11.9MB/0/4
+[wasm] spawn loadout: 38 weapons restocked, 9999 rounds each: (many)
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wasm] mem: malloc arena 2366 MB (in use 2331 MB), game virtual 339/466 MB, resource virtual 526/768 MB, game physical 0/256 MB, resource physical 0/256 MB
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 0: requested 7 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 7 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wgpu] normal_spec::PS_Textured_Zero_DOF writes colour output(s) 1,2 with no render target bound
+[wgpu] vehicle_paint3::PS_VehicleTexturedUnlit writes colour output(s) 0 with no render target bound
+[wgpu] fps: 9.2 (92 frames, 1932 draws/frame, 2.3 submits/frame: readback 1.4, present 0.9), draws waiting for a compiling pipeline +9, validation errors +0, clamped draws +0, bind groups +129 (cache 1205, evicted 0), pipelines +4 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 617.9/2296.1/1896.4/1786.6/73.1/0.0/54.2/176.9/2022.3/1832.6/2.3), TIME draw/up/bg/pipe/ensure/present/shader 80.76/3.70/11.58/1.14/4.30/4.99/0.95 ms/f, clears 20.0/f, passBegins 54.2/f, proxyCopies 6.0/f, worker busy 94% (103.0 ms/frame)
+[wgpu] stutter: 92 frames > 25 ms, 92 > 40 ms, worst 198 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 198: 14/0/0/1 0.4MB/0/14 | 165: 20/0/0/1 0.5MB/0/10 | 160: 9/0/0/1 0.5MB/0/2 | 156: 0/0/5/3 0.5MB/0/13
+[wgpu] vehicle_paint1::PS_VehicleTexturedUnlit writes colour output(s) 0 with no render target bound
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wasm] mem: malloc arena 2366 MB (in use 2331 MB), game virtual 339/466 MB, resource virtual 529/768 MB, game physical 0/256 MB, resource physical 0/256 MB
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 0: requested 9 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 9 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 1), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 1 (priority 1), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wgpu] fps: 5.6 (56 frames, 2021 draws/frame, 2.3 submits/frame: readback 1.4, present 1.0), draws waiting for a compiling pipeline +4, validation errors +0, clamped draws +0, bind groups +107 (cache 1312, evicted 0), pipelines +1 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 647.6/2398.5/1978.8/1868.5/73.2/0.0/54.3/179.6/2111.2/1935.6/2.3), TIME draw/up/bg/pipe/ensure/present/shader 137.88/7.31/20.55/1.48/6.72/8.95/1.88 ms/f, clears 20.0/f, passBegins 54.3/f, proxyCopies 6.0/f, worker busy 96% (169.6 ms/frame)
+[wgpu] stutter: 56 frames > 25 ms, 56 > 40 ms, worst 604 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 604: 57/0/0/2 0.5MB/0/12 | 554: 0/0/0/1 0.5MB/0/39 | 495: 53/0/25/1 0.5MB/0/34 | 358: 6/0/0/1 0.4MB/0/49
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] ptfx_sprite::PS_RGBA_lit_softBM1 writes colour output(s) 1,2 with no render target bound
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wasm] mem: malloc arena 2366 MB (in use 2332 MB), game virtual 339/466 MB, resource virtual 535/768 MB, game physical 0/256 MB, resource physical 0/256 MB
+Warning: [streaming] [wasm] streaming dev 0: requested 19 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 19 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wgpu] normal::PS_Textured_Zero_DOF writes colour output(s) 1,2 with no render target bound
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wgpu] fps: 8.9 (90 frames, 1796 draws/frame, 2.3 submits/frame: readback 1.4, present 1.0, idle 0.0), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +50 (cache 1362, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 554.0/2081.0/1770.1/1661.2/73.3/0.0/54.3/156.8/1885.2/1657.5/2.3), TIME draw/up/bg/pipe/ensure/present/shader 81.66/3.93/11.51/1.08/4.75/5.33/0.67 ms/f, clears 20.0/f, passBegins 54.3/f, proxyCopies 6.0/f, worker busy 94% (107.2 ms/frame)
+[wgpu] stutter: 90 frames > 25 ms, 90 > 40 ms, worst 272 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 272: 107/0/0/1 0.4MB/0/3 | 182: 0/0/5/1 0.5MB/0/11 | 165: 0/0/5/2 0.5MB/0/11 | 160: 0/0/5/27 7.7MB/0/9
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+Warning: [streaming] [wasm] streaming dev 0: requested 7 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 7 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wasm] mem: malloc arena 2366 MB (in use 2332 MB), game virtual 339/466 MB, resource virtual 539/768 MB, game physical 0/256 MB, resource physical 0/256 MB
+[wgpu] approximated D3D features: sampler border addressing: border colour 0.00,0.00,0.00,0.00 x5 | sampler MipLODBias: -1.00 x5 | sampler border addressing: border colour 1.00,1.00,1.00,1.00 x1 | sampler MipLODBias: 1.15 x1 | sampler MipLODBias: -1.50 x1 | sampler MipLODBias: -0.50 x1 | alpha-to-coverage without MSAA: grass::VS_Transform_REC + grass::PS_DeferredTextured x1 | border sampler bound by: waterTex::PS_WaterUpdateVelocity s14 x1
+[wgpu] draws by target since last dump: rt0=6369(640x360 bgra8unorm) ds=5547 x222762 | rt0=0 ds=6439 x202344 | rt0=13585(64x64 rg11b10ufloat) ds=13587 x108970 | rt0=5538(640x360 rgba16float) ds=5547 x12841 | rt0=5540(640x360 rgba16float) ds=5547 x12458 | rt0=5555(640x360 bgra8unorm) ds=5547 x6000 | rt0=1251(640x360 bgra8unorm) ds=5547 x4650 | rt0=13579(128x64 rg11b10ufloat) ds=0 x1800 | rt0=5856(64x64 r32float) ds=0 x747 | rt0=6375(640x360 bgra8unorm) ds=5547 x600 | rt0=5852(320x180 rg16float) ds=0 x600 | rt0=11265(512x512 bgra8unorm) ds=0 x300
+[wgpu] top pipelines: cascadeshadows::VS_CascadeShadows_draw + - x145305 | default::VS_TransformCube + cubemap_reflect::PS_TexturedCube x81364 | trees_lod2::VS_PropFoliageDeferredLod2 + trees_lod2::PS_PropFoliageDeferredLod2_SubSampleAlpha x54994 | default::VS_TransformD + default::PS_DeferredTextured x40498 | silhouettelayer::VS_TransformSilhouette + silhouettelayer::PS_FogColor x15600 | cloth_default::VS_CascadeShadows_draw + cloth_default::PS_CascadeShadows_texture x14138 | default::VS_TransformD + default::PS_DeferredTextured_SubSampleAlpha x12685 | trees_lod::VS_PropFoliageDeferredLod + trees_lod::PS_PropFoliageDeferredLod_SubSampleAlpha x12100
+[wgpu] screenshot E:/gta/playgta5/node-webgpu/shots/11-1920/shot_001800.png 640x360 bgra8unorm non-black 230387; draws so far 853232, skipped 506
+Warning: [streaming] [wasm] streaming dev 0: requested 2 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 2 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wgpu] fps: 7.1 (71 frames, 2148 draws/frame, 2.4 submits/frame: readback 1.4, present 1.0), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +112 (cache 1474, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 699.0/2613.8/2111.3/1997.0/73.2/0.0/54.2/198.9/2242.4/2095.0/2.4), TIME draw/up/bg/pipe/ensure/present/shader 108.03/4.87/15.76/1.36/5.39/6.59/0.91 ms/f, clears 20.0/f, passBegins 54.2/f, proxyCopies 6.0/f, worker busy 96% (135.8 ms/frame)
+[wgpu] stutter: 71 frames > 25 ms, 71 > 40 ms, worst 267 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 267: 0/0/0/1 0.5MB/0/2 | 216: 0/0/0/1 0.5MB/0/23 | 215: 0/0/0/2 0.5MB/0/20 | 203: 21/0/0/1 0.5MB/0/8
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wasm] mem: malloc arena 2366 MB (in use 2332 MB), game virtual 339/466 MB, resource virtual 540/768 MB, game physical 0/256 MB, resource physical 0/256 MB
+Warning: [streaming] [wasm] streaming dev 0: requested 3 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 3 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 0: requested 8 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 8 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wgpu] fps: 7.2 (72 frames, 2058 draws/frame, 2.4 submits/frame: readback 1.4, present 1.0), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +99 (cache 1573, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 656.4/2486.6/2020.5/1907.5/73.3/0.0/54.3/189.6/2151.4/1995.0/2.4), TIME draw/up/bg/pipe/ensure/present/shader 106.77/4.79/15.79/1.35/5.58/4.57/0.85 ms/f, clears 20.0/f, passBegins 54.3/f, proxyCopies 6.0/f, worker busy 95% (131.6 ms/frame)
+[wgpu] stutter: 72 frames > 25 ms, 72 > 40 ms, worst 218 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 218: 22/0/0/15 5.1MB/0/14 | 217: 0/0/0/1 0.5MB/0/22 | 209: 0/0/0/6 0.5MB/0/16 | 202: 0/0/0/1 0.5MB/0/21
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wasm] mem: malloc arena 2366 MB (in use 2332 MB), game virtual 339/466 MB, resource virtual 544/768 MB, game physical 0/256 MB, resource physical 0/256 MB
+Warning: [streaming] [wasm] streaming dev 0: requested 2 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 2 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wgpu] fps: 7.6 (76 frames, 1908 draws/frame, 2.4 submits/frame: readback 1.4, present 0.9), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +110 (cache 1683, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 604.1/2270.5/1876.6/1764.6/73.3/0.0/54.4/175.8/2000.4/1791.4/2.4), TIME draw/up/bg/pipe/ensure/present/shader 100.81/4.63/14.42/1.26/5.46/4.44/0.83 ms/f, clears 20.0/f, passBegins 54.4/f, proxyCopies 6.0/f, worker busy 95% (125.5 ms/frame)
+[wgpu] stutter: 76 frames > 25 ms, 76 > 40 ms, worst 231 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 231: 0/0/0/30 7.9MB/0/20 | 231: 0/0/0/2 0.6MB/0/9 | 228: 0/0/0/2 0.5MB/0/10 | 221: 21/0/0/1 0.5MB/0/17
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+Warning: [streaming] [wasm] streaming dev 0: requested 3 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 3 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wasm] mem: malloc arena 2366 MB (in use 2332 MB), game virtual 339/466 MB, resource virtual 548/768 MB, game physical 0/256 MB, resource physical 0/256 MB
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 1), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 1 (priority 1), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wgpu] fps: 9.9 (100 frames, 1415 draws/frame, 2.4 submits/frame: readback 1.4, present 1.0), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +1 (cache 1684, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 427.8/1550.1/1415.5/1304.8/73.3/0.0/54.3/120.3/1506.7/1167.6/2.4), TIME draw/up/bg/pipe/ensure/present/shader 73.48/4.06/9.80/1.03/5.33/3.32/0.58 ms/f, clears 20.0/f, passBegins 54.3/f, proxyCopies 6.0/f, worker busy 93% (93.6 ms/frame)
+[wgpu] stutter: 100 frames > 25 ms, 100 > 40 ms, worst 136 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 136: 35/0/0/1 0.3MB/0/8 | 130: 22/0/0/1 0.3MB/0/15 | 129: 23/0/0/1 0.3MB/0/8 | 127: 22/0/0/1 0.3MB/0/13
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wgpu] approximated D3D features: sampler border addressing: border colour 0.00,0.00,0.00,0.00 x5 | sampler MipLODBias: -1.00 x5 | sampler border addressing: border colour 1.00,1.00,1.00,1.00 x1 | sampler MipLODBias: 1.15 x1 | sampler MipLODBias: -1.50 x1 | sampler MipLODBias: -0.50 x1 | alpha-to-coverage without MSAA: grass::VS_Transform_REC + grass::PS_DeferredTextured x1 | border sampler bound by: waterTex::PS_WaterUpdateVelocity s14 x1
+[wgpu] draws by target since last dump: rt0=6369(640x360 bgra8unorm) ds=5547 x196681 | rt0=0 ds=6439 x181727 | rt0=13585(64x64 rg11b10ufloat) ds=13587 x105249 | rt0=5538(640x360 rgba16float) ds=5547 x12635 | rt0=5540(640x360 rgba16float) ds=5547 x12062 | rt0=5555(640x360 bgra8unorm) ds=5547 x6322 | rt0=1251(640x360 bgra8unorm) ds=5547 x5544 | rt0=13579(128x64 rg11b10ufloat) ds=0 x1800 | rt0=5856(64x64 r32float) ds=0 x747 | rt0=6375(640x360 bgra8unorm) ds=5547 x600 | rt0=5852(320x180 rg16float) ds=0 x600 | rt0=11265(512x512 bgra8unorm) ds=0 x300
+[wgpu] top pipelines: cascadeshadows::VS_CascadeShadows_draw + - x135736 | default::VS_TransformCube + cubemap_reflect::PS_TexturedCube x80253 | trees_lod2::VS_PropFoliageDeferredLod2 + trees_lod2::PS_PropFoliageDeferredLod2_SubSampleAlpha x48253 | default::VS_TransformD + default::PS_DeferredTextured x37370 | silhouettelayer::VS_TransformSilhouette + silhouettelayer::PS_FogColor x15600 | cloth_default::VS_CascadeShadows_draw + cloth_default::PS_CascadeShadows_texture x13503 | default::VS_TransformD + default::PS_DeferredTextured_SubSampleAlpha x11480 | trees_lod::VS_PropFoliageDeferredLod + trees_lod::PS_PropFoliageDeferredLod_SubSampleAlpha x10934
+[wgpu] screenshot E:/gta/playgta5/node-webgpu/shots/11-1920/shot_002100.png 640x360 bgra8unorm non-black 230389; draws so far 1383531, skipped 506
+[wasm] mem: malloc arena 2366 MB (in use 2332 MB), game virtual 339/466 MB, resource virtual 548/768 MB, game physical 0/256 MB, resource physical 0/256 MB
+Warning: [streaming] [wasm] streaming dev 0: requested 2 (priority 2), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 2 (priority 2), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 0: requested 3 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 3 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wgpu] fps: 9.7 (97 frames, 1504 draws/frame, 2.4 submits/frame: readback 1.4, present 0.9, other 0.0), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +132 (cache 1816, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 451.4/1713.3/1503.9/1392.1/73.4/0.0/54.4/134.9/1595.4/1268.5/2.4), TIME draw/up/bg/pipe/ensure/present/shader 74.69/3.96/10.21/0.99/5.17/4.59/0.61 ms/f, clears 20.0/f, passBegins 54.4/f, proxyCopies 6.0/f, worker busy 93% (95.7 ms/frame)
+[wgpu] stutter: 97 frames > 25 ms, 97 > 40 ms, worst 215 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 215: 0/0/0/2 0.3MB/0/5 | 137: 0/0/0/1 0.4MB/0/17 | 132: 17/0/0/1 0.3MB/0/14 | 126: 13/0/0/1 0.3MB/0/10
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+Warning: [streaming] [wasm] streaming dev 0: requested 3 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 3 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wasm] mem: malloc arena 2366 MB (in use 2333 MB), game virtual 339/466 MB, resource virtual 554/768 MB, game physical 0/256 MB, resource physical 0/256 MB
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wgpu] fps: 8.9 (90 frames, 1535 draws/frame, 2.3 submits/frame: readback 1.4, present 0.9), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +156 (cache 1972, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 493.3/1886.4/1530.6/1408.0/75.4/0.0/56.4/156.7/1637.1/1541.0/2.3), TIME draw/up/bg/pipe/ensure/present/shader 81.97/4.43/12.67/1.61/5.60/3.47/0.64 ms/f, clears 20.0/f, passBegins 56.4/f, proxyCopies 6.0/f, worker busy 92% (103.5 ms/frame)
+[wgpu] stutter: 90 frames > 25 ms, 90 > 40 ms, worst 411 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 411: 23/0/0/2 0.4MB/0/49 | 400: 47/0/0/1 0.4MB/0/13 | 368: 10/0/0/3 2.7MB/0/43 | 240: 35/0/0/4 0.4MB/0/18
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wasm] mem: malloc arena 2366 MB (in use 2333 MB), game virtual 339/466 MB, resource virtual 559/768 MB, game physical 0/256 MB, resource physical 0/256 MB
+Warning: [streaming] [wasm] streaming dev 0: requested 3 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 3 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wgpu] fps: 7.4 (75 frames, 1358 draws/frame, 2.3 submits/frame: readback 1.4, present 0.9), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +68 (cache 2040, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 449.1/1599.2/1339.7/1196.6/76.7/0.0/57.7/120.5/1483.3/1505.0/2.3), TIME draw/up/bg/pipe/ensure/present/shader 102.99/6.41/13.43/1.32/7.48/3.42/0.84 ms/f, clears 20.0/f, passBegins 57.7/f, proxyCopies 6.0/f, worker busy 95% (116.0 ms/frame)
+[wgpu] stutter: 75 frames > 25 ms, 75 > 40 ms, worst 880 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 880: 0/0/0/1 0.4MB/0/34 | 419: 18/0/0/1 0.4MB/0/11 | 303: 9/0/0/10 0.4MB/0/24 | 284: 39/0/0/4 0.4MB/0/12
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+Warning: [streaming] [wasm] streaming dev 0: requested 8 (priority 8), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 8 (priority 8), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wasm] mem: malloc arena 2366 MB (in use 2333 MB), game virtual 339/466 MB, resource virtual 562/768 MB, game physical 0/256 MB, resource physical 0/256 MB
+[wgpu] approximated D3D features: sampler border addressing: border colour 0.00,0.00,0.00,0.00 x5 | sampler MipLODBias: -1.00 x5 | sampler border addressing: border colour 1.00,1.00,1.00,1.00 x1 | sampler MipLODBias: 1.15 x1 | sampler MipLODBias: -1.50 x1 | sampler MipLODBias: -0.50 x1 | alpha-to-coverage without MSAA: grass::VS_Transform_REC + grass::PS_DeferredTextured x1 | border sampler bound by: waterTex::PS_WaterUpdateVelocity s14 x1
+[wgpu] draws by target since last dump: rt0=6369(640x360 bgra8unorm) ds=5547 x150223 | rt0=0 ds=6439 x149105 | rt0=13585(64x64 rg11b10ufloat) ds=13587 x101725 | rt0=5538(640x360 rgba16float) ds=5547 x7942 | rt0=5540(640x360 rgba16float) ds=5547 x7807 | rt0=5555(640x360 bgra8unorm) ds=5547 x6600 | rt0=1251(640x360 bgra8unorm) ds=5547 x5547 | rt0=13579(128x64 rg11b10ufloat) ds=0 x1800 | rt0=5856(64x64 r32float) ds=0 x664 | rt0=6375(640x360 bgra8unorm) ds=5547 x600 | rt0=5852(320x180 rg16float) ds=0 x600 | rt0=10566(256x256 r32float) ds=0 x338
+[wgpu] top pipelines: cascadeshadows::VS_CascadeShadows_draw + - x110529 | default::VS_TransformCube + cubemap_reflect::PS_TexturedCube x79198 | trees_lod2::VS_PropFoliageDeferredLod2 + trees_lod2::PS_PropFoliageDeferredLod2_SubSampleAlpha x31447 | default::VS_TransformD + default::PS_DeferredTextured x21741 | trees_normal_diffspec::VS_PropFoliageDeferred + trees_normal_diffspec::PS_PropFoliageDeferred_AlphaClipC x12385 | trees_normal_diffspec::VS_Cascade_Micromovments + trees::PS_CascadeShadows_texture x10706 | cloth_default::VS_CascadeShadows_draw + cloth_default::PS_CascadeShadows_texture x8122 | cubemap_reflect::VS_TransformCube + cubemap_reflect::PS_TexturedCube x7876
+[wgpu] screenshot E:/gta/playgta5/node-webgpu/shots/11-1920/shot_002400.png 640x360 bgra8unorm non-black 230389; draws so far 1823223, skipped 506
+[wgpu] fps: 6.5 (65 frames, 1419 draws/frame, 2.3 submits/frame: readback 1.4, present 1.0, other 0.0), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +52 (cache 2092, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 479.9/1688.6/1396.2/1262.0/76.8/0.0/57.8/123.0/1533.7/1574.0/2.3), TIME draw/up/bg/pipe/ensure/present/shader 114.69/6.55/17.51/1.74/7.95/6.44/0.93 ms/f, clears 20.0/f, passBegins 57.8/f, proxyCopies 6.0/f, worker busy 95% (161.3 ms/frame)
+[wgpu] stutter: 65 frames > 25 ms, 65 > 40 ms, worst 344 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 344: 52/0/0/1 0.4MB/0/9 | 315: 0/0/0/5 0.4MB/0/23 | 312: 0/0/0/2 0.4MB/0/17 | 304: 0/0/0/11 0.4MB/0/45
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 1), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 1 (priority 1), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wasm] mem: malloc arena 2366 MB (in use 2333 MB), game virtual 339/466 MB, resource virtual 562/768 MB, game physical 0/256 MB, resource physical 0/256 MB
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wgpu] fps: 9.7 (98 frames, 1379 draws/frame, 2.4 submits/frame: readback 1.4, present 0.9), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +66 (cache 2158, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 469.0/1627.9/1355.9/1214.2/76.2/0.0/57.3/121.8/1501.3/1540.0/2.4), TIME draw/up/bg/pipe/ensure/present/shader 74.76/4.81/11.01/1.07/5.43/3.14/0.60 ms/f, clears 20.0/f, passBegins 57.3/f, proxyCopies 6.0/f, worker busy 93% (97.6 ms/frame)
+[wgpu] stutter: 98 frames > 25 ms, 98 > 40 ms, worst 175 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 175: 1/0/0/2 0.5MB/0/3 | 164: 66/0/0/1 0.4MB/0/6 | 158: 11/0/0/4 0.4MB/0/20 | 149: 9/0/0/2 0.4MB/0/20
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wasm] mem: malloc arena 2366 MB (in use 2333 MB), game virtual 339/466 MB, resource virtual 562/768 MB, game physical 0/256 MB, resource physical 0/256 MB
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wgpu] fps: 8.4 (84 frames, 1487 draws/frame, 2.3 submits/frame: readback 1.4, present 0.9), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +168 (cache 2326, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 501.6/1629.9/1458.1/1261.6/77.1/0.0/59.2/117.0/1670.4/1665.8/2.3), TIME draw/up/bg/pipe/ensure/present/shader 88.06/6.08/12.64/1.26/6.48/3.71/0.66 ms/f, clears 20.0/f, passBegins 59.2/f, proxyCopies 6.9/f, worker busy 94% (112.0 ms/frame)
+[wgpu] stutter: 84 frames > 25 ms, 84 > 40 ms, worst 179 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 179: 24/0/0/2 0.4MB/0/13 | 173: 0/0/0/4 0.5MB/0/15 | 172: 11/0/0/2 0.4MB/0/16 | 168: 17/0/0/1 0.5MB/0/12
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wasm] mem: malloc arena 2366 MB (in use 2333 MB), game virtual 339/466 MB, resource virtual 562/768 MB, game physical 0/256 MB, resource physical 0/256 MB
+Warning: [Audio_NorthAudio] Setting an ambient voice that has already been force set once.  Oldhash: 4104937644 Newhash: 4104937644
+[wgpu] fps: 6.5 (65 frames, 1505 draws/frame, 2.3 submits/frame: readback 1.4, present 0.9), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +52 (cache 2378, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 530.4/1628.6/1480.0/1281.5/76.9/0.0/58.9/122.6/1688.9/1607.3/2.3), TIME draw/up/bg/pipe/ensure/present/shader 110.05/7.63/15.30/1.31/8.17/4.79/0.74 ms/f, clears 20.0/f, passBegins 58.9/f, proxyCopies 6.9/f, worker busy 95% (140.9 ms/frame)
+[wgpu] stutter: 65 frames > 25 ms, 65 > 40 ms, worst 605 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 605: 31/0/0/1 0.4MB/0/6 | 516: 29/0/0/5 0.4MB/0/35 | 424: 116/0/0/2 0.4MB/0/4 | 384: 0/0/0/9 0.5MB/0/21
+[wasm] engine waits on the GPU worker, last 11 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wasm] mem: malloc arena 2366 MB (in use 2333 MB), game virtual 339/466 MB, resource virtual 562/768 MB, game physical 0/256 MB, resource physical 0/256 MB
+[wgpu] approximated D3D features: sampler border addressing: border colour 0.00,0.00,0.00,0.00 x5 | sampler MipLODBias: -1.00 x5 | sampler border addressing: border colour 1.00,1.00,1.00,1.00 x1 | sampler MipLODBias: 1.15 x1 | sampler MipLODBias: -1.50 x1 | sampler MipLODBias: -0.50 x1 | alpha-to-coverage without MSAA: grass::VS_Transform_REC + grass::PS_DeferredTextured x1 | border sampler bound by: waterTex::PS_WaterUpdateVelocity s14 x1
+[wgpu] draws by target since last dump: rt0=0 ds=6439 x166711 | rt0=6369(640x360 bgra8unorm) ds=5547 x124554 | rt0=13585(64x64 rg11b10ufloat) ds=13587 x104319 | rt0=5540(640x360 rgba16float) ds=5547 x9898 | rt0=5538(640x360 rgba16float) ds=5547 x9564 | rt0=5555(640x360 bgra8unorm) ds=5547 x6600 | rt0=1251(640x360 bgra8unorm) ds=5547 x5430 | rt0=13579(128x64 rg11b10ufloat) ds=0 x1800 | rt0=5856(64x64 r32float) ds=0 x747 | rt0=6375(640x360 bgra8unorm) ds=5547 x600 | rt0=5852(320x180 rg16float) ds=0 x600 | rt0=11265(512x512 bgra8unorm) ds=0 x300
+[wgpu] top pipelines: cascadeshadows::VS_CascadeShadows_draw + - x121496 | default::VS_TransformCube + cubemap_reflect::PS_TexturedCube x81142 | trees_normal_diffspec::VS_PropFoliageDeferred + trees_normal_diffspec::PS_PropFoliageDeferred_AlphaClipC x15873 | trees_normal_diffspec::VS_Cascade_Micromovments + trees::PS_CascadeShadows_texture x15203 | default::VS_TransformD + default::PS_DeferredTextured x11596 | grass::VS_Transform_REC + grass::PS_DeferredTextured x10080 | water::VS_WaterDepthTess + water::PS_WaterDepth x9266 | water::VS_WaterTess + water::PS_WaterSinglePass x9266
+[wgpu] screenshot E:/gta/playgta5/node-webgpu/shots/11-1920/shot_002700.png 640x360 bgra8unorm non-black 230389; draws so far 2261273, skipped 506
+[wgpu] fps: 7.0 (70 frames, 1492 draws/frame, 2.3 submits/frame: readback 1.4, present 0.9, other 0.0), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +13 (cache 2391, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 529.5/1620.8/1467.6/1271.5/77.2/0.0/59.2/122.4/1673.3/1595.7/2.3), TIME draw/up/bg/pipe/ensure/present/shader 101.75/7.67/14.61/1.34/8.36/5.74/0.84 ms/f, clears 20.0/f, passBegins 59.2/f, proxyCopies 7.0/f, worker busy 94% (140.3 ms/frame)
+[wgpu] stutter: 70 frames > 25 ms, 70 > 40 ms, worst 683 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 683: 0/0/0/2 0.5MB/0/32 | 429: 126/0/0/4 0.4MB/0/48 | 413: 0/0/0/2 0.5MB/0/24 | 344: 17/0/0/1 0.4MB/0/3
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wasm] mem: malloc arena 2366 MB (in use 2333 MB), game virtual 339/466 MB, resource virtual 562/768 MB, game physical 0/256 MB, resource physical 0/256 MB
+Warning: [Audio_NorthAudio] Setting an ambient voice that has already been force set once.  Oldhash: 303932763 Newhash: 303932763
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wgpu] fps: 8.6 (86 frames, 1444 draws/frame, 2.3 submits/frame: readback 1.4, present 0.9), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +13 (cache 2404, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 513.0/1573.3/1422.5/1226.8/77.2/0.0/59.2/122.3/1625.0/1538.9/2.3), TIME draw/up/bg/pipe/ensure/present/shader 79.70/5.53/11.74/1.28/5.70/3.91/0.69 ms/f, clears 20.0/f, passBegins 59.2/f, proxyCopies 7.0/f, worker busy 89% (103.2 ms/frame)
+[wgpu] stutter: 86 frames > 25 ms, 86 > 40 ms, worst 291 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 291: 104/0/0/2 0.4MB/0/6 | 252: 0/0/0/2 0.4MB/0/9 | 248: 0/0/0/5 0.5MB/0/17 | 238: 18/0/0/7 0.4MB/0/33
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+Warning: [streaming] [wasm] streaming dev 0: requested 2 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 2 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [Audio_NorthAudio] Setting an ambient voice that has already been force set once.  Oldhash: 1021365078 Newhash: 1021365078
+[wasm] mem: malloc arena 2366 MB (in use 2333 MB), game virtual 339/466 MB, resource virtual 564/768 MB, game physical 10/256 MB, resource physical 10/256 MB
+[wgpu] fps: 9.5 (95 frames, 1616 draws/frame, 2.4 submits/frame: readback 1.5, present 0.9), draws waiting for a compiling pipeline +3, validation errors +0, clamped draws +0, bind groups +186 (cache 2590, evicted 0), pipelines +3 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 528.2/1924.9/1598.4/1448.2/75.7/0.0/57.2/150.7/1748.0/1673.5/2.4), TIME draw/up/bg/pipe/ensure/present/shader 75.94/4.28/10.85/0.98/4.60/3.43/1.96 ms/f, clears 20.0/f, passBegins 57.2/f, proxyCopies 6.4/f, worker busy 94% (97.8 ms/frame)
+[wgpu] stutter: 95 frames > 25 ms, 95 > 40 ms, worst 270 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 270: 0/0/3/1 0.5MB/0/3 | 242: 2/0/0/2 0.3MB/0/10 | 241: 80/0/0/1 0.4MB/0/27 | 211: 0/0/0/24 7.9MB/0/10
+Warning: [streaming] [wasm] streaming dev 0: requested 3 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 3 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wasm] mem: malloc arena 2369 MB (in use 2336 MB), game virtual 339/466 MB, resource virtual 566/768 MB, game physical 0/256 MB, resource physical 0/256 MB
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wgpu] approximated D3D features: sampler border addressing: border colour 0.00,0.00,0.00,0.00 x5 | sampler MipLODBias: -1.00 x5 | sampler border addressing: border colour 1.00,1.00,1.00,1.00 x1 | sampler MipLODBias: 1.15 x1 | sampler MipLODBias: -1.50 x1 | sampler MipLODBias: -0.50 x1 | alpha-to-coverage without MSAA: grass::VS_Transform_REC + grass::PS_DeferredTextured x1 | border sampler bound by: waterTex::PS_WaterUpdateVelocity s14 x1
+[wgpu] draws by target since last dump: rt0=6369(640x360 bgra8unorm) ds=5547 x175764 | rt0=0 ds=6439 x159328 | rt0=13585(64x64 rg11b10ufloat) ds=13587 x101795 | rt0=5538(640x360 rgba16float) ds=5547 x10715 | rt0=5540(640x360 rgba16float) ds=5547 x10490 | rt0=5555(640x360 bgra8unorm) ds=5547 x6600 | rt0=1251(640x360 bgra8unorm) ds=5547 x4800 | rt0=13579(128x64 rg11b10ufloat) ds=0 x1800 | rt0=5856(64x64 r32float) ds=0 x747 | rt0=6375(640x360 bgra8unorm) ds=5547 x600 | rt0=5852(320x180 rg16float) ds=0 x600 | rt0=11265(512x512 bgra8unorm) ds=0 x300
+[wgpu] top pipelines: cascadeshadows::VS_CascadeShadows_draw + - x119993 | default::VS_TransformCube + cubemap_reflect::PS_TexturedCube x79161 | trees_lod2::VS_PropFoliageDeferredLod2 + trees_lod2::PS_PropFoliageDeferredLod2_SubSampleAlpha x43334 | default::VS_TransformD + default::PS_DeferredTextured x23848 | trees_normal_diffspec::VS_PropFoliageDeferred + trees_normal_diffspec::PS_PropFoliageDeferred_AlphaClipC x10494 | trees_normal_diffspec::VS_Cascade_Micromovments + trees::PS_CascadeShadows_texture x9670 | grass::VS_Transform_REC + grass::PS_DeferredTextured x8908 | cloth_default::VS_CascadeShadows_draw + cloth_default::PS_CascadeShadows_texture x8701
+[wgpu] screenshot E:/gta/playgta5/node-webgpu/shots/11-1920/shot_003000.png 640x360 bgra8unorm non-black 230389; draws so far 2741332, skipped 509
+[wgpu] fps: 10.1 (102 frames, 1754 draws/frame, 2.3 submits/frame: readback 1.3, present 0.9, other 0.0), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +4 (cache 2594, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 519.0/2161.5/1752.2/1639.3/74.7/0.0/55.7/176.4/1845.1/1532.4/2.3), TIME draw/up/bg/pipe/ensure/present/shader 62.92/3.02/8.80/0.81/3.75/4.04/0.52 ms/f, clears 20.0/f, passBegins 55.7/f, proxyCopies 6.0/f, worker busy 82% (80.9 ms/frame)
+[wgpu] stutter: 102 frames > 25 ms, 102 > 40 ms, worst 163 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 163: 0/0/0/1 0.4MB/0/2 | 148: 0/0/0/1 0.4MB/0/8 | 144: 36/0/0/1 0.4MB/0/6 | 134: 8/0/0/3 0.4MB/0/12
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wasm] mem: malloc arena 2369 MB (in use 2336 MB), game virtual 339/466 MB, resource virtual 572/768 MB, game physical 0/256 MB, resource physical 0/256 MB
+[wgpu] fps: 11.2 (112 frames, 1762 draws/frame, 2.3 submits/frame: readback 1.3, present 0.9), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +2 (cache 2596, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 524.8/2178.0/1755.1/1642.9/74.2/0.0/55.2/175.8/1852.3/1547.9/2.3), TIME draw/up/bg/pipe/ensure/present/shader 62.38/2.91/8.98/0.84/3.58/2.96/0.51 ms/f, clears 20.0/f, passBegins 55.2/f, proxyCopies 6.0/f, worker busy 88% (78.5 ms/frame)
+[wgpu] stutter: 112 frames > 25 ms, 112 > 40 ms, worst 130 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 130: 50/0/0/1 0.4MB/0/10 | 123: 49/0/0/2 0.3MB/0/7 | 121: 20/0/0/3 0.4MB/0/12 | 119: 47/0/0/1 0.4MB/0/5
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wasm] mem: malloc arena 2369 MB (in use 2336 MB), game virtual 339/466 MB, resource virtual 572/768 MB, game physical 0/256 MB, resource physical 0/256 MB
+Warning: [streaming] [wasm] streaming dev 0: requested 3 (priority 3), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 3 (priority 3), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [Audio_NorthAudio] Setting an ambient voice that has already been force set once.  Oldhash: 1021365078 Newhash: 1021365078
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wgpu] fps: 12.8 (128 frames, 1480 draws/frame, 2.3 submits/frame: readback 1.3, present 0.9), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +0 (cache 2596, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 466.9/1786.1/1469.9/1323.6/75.7/0.0/57.2/143.8/1609.8/1536.5/2.3), TIME draw/up/bg/pipe/ensure/present/shader 54.62/3.24/7.79/0.74/3.67/2.75/0.44 ms/f, clears 20.0/f, passBegins 57.2/f, proxyCopies 6.3/f, worker busy 92% (71.9 ms/frame)
+[wgpu] stutter: 128 frames > 25 ms, 128 > 40 ms, worst 259 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 259: 14/0/0/1 0.4MB/0/5 | 109: 10/0/0/2 0.4MB/0/13 | 104: 22/0/0/1 0.4MB/0/10 | 102: 23/0/0/2 0.4MB/0/3
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wasm] mem: malloc arena 2369 MB (in use 2336 MB), game virtual 339/466 MB, resource virtual 577/768 MB, game physical 0/256 MB, resource physical 0/256 MB
+[wgpu] approximated D3D features: sampler border addressing: border colour 0.00,0.00,0.00,0.00 x5 | sampler MipLODBias: -1.00 x5 | sampler border addressing: border colour 1.00,1.00,1.00,1.00 x1 | sampler MipLODBias: 1.15 x1 | sampler MipLODBias: -1.50 x1 | sampler MipLODBias: -0.50 x1 | alpha-to-coverage without MSAA: grass::VS_Transform_REC + grass::PS_DeferredTextured x1 | border sampler bound by: waterTex::PS_WaterUpdateVelocity s14 x1
+[wgpu] draws by target since last dump: rt0=6369(640x360 bgra8unorm) ds=5547 x177925 | rt0=0 ds=6439 x146351 | rt0=13585(64x64 rg11b10ufloat) ds=13587 x99955 | rt0=5538(640x360 rgba16float) ds=5547 x10007 | rt0=5540(640x360 rgba16float) ds=5547 x9992 | rt0=5555(640x360 bgra8unorm) ds=5547 x6600 | rt0=1251(640x360 bgra8unorm) ds=5547 x4800 | rt0=13579(128x64 rg11b10ufloat) ds=0 x1800 | rt0=5856(64x64 r32float) ds=0 x747 | rt0=6375(640x360 bgra8unorm) ds=5547 x600 | rt0=5852(320x180 rg16float) ds=0 x600 | rt0=10563(256x256 r32float) ds=0 x314
+[wgpu] top pipelines: cascadeshadows::VS_CascadeShadows_draw + - x106964 | default::VS_TransformCube + cubemap_reflect::PS_TexturedCube x77755 | trees_lod2::VS_PropFoliageDeferredLod2 + trees_lod2::PS_PropFoliageDeferredLod2_SubSampleAlpha x52629 | default::VS_TransformD + default::PS_DeferredTextured x25764 | trees_normal_diffspec::VS_PropFoliageDeferred + trees_normal_diffspec::PS_PropFoliageDeferred_AlphaClipC x11176 | trees_normal_diffspec::VS_Cascade_Micromovments + trees::PS_CascadeShadows_texture x9986 | trees_lod::VS_PropFoliageDeferredLod + trees_lod::PS_PropFoliageDeferredLod_SubSampleAlpha x9532 | cloth_default::VS_CascadeShadows_draw + cloth_default::PS_CascadeShadows_texture x8220
+[wgpu] screenshot E:/gta/playgta5/node-webgpu/shots/11-1920/shot_003300.png 640x360 bgra8unorm non-black 230389; draws so far 3207512, skipped 509
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 1), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 1 (priority 1), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wgpu] fps: 13.3 (134 frames, 1302 draws/frame, 2.3 submits/frame: readback 1.3, present 1.0, other 0.0), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +7 (cache 2603, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 417.4/1481.8/1278.0/1088.5/77.2/0.0/59.2/106.9/1479.0/1533.2/2.3), TIME draw/up/bg/pipe/ensure/present/shader 52.04/3.88/7.41/0.77/4.03/3.25/0.41 ms/f, clears 20.0/f, passBegins 59.2/f, proxyCopies 7.0/f, worker busy 92% (68.5 ms/frame)
+[wgpu] stutter: 134 frames > 25 ms, 134 > 40 ms, worst 137 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 137: 0/0/0/1 0.4MB/0/5 | 105: 20/0/0/1 0.4MB/0/7 | 103: 0/0/0/1 0.4MB/0/9 | 103: 13/0/0/2 0.4MB/0/9
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+[wasm] mem: malloc arena 2369 MB (in use 2336 MB), game virtual 339/466 MB, resource virtual 577/768 MB, game physical 0/256 MB, resource physical 0/256 MB
+[wgpu] fps: 14.0 (141 frames, 1340 draws/frame, 2.3 submits/frame: readback 1.4, present 0.9), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +5 (cache 2608, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 436.5/1487.9/1315.2/1122.4/77.1/0.0/59.1/109.4/1519.6/1529.4/2.3), TIME draw/up/bg/pipe/ensure/present/shader 49.41/3.68/7.05/0.72/3.67/2.33/0.39 ms/f, clears 20.0/f, passBegins 59.1/f, proxyCopies 6.9/f, worker busy 91% (65.1 ms/frame)
+[wgpu] stutter: 141 frames > 25 ms, 141 > 40 ms, worst 111 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 111: 20/0/0/2 0.4MB/0/8 | 95: 18/0/0/1 0.5MB/0/12 | 92: 23/0/0/1 0.4MB/0/5 | 91: 19/0/0/1 0.4MB/0/10
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 1), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 1 (priority 1), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+Warning: [Audio_NorthAudio] Setting an ambient voice that has already been force set once.  Oldhash: 1817534573 Newhash: 1817534573
+Warning: [streaming] [wasm] streaming dev 0: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 1 (priority 0), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wasm] mem: malloc arena 2369 MB (in use 2336 MB), game virtual 339/466 MB, resource virtual 579/768 MB, game physical 0/256 MB, resource physical 0/256 MB
+[wgpu] approximated D3D features: sampler border addressing: border colour 0.00,0.00,0.00,0.00 x5 | sampler MipLODBias: -1.00 x5 | sampler border addressing: border colour 1.00,1.00,1.00,1.00 x1 | sampler MipLODBias: 1.15 x1 | sampler MipLODBias: -1.50 x1 | sampler MipLODBias: -0.50 x1 | alpha-to-coverage without MSAA: grass::VS_Transform_REC + grass::PS_DeferredTextured x1 | border sampler bound by: waterTex::PS_WaterUpdateVelocity s14 x1
+[wgpu] draws by target since last dump: rt0=0 ds=6439 x149295 | rt0=6369(640x360 bgra8unorm) ds=5547 x109588 | rt0=13585(64x64 rg11b10ufloat) ds=13587 x100696 | rt0=5538(640x360 rgba16float) ds=5547 x10389 | rt0=5540(640x360 rgba16float) ds=5547 x10356 | rt0=5555(640x360 bgra8unorm) ds=5547 x6600 | rt0=1251(640x360 bgra8unorm) ds=5547 x4800 | rt0=13579(128x64 rg11b10ufloat) ds=0 x1800 | rt0=5856(64x64 r32float) ds=0 x747 | rt0=6375(640x360 bgra8unorm) ds=5547 x600 | rt0=5852(320x180 rg16float) ds=0 x600 | rt0=11265(512x512 bgra8unorm) ds=0 x300
+[wgpu] top pipelines: cascadeshadows::VS_CascadeShadows_draw + - x104215 | default::VS_TransformCube + cubemap_reflect::PS_TexturedCube x78363 | trees_normal_diffspec::VS_Cascade_Micromovments + trees::PS_CascadeShadows_texture x16289 | trees_normal_diffspec::VS_PropFoliageDeferred + trees_normal_diffspec::PS_PropFoliageDeferred_AlphaClipC x15768 | water::VS_WaterDepthTess + water::PS_WaterDepth x12087 | water::VS_WaterTess + water::PS_WaterSinglePass x12087 | default::VS_TransformD + default::PS_DeferredTextured x9404 | grass::VS_Transform_REC + grass::PS_DeferredTextured x9136
+[wgpu] screenshot E:/gta/playgta5/node-webgpu/shots/11-1920/shot_003600.png 640x360 bgra8unorm non-black 230389; draws so far 3610210, skipped 509
+[wgpu] fps: 13.5 (136 frames, 1379 draws/frame, 2.3 submits/frame: readback 1.3, present 1.0, other 0.0), draws waiting for a compiling pipeline +0, validation errors +0, clamped draws +0, bind groups +16 (cache 2624, evicted 0), pipelines +0 (0 ms), WIRE pl/bg/vb/ib/vp/sc/bf/sr/draw/up/wbuf 482.3/1505.8/1360.9/1164.5/77.2/0.0/59.2/122.1/1561.2/1482.0/2.3), TIME draw/up/bg/pipe/ensure/present/shader 51.37/3.85/7.33/0.77/3.88/3.15/0.40 ms/f, clears 20.0/f, passBegins 59.2/f, proxyCopies 7.0/f, worker busy 93% (68.7 ms/frame)
+[wgpu] stutter: 136 frames > 25 ms, 136 > 40 ms, worst 143 ms; worst frames (ms: worker idle/pipeline/modules/uploads MB/gpu wait/submit): 143: 0/0/0/1 0.4MB/0/9 | 110: 13/0/0/1 0.5MB/0/3 | 104: 3/0/0/13 6.0MB/0/3 | 95: 0/0/0/14 7.2MB/0/7
+Warning: [streaming] [wasm] streaming dev 0: requested 2 (priority 2), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+Warning: [streaming] [wasm] streaming dev 1: requested 2 (priority 2), pending 0 (IO 0), 0 KB (limits 30, 65536 KB)
+[wasm] engine waits on the GPU worker, last 10 s: readbacks waited 0 (0 ms, longest 0 ms), skipped 0 (previous still in flight), ring full 0 ms, fences 0 ms
+Warning: Attempting to decrement m_NumAnimalsMakingSound when it's already 0.
+[wasm] mem: malloc arena 2369 MB (in use 2336 MB), game virtual 339/466 MB, resource virtual 579/768 MB, game physical 0/256 MB, resource physical 0/256 MB

@@ -1,0 +1,29 @@
+<!doctype html>
+<html><meta charset="utf-8"><title>Fix GPU string</title>
+<style>body{font:14px ui-monospace,monospace;background:#111;color:#ddd;padding:20px}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#000;padding:10px}</style>
+<h2>Set VideoCardDescription to real GPU + keep SamplingMode=3</h2>
+<pre id="out">working…</pre>
+<script>
+const DB='gta5-userdata', STORE='files';
+function open(){return new Promise((res,rej)=>{const r=indexedDB.open(DB,1);r.onupgradeneeded=()=>r.result.createObjectStore(STORE);r.onsuccess=()=>res(r.result);r.onerror=()=>rej(r.error);});}
+function textOf(v){if(!v)return '';const d=v.data||v;if(d instanceof ArrayBuffer)return new TextDecoder().decode(d);if(d&&d.buffer)return new TextDecoder().decode(new Uint8Array(d.buffer,d.byteOffset,d.byteLength));return String(d);}
+(async()=>{
+  try{
+    const db=await open();
+    const keys=await new Promise(res=>{const out=[];const c=db.transaction(STORE,'readonly').objectStore(STORE).openCursor();c.onsuccess=e=>{const x=e.target.result;if(!x){res(out);return;}out.push(x.key);x.continue();};});
+    const k=keys.find(x=>/settings\.xml$/i.test(String(x)));
+    if(!k){document.title='FIX-NONE';return;}
+    const v=await new Promise(r=>{const q=db.transaction(STORE,'readonly').objectStore(STORE).get(k);q.onsuccess=()=>r(q.result);});
+    let xml=textOf(v);
+    const re=/<VideoCardDescription>[\s\S]*?<\/VideoCardDescription>/i;
+    const gpu='Intel(R) HD Graphics 620';
+    xml = re.test(xml) ? xml.replace(re,'<VideoCardDescription>'+gpu+'</VideoCardDescription>') : xml.replace(/<Settings[^>]*>/i,'$1<VideoCardDescription>'+gpu+'</VideoCardDescription>');
+    if(!/<SamplingMode\s+value="3"/i.test(xml)) xml=xml.replace(/<Settings[^>]*>/i,'$1<SamplingMode value="3" />');
+    await new Promise((res,rej)=>{const t=db.transaction(STORE,'readwrite');t.objectStore(STORE).put({data:new TextEncoder().encode(xml),mtime:Date.now()},k);t.oncomplete=res;t.onerror=()=>rej(t.error);});
+    await fetch('/log',{method:'POST',body:'[USERDATA-FIXED] '+xml});
+    document.getElementById('out').textContent=xml;
+    document.title='FIX-DONE';
+  }catch(e){document.getElementById('out').textContent='ERR '+e.message;document.title='FIX-ERR';}
+})();
+</script>
+</html>

@@ -1,0 +1,240 @@
+
+===== CLodScale_SetGlobalScaleFromScript (line 3843317, 47412) =====
+function CLodScale_SetGlobalScaleFromScript(a:float) { // func47412
+  23318984L[0]:float = a;
+  23319072L[0]:byte = 23319072L[0]:ubyte | 1;
+}
+
+function CLodMgr_OverrideLodDist(a:long_ptr, b:int) { // func47413
+  if (eqz(a)) goto B_a;
+  var c:long = a[21];
+  if ((c & -72057594037927936L) != 360287970189639680L) goto B_a;
+  a[21] = i64_extend_i32_u(b & 65535) | (c & 432345564227502080L);
+  call_indirect(a, (a[0])[37]:long);
+  label B_a:
+}
+
+function LODDrawable_CalculateDrawableLODFlags(a:long_ptr, b:int):int { // func47414
+  var f:int;
+  var c:int;
+  var e:int = 256 << b - 8 & 65280;
+  b = 7;
+  var d:int = {
+                if (eqz(a[6])) {
+                  f = 1;
+                  0;
+                  goto B_a;
+                }
+                f = if (rage_rmcLodGroup_GetBucketMask(a, 0) & e) {
+                      c = 1;
+                      b = 0;
+
+===== CLodScale_SetRemappingFromScript (line 3843373, 47415) =====
+function CLodScale_SetRemappingFromScript(a:float, b:float, c:float, d:float) { // func47415
+  23319104L[0]:float = d;
+  23319100L[0]:float = c;
+  23319096L[0]:float = b;
+  23319092L[0]:float = a;
+  23319072L[0]:byte = 23319072L[0]:ubyte | 8;
+}
+
+function cxx_global_array_dtor_2610_81073(a:long) { // func47416
+  a = 0L;
+  var d:long = 23405458L[0]:ushort;
+  if (eqz(d)) goto B_a;
+  var b:long = 23405448L[0]:long;
+  loop L_b {
+    var c:long = b + a * 40L;
+    if (eqz(c[17]:ushort)) goto B_c;
+    c = c[3]:long;
+    if (eqz(c)) goto B_c;
+    operator_delete(c);
+    label B_c:
+    a = a + 1L;
+    if (a != d) continue L_b;
+  }
+  if (eqz(b)) goto B_a;
+  operator_delete(b);
+  label B_a:
+}
+
+
+===== CLodMgr_OverrideLodDist (line 3843322, 47413) =====
+function CLodMgr_OverrideLodDist(a:long_ptr, b:int) { // func47413
+  if (eqz(a)) goto B_a;
+  var c:long = a[21];
+  if ((c & -72057594037927936L) != 360287970189639680L) goto B_a;
+  a[21] = i64_extend_i32_u(b & 65535) | (c & 432345564227502080L);
+  call_indirect(a, (a[0])[37]:long);
+  label B_a:
+}
+
+function LODDrawable_CalculateDrawableLODFlags(a:long_ptr, b:int):int { // func47414
+  var f:int;
+  var c:int;
+  var e:int = 256 << b - 8 & 65280;
+  b = 7;
+  var d:int = {
+                if (eqz(a[6])) {
+                  f = 1;
+                  0;
+                  goto B_a;
+                }
+                f = if (rage_rmcLodGroup_GetBucketMask(a, 0) & e) {
+                      c = 1;
+                      b = 0;
+                      0;
+                    } else {
+                      1
+                    }
+                1;
+
+===== rage_fwScanNodes_ProcessEntityContainer_rage_fwSceneGraphNode_const*__rage_fwBaseEntityContainer_const*__unsigned_int__unsigned& (line 574286, 5790) =====
+function rage_fwScanNodes_ProcessEntityContainer(a:long, b:long, c:long, d:int) { // func5790
+  var e:int;
+  if (11526512L[0]:ubyte == 1) { if (11526520L[0]:long == b) goto B_a }
+  if (b[16]:ubyte == 1) { if (eqz(b[17]:ubyte & 4)) goto B_c }
+  var g:int =
+    (a[394]:long +
+     (i64_extend16_s(i64_extend_i32_u(e = b[9]:ushort)) << 2L))[0]:int;
+  if (eqz(g)) goto B_c;
+  var h:int = c[16]:ushort;
+  var f:int = h & 16383;
+  if (eqz(f)) goto B_c;
+  var i:int = i32_extend16_s(h);
+  if ((i & -16384) == 16384) {
+    f = c[17]:ushort;
+    if (eqz(f)) goto B_c;
+  }
+  e = i32_extend16_s(e - 1150);
+  h = select_if(e, 0, e > 0);
+  g =
+    (g & 16777215) | select_if((d = d << 24) | 134217728, d, i < -16384);
+  d = 0;
+  loop L_f {
+    var j:long = c[1]:long;
+    AtomicRmw(0L, 1);
+    b = AtomicLoad(6621384L);
+    a[829]:int = (e = a[829]:int) + 1;
+    b = b + i64_extend_i32_u(e) * 160L;
+    b[5]:simd = V128;
+
+===== rage_fwBaseEntityContainer_SetLodDist (line 565162, 5720) =====
+function rage_fwBaseEntityContainer_SetLodDistCached(a:long, b:int, c:int) { // func5720
+  var d:int;
+  var e:long;
+  if (b == 65535) goto B_a;
+  d = a[16]:ushort;
+  br_table[B_c, B_b, B_a, ..B_d]((d >> 14) - 1);
+  label B_d:
+  (if ((d & 16383) > b) { a[1]:long + (i64_extend_i32_u(b) << 6L) } else { e })[6]:short =
+    c;
+  return ;
+  label B_c:
+  (a[1]:long + (i64_extend_i32_u(b) << 6L))[6]:short = c;
+  return ;
+  label B_b:
+  (a[1]:long + (a = i64_extend_i32_u(d << 2) & 65520L) + a + a + a + a +
+   a +
+   a +
+   ((a = i64_extend_i32_u(d) & 16383L) << 3L) +
+   (a = a << 1L) +
+   a +
+   (i64_extend_i32_u(b) << 1L))[0]:short =
+    c;
+  label B_a:
+}
+
+function rage_fwBaseEntityContainer_RemoveEntity(a:ushort_ptr, b:long) { // func5721
+  if (eqz(b)) goto B_a;
+  br_table[B_a, B_b, B_a, ..B_c]((a[16] >> 14) - 1)
+
+===== streaming_commands_CommandOverrideLodScaleThisFrame (line 4140792, 60408) =====
+function streaming_commands_CommandOverrideLodScaleThisFrame(a:float) { // func60408
+  CLodScale_SetGlobalScaleFromScript(a)
+}
+
+function streaming_commands_CommandRemapLodScaleRangeThisFrame(a:float, b:float, c:float, d:float) { // func60409
+  CLodScale_SetRemappingFromScript(a, b, c, d)
+}
+
+function streaming_commands_CommandSuppressHdMapStreamingThisFrame() { // func60410
+  24013361L[0]:byte = 1
+}
+
+function streaming_commands_CommandForceAllowTimeBasedFadingThisFrame() { // func60411
+  23388993L[0]:byte = 1
+}
+
+function streaming_commands_CommandSetRenderHdOnly(a:int) { // func60412
+  var b:{ a:long, b:long } = stack_pointer - 16L;
+  stack_pointer = b;
+  if (CPlayerSwitchInterface_IsActive()) goto B_a;
+  b.b = CTheScripts_GetCurrentScriptNameAndProgramCounter();
+  b.a = select_if(1605792L, 1678462L, a);
+  Displayf(848016L, b);
+  if (a) {
+    23389036L[0]:byte = 1;
+    goto B_a;
+  }
+  23389032L[0]:byte = 0;
+
+===== CCutSceneCameraEntity_GetMapLodScale (line 2365868, 29489) =====
+function CCutSceneCameraEntity_GetMapLodScale(a:long):float { // func29489
+  a = a[13]:long;
+  if (eqz(a)) { return -1.0f }
+  return a[26]:float;
+}
+
+function CCutSceneCameraEntity_GetReflectionLodRangeStart(a:long):float { // func29490
+  a = a[13]:long;
+  if (eqz(a)) { return -1.0f }
+  return a[27]:float;
+}
+
+function CCutSceneCameraEntity_GetReflectionLodRangeEnd(a:long):float { // func29491
+  a = a[13]:long;
+  if (eqz(a)) { return -1.0f }
+  return a[28]:float;
+}
+
+function CCutSceneCameraEntity_GetReflectionSLodRangeStart(a:long):float { // func29492
+  a = a[13]:long;
+  if (eqz(a)) { return -1.0f }
+  return a[29]:float;
+}
+
+function CCutSceneCameraEntity_GetReflectionSLodRangeEnd(a:long):float { // func29493
+  a = a[13]:long;
+  if (eqz(a)) { return -1.0f }
+  return a[30]:float;
+
+===== CSettingsManager_GetSafeModeSettings (line 4338140, 65644) =====
+function CSettingsManager_GetSafeModeSettings(a:long) { // func65644
+  a[72]:int = 0;
+  a[35]:long = 0L;
+  a[28]:long = 5058224L;
+  a[26]:long = 5058136L;
+  a[21]:long = 5058048L;
+  a[2]:long = 5057920L;
+  a[0]:long = 4822872L;
+  a[3]:simd@8 = V128;
+  a[40]:int = 0;
+  a[152]:byte = 0;
+  a[37]:int = 0;
+  a[10]:int = 1;
+  a[11]:long@4 = 0L;
+  a[13]:simd@4 = V128;
+  a[17]:simd@4 = V128;
+  a[21]:simd@4 = V128;
+  a[50]:short = 0;
+  a[33]:int = 0;
+  a[62]:short = 256;
+  a[30]:int = 1065185444;
+  a[14]:long = 4567730886097638523L;
+  a[108]:byte = 0;
+  a[26]:int = 1065353216;
+  a[63]:int@2 = 0;
+  a[36]:int = 2;
+  a[22]:simd@8 = V128;
+  a[29]:simd@8 = V128;

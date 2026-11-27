@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PlayGTA5 · Graphics settings</title>
+<style>
+body{font:16px/1.5 system-ui,sans-serif;background:#101714;color:#e8f0ea;margin:0}
+main{max-width:900px;margin:4vh auto;padding:26px}
+h1{font-size:clamp(28px,5vw,44px);line-height:1.1;margin:0 0 8px}
+.tag{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#8fd3ad}
+.warn{background:#33251c;border:1px solid #7a5230;padding:14px 18px;border-radius:8px;margin:18px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:18px 0}
+.card{background:#182621;border:1px solid #2c4a3a;border-radius:8px;padding:14px;cursor:pointer}
+.card:hover{border-color:#6fc79a}
+.card h3{margin:0 0 4px;font-size:18px}
+.card p{margin:0;color:#9fb5a8;font-size:13px}
+label{display:block;margin:10px 0;font-size:14px;color:#bcd2c4}
+select{width:100%;margin-top:4px;background:#0e1512;color:#e8f0ea;border:1px solid #355342;border-radius:5px;padding:8px}
+.row{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px}
+button.launch{background:#2f8f60;color:#fff;border:0;border-radius:7px;padding:15px 24px;font:600 17px system-ui;cursor:pointer;width:100%;margin-top:18px}
+button.launch:hover{background:#39a873}
+pre{background:#0b110e;border:1px solid #2c4a3a;border-radius:6px;padding:12px;white-space:pre-wrap;overflow-wrap:anywhere;font:12px/1.5 ui-monospace,monospace;color:#a9e6c4}
+a{color:#7fd4a5}
+small{color:#8fa89a}
+</style>
+<main>
+<p class="tag">PlayGTA5 / local launcher</p>
+<h1>Graphics settings</h1>
+<p>The in-game <b>Settings → Graphics → Apply</b> is broken in this browser port (freezes or refuses to save; reported by other users too). Set graphics here and launch — the engine receives them as launch arguments.</p>
+<div class="warn"><b>Note:</b> changing preset needs a relaunch. Do not use the in-game Apply button. Saves are safe — this only changes launch arguments.</div>
+
+<div class="grid">
+<div class="card" onclick="preset(1)"><h3>1 · Low / smooth</h3><p>1024x576, 30 FPS, lowest quality. ~30 FPS on this laptop.</p></div>
+<div class="card" onclick="preset(2)"><h3>2 · High (optimized)</h3><p>960x540, max textures, shadows at 0, reflections 1, no particles/grass. Measured ~16.5 FPS.</p></div>
+<div class="card" onclick="preset(3)"><h3>3 · Max</h3><p>1280x720, every quality setting max. ~7 FPS.</p></div>
+<div class="card" onclick="preset(4)"><h3>4 · Max + HD</h3><p>Same as Max plus the sharpen filter so 720p looks closer to 1080p.</p></div>
+<div class="card" onclick="location.href='/?touch=1&low=1&res=800x450&fps=30&slots=5'"><h3>5 · Mobile touch</h3><p>On-screen buttons + swipe look. Phone needs Chrome 133+ / WebGPU + Memory64 and HTTPS.</p></div>
+<div class="card" onclick="location.href='/?low=0&mode=sandbox&res=1024x540&fps=60&slots=5&args=-textureQuality=2,-shadowQuality=2,-reflectionQuality=2,-particleQuality=2,-grassQuality=2,-cityDensity=1,-pedVariety=1,-vehicleVariety=1,-lodScale=1,-pedLodBias=1,-vehicleLodBias=1'"><h3>6 · High graphics</h3><p>1024x540, max textures/shadows/reflections, 50% density. ~7-9 FPS on this laptop.</p></div>
+</div>
+
+<div class="row">
+<label>Quality pipeline<select id="low"><option value="1">Low (smooth)</option><option value="0" selected>High (max)</option></select></label>
+<label>Resolution<select id="res"><option>640x360</option><option>800x450</option><option>960x540</option><option selected>1280x720</option><option>1920x1080</option></select></label>
+<label>FPS cap<select id="fps"><option>30</option><option selected>60</option><option value="0">uncapped</option></select></label>
+<label>GPU frame slots<select id="slots"><option>3</option><option selected>5</option><option>2</option></select></label>
+<label>Shadows<select id="shadow"><option value="-1">off</option><option value="0">low</option><option value="2" selected>max</option></select></label>
+<label>Textures<select id="texture"><option>0</option><option>1</option><option value="2" selected>2 · max</option></select></label>
+<label>Reflections<select id="reflect"><option>0</option><option value="2" selected>2 · max</option></select></label>
+<label>Particles<select id="particle"><option>0</option><option>1</option><option value="2" selected>2 · max</option></select></label>
+<label>Grass<select id="grass"><option>0</option><option>1</option><option value="2" selected>2 · max</option></select></label>
+<label>City density<select id="city"><option>0</option><option>1</option><option value="2" selected>2 · max</option></select></label>
+<label>LOD scale<select id="lod"><option>0</option><option>1</option><option value="2" selected>2 · max</option></select></label>
+<label>Lens / look filter<select id="fx"><option value="">off</option><option value="hd" selected>soft sharpen (1080p look)</option><option value="cinema">cinematic warm</option><option value="vivid">vivid punch</option><option value="cool">cool blue</option><option value="noir">noir / grayscale</option></select></label>
+</div>
+
+<button class="launch" onclick="launch()">Launch game with these settings</button>
+<pre id="url"></pre>
+<p><small>Expected: Low ~30 FPS · Medium ~13 FPS · Max ~7 FPS on i3-7100U / HD 620. These are measured, not promises.</small></p>
+<p><a href="/__support/">← Compatibility check</a></p>
+</main>
+<script>
+function preset(n){
+  const v={low:'1',res:'1024x576',fps:'30',slots:'5',shadow:'-1',texture:'0',reflect:'0',particle:'0',grass:'0',city:'0',lod:'0',fx:''};
+  if(n===2){v.low='0';v.res='960x540';v.fps='60';v.shadow='0';v.texture='2';v.reflect='1';v.particle='0';v.grass='0';v.city='0';v.lod='0';}
+  if(n===3){v.low='0';v.res='1280x720';v.fps='60';v.shadow='2';v.texture='2';v.reflect='2';v.particle='2';v.grass='2';v.city='2';v.lod='2';}
+  if(n===4){Object.assign(v,{low:'0',res:'1280x720',fps:'60',shadow:'2',texture:'2',reflect:'2',particle:'2',grass:'2',city:'2',lod:'2',fx:'hd'});}
+  for(const k in v){const el=document.getElementById(k);if(el)el.value=v[k];}
+  show();
+}
+function build(){
+  const p=new URLSearchParams();
+  p.set('low',document.getElementById('low').value);
+  p.set('res',document.getElementById('res').value);
+  p.set('fps',document.getElementById('fps').value);
+  p.set('slots',document.getElementById('slots').value);
+  const fx=document.getElementById('fx').value; if(fx)p.set('fx',fx);
+  if(document.getElementById('low').value==='0'){
+    const a=['textureQuality','shadowQuality','reflectionQuality','particleQuality','grassQuality','cityDensity','lodScale'];
+    const ids=['texture','shadow','reflect','particle','grass','city','lod'];
+    p.set('args',a.map((k,i)=>'-'+k+'='+document.getElementById(ids[i]).value).join(','));
+  }
+  return '/?'+p.toString();
+}
+function show(){document.getElementById('url').textContent='http://localhost:8000'+build();}
+function launch(){location.href=build();}
+document.querySelectorAll('select').forEach(s=>s.addEventListener('change',show));
+show();
+</script>
+</html>

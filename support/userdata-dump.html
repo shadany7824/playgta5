@@ -1,0 +1,24 @@
+<!doctype html>
+<html><meta charset="utf-8"><title>Userdata dump</title>
+<style>body{font:14px ui-monospace,monospace;background:#111;color:#ddd;padding:20px}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#000;padding:10px}</style>
+<h2>Dump port userdata settings.xml</h2>
+<pre id="out">loading…</pre>
+<script>
+const DB='gta5-userdata', STORE='files';
+function open(){return new Promise((res,rej)=>{const r=indexedDB.open(DB,1);r.onupgradeneeded=()=>r.result.createObjectStore(STORE);r.onsuccess=()=>res(r.result);r.onerror=()=>rej(r.error);});}
+function textOf(v){if(!v)return '';const d=v.data||v;if(d instanceof ArrayBuffer)return new TextDecoder().decode(d);if(d&&d.buffer)return new TextDecoder().decode(new Uint8Array(d.buffer,d.byteOffset,d.byteLength));return String(d);}
+(async()=>{
+  try{
+    const db=await open();
+    const keys=await new Promise(res=>{const out=[];const c=db.transaction(STORE,'readonly').objectStore(STORE).openCursor();c.onsuccess=e=>{const x=e.target.result;if(!x){res(out);return;}out.push(x.key);x.continue();};});
+    const k=keys.find(x=>/settings\.xml$/i.test(String(x)));
+    if(!k){document.getElementById('out').textContent='NO SETTINGS.XML KEY';document.title='DUMP-NONE';return;}
+    const v=await new Promise(r=>{const q=db.transaction(STORE,'readonly').objectStore(STORE).get(k);q.onsuccess=()=>r(q.result);});
+    const xml=textOf(v);
+    await fetch('/log',{method:'POST',body:'[USERDATA-SETTINGS] key='+k+'\n'+xml});
+    document.getElementById('out').textContent='KEY: '+k+'\n\n'+xml;
+    document.title='DUMP-DONE';
+  }catch(e){document.getElementById('out').textContent='ERR '+e.message;document.title='DUMP-ERR';}
+})();
+</script>
+</html>

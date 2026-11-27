@@ -1,0 +1,8 @@
+Existing file differs; nothing was overwritten: E:\Malik\game\playgta5\runtime\LICENSE.txt. Choose a new empty
+destination.
+At E:\Malik\game\playgta5\Download-Game.ps1:54 char:17
++ ...             throw ('Existing file differs; nothing was overwritten: ' ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Existing file d...ty destination.:String) [], RuntimeException
+    + FullyQualifiedErrorId : Existing file differs; nothing was overwritten: E:\Malik\game\playgta5\runtime\LICENSE.t
+   xt. Choose a new empty destination.

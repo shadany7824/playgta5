@@ -1,0 +1,37 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261016120452
+Username: DESKTOP-US6FI1U\HP
+RunAs User: DESKTOP-US6FI1U\HP
+Configuration Name: 
+Machine: DESKTOP-US6FI1U (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File E:\Malik\game\playgta5\apply-optimizations-2.ps1
+Process ID: 8712
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== PlayGTA5 batch part 2: pagefile (registry) + defrag E: ===
+Date: 2026-10-16 12:04:52
+
+--- Pagefile via registry (CIM method failed with value-out-of-range) ---
+PagingFiles before: C:\pagefile.sys 10240 10240
+PagingFiles after:  C:\pagefile.sys 16384 16384
+Takes effect at next reboot.
+
+--- Re-check Defender exclusions (admin) ---
+E:\Malik\game\playgta5\game-log.txt [\Device\HarddiskVolume7\Malik\game\playgta5\game-log.txt] is excluded. Exit code is
+ 0.
+C:\Program Files\Google\Chrome\Application\chrome.exe [\Device\HarddiskVolume3\Program Files\Google\Chrome\Application\c
+hrome.exe] is excluded. Exit code is 0.
+ExclusionPath list:
+C:\Program Files\Google\Chrome\Application\chrome.exe
+C:\Program Files\Windows Defender\MsMpEng.exe
+E:\Malik\game\playgta5
+
+--- Defrag E: (optimize) --- can take 30-90 minutes. Do not play while it runs.

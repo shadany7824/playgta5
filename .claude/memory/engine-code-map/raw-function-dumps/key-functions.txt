@@ -1,0 +1,252 @@
+
+===== RageDirect3DDeviceContext11_DrawIndexed (line 867056) =====
+function RageDirect3DDeviceContext11_DrawIndexed(a:{ a:long, b:long }, b:int, c:int, d:int) { // func10337
+  a = a.b;
+  call_indirect(a, b, c, d, a.a[12]:long);
+}
+
+function RageDirect3DDeviceContext11_Draw(a:{ a:long, b:long }, b:int, c:int) { // func10338
+  a = a.b;
+  call_indirect(a, b, c, a.a[13]:long);
+}
+
+function RageDirect3DDeviceContext11_Map(a:{ a:long, b:long }, b:long, c:int, d:int, e:int, f:long):int { // func10339
+  a = a.b;
+  return call_indirect(a, b, c, d, e, f, a.a[14]:long);
+}
+
+function RageDirect3DDeviceContext11_Unmap(a:{ a:long, b:long }, b:long, c:int) { // func10340
+  a = a.b;
+  call_indirect(a, b, c, a.a[15]:long);
+}
+
+function RageDirect3DDeviceContext11_PSSetConstantBuffers(a:long_ptr, b:int, c:int, d:long_ptr) { // func10341
+  var f:int;
+  var i:long;
+  var e:int = -1;
+  if (b > (c = b + c - 1)) goto B_a;
+  var j:long = a + 1768L;
+  var h:long_ptr = j + (i64_extend_i32_u(b) << 3L);
+  var g:int = -1;
+  b = {
+        loop L_c {
+          loop L_e {
+            i = d[0];
+            if (i != 0L) { if (h[0] != i) goto B_d }
+            h = h + 8L;
+            d = d + 8L;
+            b = b + 1;
+            if (b <= c) continue L_e;
+          }
+          if (eqz(f)) goto B_a;
+          g - e + 1;
+          goto B_b;
+          label B_d:
+          h[0] = i;
+          e = select_if(e, b, b > e);
+          h = h + 8L;
+          d = d + 8L;
+          f = 1;
+          g = b;
+          b = b + 1;
+          if (b <= c) continue L_c;
+
+===== rage_fwBaseEntityContainer_SetLodDistCached (line 565162) =====
+function rage_fwBaseEntityContainer_SetLodDistCached(a:long, b:int, c:int) { // func5720
+  var d:int;
+  var e:long;
+  if (b == 65535) goto B_a;
+  d = a[16]:ushort;
+  br_table[B_c, B_b, B_a, ..B_d]((d >> 14) - 1);
+  label B_d:
+  (if ((d & 16383) > b) { a[1]:long + (i64_extend_i32_u(b) << 6L) } else { e })[6]:short =
+    c;
+  return ;
+  label B_c:
+  (a[1]:long + (i64_extend_i32_u(b) << 6L))[6]:short = c;
+  return ;
+  label B_b:
+  (a[1]:long + (a = i64_extend_i32_u(d << 2) & 65520L) + a + a + a + a +
+   a +
+   a +
+   ((a = i64_extend_i32_u(d) & 16383L) << 3L) +
+   (a = a << 1L) +
+   a +
+   (i64_extend_i32_u(b) << 1L))[0]:short =
+    c;
+  label B_a:
+}
+
+function rage_fwBaseEntityContainer_RemoveEntity(a:ushort_ptr, b:long) { // func5721
+  if (eqz(b)) goto B_a;
+  br_table[B_a, B_b, B_a, ..B_c]((a[16] >> 14) - 1)
+  label B_c:
+  rage_fwEntityContainer_RemoveEntityInternal(a, b);
+  return ;
+  label B_b:
+  rage_fwSoAEntityContainer_RemoveEntityInternal(a, b);
+  label B_a:
+}
+
+function rage_fwEntityContainer_RemoveEntityInternal(a:long, b:long) { // func5722
+  var c:long;
+  var d:long;
+  var h:int;
+  if (eqz(a[0]:long)) goto B_a;
+  var g:int = a[16]:ushort & 16383;
+  if (eqz(g)) goto B_a;
+  var e:long = a[1]:long;
+  var f:long = i64_extend_i32_u(g);
+
+===== EntityDetails_GetLODDist (line 2409012) =====
+function EntityDetails_GetLODDist(a:long, b:short_ptr) { // func30042
+  var g:float;
+  var f:float;
+  var h:int;
+  var c:int_ptr = stack_pointer - 48L;
+  stack_pointer = c;
+  if (a != 0L) {
+    var d:float_ptr = a[4]:long;
+    if (eqz(d)) {
+      h = a[84]:ushort;
+      goto B_c;
+    }
+    var e:float = d[15];
+    if (
+      abs(e - (g = f32_convert_i32_u(h = a[84]:ushort))) <=
+      select_if(
+        f = select_if(1.0f, f = select_if(-(e), e, e < 0.0f), f < 1.0f),
+        g,
+        f > g) *
+      0.000001f) goto B_c;
+    c[4] = h;
+    c[5] = i32_trunc_sat_f32_u(e);
+    siprintf(c + 32L, 3625564L, c + 16L);
+    goto B_b;
+    label B_c:
+    c[0] = h;
+    siprintf(c + 32L, 2236300L, c);
+    label B_b:
+    b[4] = 0;
+    rage_atString_Append(b, c + 32L, i32_wrap_i64(strlen(c + 32L)));
+  }
+  stack_pointer = c + 48L;
+}
+
+function EntityDetails_GetLODType(a:ubyte_ptr, b:short_ptr) { // func30043
+  if (eqz(a)) goto B_a;
+  a = (a[175] << 3L)[826780]:long;
+  b[4] = 0;
+  if (eqz(a)) goto B_a;
+  rage_atString_Append(b, a, i32_wrap_i64(strlen(a)));
+  label B_a:
+}
+
+function EntityDetails_GetType(a:ubyte_ptr, b:short_ptr) { // func30044
+  if (eqz(a)) goto B_a;
+
+===== CLodMgr_StartSlodModeCb (line 3832821) =====
+function CLodMgr_StartSlodModeCb() { // func47187
+  23389032L[0]:byte = 1;
+  23389028L[0]:int =
+    ((((((23404096L[0]:ubyte | 23404097L[0]:ubyte << 1) |
+         23404098L[0]:ubyte << 2) |
+        23404099L[0]:ubyte << 3) |
+       23404100L[0]:ubyte << 4) |
+      23404101L[0]:ubyte << 5) |
+     23404102L[0]:ubyte << 6) &
+    255;
+}
+
+function CLodMgr_StopSlodModeCb() { // func47188
+  23389032L[0]:byte = 0
+}
+
+function CPostScanDebug_GetModelNameFromPickerCB() { // func47189
+  var a:long = rage_fwPickerManager_GetSelectedEntity();
+  if (a != 0L) {
+    strcpy(23404112L,
+
+===== rage_grcDevice_DrawIndexedPrimitive (line 857286) =====
+function rage_grcDevice_DrawIndexedPrimitive(a:int, b:int, c:int) { // func10029
+  var e:int_ptr;
+  if (12483660L[0]:ubyte) { rage_grcStateBlock_DoFlush() }
+  rage_grcDevice_SetUpPriorToDraw(a);
+  var d:long = (tls_base + 1160L)[0]:long;
+  if (12374960L[0]:ubyte == 1) {
+    call_indirect(d, c, 12374968L[0]:int, b, 0, 0, (d[0]:long)[20]:long);
+    d = tls_base + 1168L;
+    e = d[0]:long;
+    if (eqz(e)) goto B_b;
+    e[0] = (c = 12374968L[0]:int * c) + e[0];
+    br_table[B_c, B_m, B_l, B_k, B_j, B_i, B_h, B_g, B_f, ..B_d](a)
+    label B_m:
+    c = c >> 1;
+    goto B_c;
+    label B_l:
+    c = c - 1;
+    goto B_c;
+    label B_k:
+    c = c / 3;
+    goto B_c;
+    label B_j:
+    c = c - 2;
+    goto B_c;
+    label B_i:
+    c = c - 2;
+    goto B_c;
+    label B_h:
+    c = c >> 2;
+    goto B_c;
+    label B_g:
+    c = c >> 2;
+    goto B_c;
+    label B_f:
+    c = c / 6;
+    goto B_c;
+  }
+  call_indirect(d, c, b, 0, (d[0]:long)[12]:long);
+  d = tls_base + 1168L;
+  e = d[0]:long;
+
+===== rage_DrawPrimitive (line 1320279) =====
+function rage_DrawPrimitive(a:long, b:int, c:long, d:int, e:float) { // func16637
+  var x:long;
+  var wa:int;
+  var xa:int;
+  var w:long;
+  var ya:int;
+  var za:int;
+  var ab:int;
+  var ea:float;
+  var i:simd;
+  var mb:double;
+  var nb:double;
+  var g:simd;
+  var j:simd;
+  var l:simd;
+  var y:long;
+  var z:float_ptr;
+  var ca:float;
+  var ha:float;
+  var fa:float;
+  var ga:float;
+  var f:simd;
+  var h:simd;
+  var aa:float;
+  var da:float;
+  var va:int;
+  var ra:float;
+  var ba:float;
+  var la:float;
+  var ja:float;
+  var ia:float;
+  var ka:float;
+  var na:float;
+  var oa:float;
+  var pa:float;
+  var qa:float;
+  var q:simd;
+  var n:simd;
+  var k:simd;
+  var m:simd;
